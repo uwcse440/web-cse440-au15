@@ -1,15 +1,13 @@
-name:       'Fogies Base'
+name:       'CSE 440'
 baseurl:    ''
 
 brandimage: ''
-brandtext:  'Fogies'
+brandtext:  'CSE 440 - Introduction to HCI - Autumn 2015'
 
 navbar:
   items:
-    - text: 'Sidebar-None'
-      link: 'base_sample/sidebar-none.html'
-    - text: 'Sidebar-Right'
-      link: 'base_sample/sidebar-right.html'
+    - text: 'Calendar'
+      link: 'calendar.html'
 
 exclude:
   # Python

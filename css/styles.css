@@ -236,3 +236,40 @@ a
   }
 }
 */
+
+
+
+.calendar .holiday
+{
+    background-color: orange;
+}
+
+.calendar .away
+{
+    background-color: lightpink;
+}
+
+.calendar .lecture
+{
+    background-color: lightsalmon;
+}
+
+.calendar .section
+{
+    background-color: lightblue;
+}
+
+.calendar .assignment
+{
+    background-color: lightgreen;
+}
+
+.calendar .major
+{
+    background-color: lavender;
+}
+
+.calendar .officehour
+{
+    background-color: lightgoldenrodyellow;
+}
