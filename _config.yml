@@ -1,0 +1,26 @@
+name:       'Fogies Base'
+baseurl:    ''
+
+brandimage: ''
+brandtext:  'Fogies'
+
+navbar:
+  items:
+    - text: 'Sidebar-None'
+      link: 'base_sample/sidebar-none.html'
+    - text: 'Sidebar-Right'
+      link: 'base_sample/sidebar-right.html'
+
+exclude:
+  # Python
+  - env34
+  - requirements3.txt
+  - tasks.py
+  - tasks.pyc
+  # README
+  - README.md
+  # Ruby
+  - Gemfile
+  - Gemfile.lock
+  # Tests
+  - tests
