@@ -4,8 +4,15 @@ python:
   - "3.4"
 
 install:
+  # Install Python dependencies
   - pip install -r requirements3.txt
-  - sudo apt-get install -y ruby ruby-dev
+  # Install Ruby
+  - curl -L https://get.rvm.io | bash -s stable
+  - source ~/.rvm/scripts/rvm
+  - rvm install 2.2.3
+  - rvm use 2.2.2 --default
+#  - sudo apt-get install -y ruby ruby-dev
+  # Instal Ruby dependencies
   - gem install jekyll
 
 script:
