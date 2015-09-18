@@ -3,7 +3,7 @@ layout: base/bar-sidebar-none
 title: Calendar
 ---
 
-`Content is still being migrated to this site, everything here should be considered temporary`
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
 {% comment %} Starting from the first date of instruction, find Sunday {% endcomment %}
 {% assign startdateseconds = site.data.calendar.dates_of_instruction.start | append: 'Z' | date: '%s' %}
@@ -137,7 +137,7 @@ title: Calendar
                   {% if currentmajor.link != nil %}</a>{% endif %}
                 <small>
                   {% for currentlocationitem in site.data.calendar.locations[currentlocation] %}
-                      {{ currentlocationitem.time }}<br>
+                      {{ currentlocationitem.time }} |
                       {{ currentlocationitem.location }}<br>
                   {% endfor %}
                 </small>
