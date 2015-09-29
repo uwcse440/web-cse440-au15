@@ -22,3 +22,7 @@ exclude:
   - Gemfile.lock
   # Tests
   - tests
+
+collections:
+  assignments:
+    output: true

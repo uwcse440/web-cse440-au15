@@ -1,6 +1,5 @@
 ---
-
-layout: default
+layout: base/bar-sidebar-none
 title: "Assignment 3: Getting the Design Right"
 
 link_project3a: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
@@ -9,7 +8,6 @@ link_project3d: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
 link_project3e: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
 link_project3f: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
 link_project3g: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
-
 ---
 
 `Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`

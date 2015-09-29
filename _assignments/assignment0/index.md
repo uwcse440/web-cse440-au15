@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base/bar-sidebar-none
 title: "Assignment 0: Flash Card"
 
 link_assignment0: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994

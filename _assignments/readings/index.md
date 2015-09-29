@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: base/bar-sidebar-none
 title: "Readings"
 
 link_reading_contextual_inquiry: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
 link_reading_critique: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
 link_reading_prototyping_videos: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
 link_reading_research: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
-
 ---
 
 `Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`

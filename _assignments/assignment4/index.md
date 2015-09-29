@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: base/bar-sidebar-none
 title: "Assignment 4: Communicating Your Design"
 
 link_project4a: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
 link_project4b: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
 link_project4c: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
 link_project4e: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
-
 ---
 
 `Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
