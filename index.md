@@ -45,12 +45,13 @@ Projects are organized around four assignments, each consistent of several miles
 
 Example project from prior offerings include: 
 
-    - [Plantr](http://courses.cs.washington.edu/courses/cse440/13au/projects/plantr/)
-    - [NutriView](http://courses.cs.washington.edu/courses/cse440/13au/projects/nutriview/)
-    - [JuiceBox](http://courses.cs.washington.edu/courses/cse440/13au/projects/juicebox/)
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/)
 
-    Note the project structure has changed since these prior offerings, so their reports do not map to the current project.
-    However, these represent examples of strong work in this course.
+Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+However, these represent examples of strong work in this course.
 
 # Basic Information
 
