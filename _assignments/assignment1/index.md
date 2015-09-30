@@ -2,10 +2,13 @@
 layout: base/bar-sidebar-none
 title: "Assignment 1: Project Proposal"
 
-link_project1a: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
-link_project1b: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994 
-link_project1c_projects: https://catalyst.uw.edu/gopost/area/jaf1978/133826
-link_project1c_bids: https://catalyst.uw.edu/webq/survey/jaf1978/248720
+link_project_1a: https://canvas.uw.edu/courses/987987/assignments/3000656
+date_project_1a: Friday, October 2, 2015
+link_project_1b: https://canvas.uw.edu/courses/987987/assignments/3000658
+date_project_1b: Tuesday, October 6, 2015
+link_project_1c_projects: 
+link_project_1c_bids: 
+date_project_1c_bids: Thursday, October 8, 2015
 ---
 
 `Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
@@ -27,15 +30,15 @@ This is an individual assignment, consisting of three milestones.
 
 * [Assignment 1a: Proposal Brainstorm](#proposal_brainstorm)
 
-  Due: Uploaded the night before section Friday, September 26, 2014
+  Due: Uploaded the night before section {{ page.date_project_1a }}
   
 * [Assignment 1b: Project Proposal](#project_proposal)
 
-  Due: Uploaded the night before class Tuesday, September 30, 2014
+  Due: Uploaded the night before class {{ page.date_project_1b }}
   
 * [Assignment 1c: Project Bid](#project_bid)
 
-  Due: Uploaded the night before class Thursday, October 2, 2014
+  Due: Uploaded the night before class {{ page.date_project_1c_bids }}
 
 # Project Description
 
@@ -44,7 +47,7 @@ The theme for projects in this course is __personal informatics__:
 > Personal informatics systems are systems that help people collect personally relevant information for the purpose of 
 > self-reflection and gaining self-knowledge.
 >
-> [Li _et al._, 2010](http://www.personalinformatics.org/lab/model/).
+> [Li _et al._, 2010]({{ site.baseurl }}/readings/PersonalInformatics-Li2010.pdf).
 
 Personal informatics relates heavily to the [Quantified Self](http://quantifiedself.com/) movement, which emphasizes:
 
@@ -69,9 +72,11 @@ Individuals have gone much deeper into their own data:
 
 Researchers have also studied current processes, challenges, and opportunities:
 
-- [Li et al., 2010](http://www.personalinformatics.org/docs/lab/2010-chi-ianli-stage-based-model.pdf)
-- [Choe et al., 2014](http://students.washington.edu/eunky/download/CHI-2014-Choe-QuantifiedSelf.pdf)
-- [Rooksby et al., 2014](http://www.johnrooksby.org/papers/livedinformatics.pdf)
+- [Li et al., 2010, A Stage-Based Model of Personal Informatics Systems]({{ site.baseurl }}/readings/PersonalInformatics-Li2010.pdf)
+- [Choe et al., 2014, Understanding Quantified-Selfer's Practices in Collecting and Exploring Personal Data]({{ site.baseurl }}/readings/PersonalInformatics-Choe2014.pdf)
+- [Rooksby et al., 2014, Personal Tracking as Lived Informatics]({{ site.baseurl }}/readings/PersonalInformatics-Rooksby2014.pdf)
+- [Cordeiro et al., 2015, Barriers and Negative Nudges: Exploring Challenges in Food Journaling]({{ site.baseurl }}/readings/PersonalInformatics-Cordeiro2015.pdf)
+- [Epstein et al., 2015, A Lived Informatics Model of Personal Informatics]({{ site.baseurl }}/readings/PersonalInformatics-Epstein2015.pdf)
 
 ## Thinking Big
  
@@ -85,13 +90,16 @@ You should identify and consider goals and activities that are important to peop
  - living a healthy life
  - managing finances effectively
  - managing time effectively
-
+ - reducing environmental impact
+ 
 Activities within personal informatics can include:
 
- - planning to begin to track
+ - planning to track
  - helping remember to track
+ - the actual act of tracking
  - identifying activity patterns 
  - sharing accomplishments with friends and family
+ - abandoning tracking
 
 Do not start with a focus on concrete one-time tasks (e.g., logging into your bank account). 
 Instead identify problems in long-lived activities that span many different social or technological contexts. 
@@ -109,11 +117,15 @@ motivate the development of new enabling technology. For example, see how Artefa
 - [Dialog: Better Decisions, Better Health - Artefact](http://www.artefactgroup.com/content/work/dialog/)
 - [Video of Dialog Talk in DUB Seminar](http://vimeo.com/103167385)
 
+This design has not been implemented, and might not even be immediately possible.
+But it has been developed in substantial detail, understanding implications for design and implementation.
+
 ## Going Forward
 
 The course staff will select a subset of submitted proposals for sponsorship. Sponsored proposals will be posted,
 and students will then bid on the projects they want to pursue in this course. Your proposal is thus an effort to 
-convince both the staff and your classmates that a problem is interesting, tractable, and worthy of investigation.
+convince both the staff and your classmates that a problem is interesting, tractable within the timeline and
+constraints of this course, and worthy of investigation.
 
 # Deliverables
 
@@ -121,39 +133,64 @@ convince both the staff and your classmates that a problem is interesting, tract
 
 ## 1a: Project Brainstorm
 
-Due: Uploaded the night before section Friday, September 26, 2014
+Due: Uploaded the night before section {{ page.date_project_1a }}
 
-Propose three ideas as starting points for brainstorming.
+Friday's section will focus on brainstorming potential project directions.
+You will get started on thinking, and help seed this brainstorming, with some individual ideas.
+
+Propose three starting points for brainstorming domains, problems, and goals that might be supported via self-tracking.
+
+By domain, we mean an aspect of life. Already common domains include:
+
+- finances (e.g., tracking investments, spending)
+- wellness (e.g., tracking physical activity, sleep, weight)
+
+```
+the other two?
+```
+
+Be sure to focus on problems and goals, not potential design solutions.
+One way to help yourself identify a hierarchy of problems and goals is to ask "why?". For example:
+
+- Why is a person using Mint? 
+- Why is a person tracking their spending?
+- Why do they want to know how much they spend on leisure activities?
+- Why do they have a goal of saving for a major purchase?
+
+Each idea should be a single sentence, identifying the domain and the problem or goal.
+At most one of your ideas may come from any of the domains above.
+You other two ideas should be from domains not in this list, in order to broaden the brainstorm.
 Ensure the ideas are significantly different, not small variations on the same idea.
-Each idea should be a single sentence. 
 
 ### Submission
 
-No more than one page of text in PDF format. Submit via Catalyst here: 
+No more than one page of text in PDF format. Submit via Canvas here: 
 
-{% if page.link_project1a != nil %}<{{ page.link_project1a }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_1a != nil %}<{{ page.link_project_1a }}>{% else %}`Link to be added`{% endif %}
 
-If you are still attempting to add, or otherwise unable to access Catalyst, submit via the instructor email address.
+If you are still attempting to add, or otherwise unable to access the submission system, submit via the instructor email address.
 
-In section, be prepared to discuss your initial ideas as part of a larger brainstorm.
+In section, be prepared to contribute your initial ideas as part of a larger brainstorm.
 
 ### Grading
 
-This milestone will be graded on a scale of __3 points__: One point for each unique proposed idea (i.e. don't submit small variations on the same idea).
+This milestone will be graded on a scale of __3 points__: One point for each unique proposed idea (i.e., do not submit small variations on the same idea).
 
 <a name="project_proposal"></a>
 
 ## 1b: Project Proposal
 
-Due: Uploaded the night before class Tuesday, September 30, 2014
+Due: Uploaded the night before class {{ page.date_project_1b }}
 
-In one paragraph, describe the problem and motivation. 
+Propose and analyze a problem that form the basis of a design project for this class.
+
+In one paragraph, describe the design problem and motivation. 
 This description should convince the reader that this is a difficult and interesting problem, worth spending a quarter considering. 
-State what the problem is and why it is a problem, or describe a new idea and why it will enhance an existing application or work practice.
+State what the problem is and why it is a problem, or describe a new idea and why it will enhance an existing application or practice.
 
 In another paragraph, analyze the problem or idea to give more background and context. 
 Do not just focus on the negative aspects of the current situation, but also identify some positive aspects that may be beneficial to retain. 
-A few salient examples from existing systems or work practices should be used to support those claims.
+A few salient examples from existing systems or practices could be used to support those claims.
 If appropriate, you may conduct this analysis by describing a scenario that illustrates how someone might encounter and resolve the problem.
 
 Ensure your report is appropriately clear and easy to read. This includes:
@@ -177,9 +214,9 @@ Images do not count against your page limit, and are therefore effectively free.
 You should embed images throughout your PDF, keeping them near the text that references them.
 The limit applies to the approximate amount of text you would have if all images were removed.
 
-Submit via Catalyst here:
+Submit via Canvas here:
 
-{% if page.link_project1b != nil %}<{{ page.link_project1b }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_1b != nil %}<{{ page.link_project_1b }}>{% else %}`Link to be added`{% endif %}
 
 ### Grading
 
@@ -194,11 +231,11 @@ This proposal will be graded on a scale of __10 points__:
 
 ## 1c: Project Bid
 
-Due: Submitted before class Thursday, October 2, 2014
+Due: Submitted before class {{ page.date_project_1c_bids }}
 
-Review the sponsored projects and course instructor comments regarding those projects:
+Review the sponsored projects and course staff comments regarding those projects:
 
-{% if page.link_project1c_projects != nil %}<{{ page.link_project1c_projects }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_1c_projects != nil %}<{{ page.link_project_1c_projects }}>{% else %}`Link to be added`{% endif %}
 
 You will submit a bid on projects and potential partners. Course staff will use your bids to assign projects and groups. 
 
@@ -206,7 +243,7 @@ You will submit a bid on projects and potential partners. Course staff will use 
 
 Submit your bid on projects and potential partners here:
 
-{% if page.link_project1c_bids != nil %}<{{ page.link_project1c_bids }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_1c_bids != nil %}<{{ page.link_project_1c_bids }}>{% else %}`Link to be added`{% endif %}
 
 ### Grading
 

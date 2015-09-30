@@ -24,7 +24,7 @@ For example, your slide might be similar to our introduction slides in the first
 
 Due: Submitted the night before class {{ date_assignment_0 }}.
 
-One page in PDF format. Submit via Catalyst here:
+One page in PDF format. Submit via Canvas here:
 
 {% if page.link_assignment_0 != nil %}<{{ page.link_assignment_0 }}>{% else %}`Link to be added`{% endif %}
 
