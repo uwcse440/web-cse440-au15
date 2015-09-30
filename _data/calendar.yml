@@ -120,7 +120,6 @@ sections:
 #    slides: "slides/section/s08-mockup.pdf"
  - date: "2015-12-11"
 
-
 officehours:
   - date: "2015-10-06"
     name: "James Office Hour"
@@ -198,13 +197,13 @@ officehours:
 assignments:
   - date: "2015-10-02"
     name: "1a - Proposal Brainstorm"
-#    link: "assignments/assignment1/#project_brainstorm"
+    link: "assignments/assignment1/#project_brainstorm"
   - date: "2015-10-06"
     name: "1b - Project Proposal"
-#    link: "assignments/assignment1/#project_proposal"
+    link: "assignments/assignment1/#project_proposal"
   - date: "2015-10-08"
     name: "1c - Project Bid"
-#    link: "assignments/assignment1/#project_bid"
+    link: "assignments/assignment1/#project_bid"
   - date: "2015-10-08"
     name: "0 - Introduction Slide"
     link: "assignments/assignment0/"
