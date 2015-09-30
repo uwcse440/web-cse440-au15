@@ -32,7 +32,7 @@ Personal informatics relates heavily to the [Quantified Self](http://quantifieds
 > [Gary Wolf, 2009](http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself)
 
 People have long sought to better understand themselves, but recently technology advances are enabling fundamentally new approaches. 
-Students will explore the problems people encounter and how new technology can help people reaching their goals. 
+Students will explore the problems people encounter and how new technology can help people go beyond the data fetish toward reaching their goals. 
 
 ## Project Structure
 
