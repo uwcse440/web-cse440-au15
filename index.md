@@ -25,6 +25,12 @@ Projects are exploring challenges and opportunities in self-tracking, also known
 >
 > [Li _et al._, 2010](http://www.personalinformatics.org/lab/model/).
 
+Personal informatics relates heavily to the [Quantified Self](http://quantifiedself.com/) movement, which emphasizes:
+
+> Self-knowledge through numbers.
+>
+> [Gary Wolf, 2009](http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself)
+
 People have long sought to better understand themselves, but recently technology advances are enabling fundamentally new approaches. 
 Students will explore the problems people encounter and how new technology can help people reaching their goals. 
 
@@ -146,5 +152,5 @@ This course website lives on GitHub:
 
 <https://github.com/uwcse440/web-cse440-au15> 
 
-You can submit pull requests to update the webpage, and will submit project pages via pull request.
+You can submit pull requests to update the webpage, and you will publish project webpages via pull request.
 
