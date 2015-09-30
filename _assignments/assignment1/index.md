@@ -11,8 +11,6 @@ link_project_1c_bids:
 date_project_1c_bids: Thursday, October 8, 2015
 ---
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
 # Overview
 
 You are to propose a __problem__ and an __approach__ that could form the basis of a project for this course.
@@ -140,14 +138,12 @@ You will get started on thinking, and help seed this brainstorming, with some in
 
 Propose three starting points for brainstorming domains, problems, and goals that might be supported via self-tracking.
 
-By domain, we mean an aspect of life. Already common domains include:
+By domain, we mean an aspect of life. Domains that are already common in self-tracking include:
 
 - finances (e.g., tracking investments, spending)
 - wellness (e.g., tracking physical activity, sleep, weight)
-
-```
-the other two?
-```
+- health (e.g., tracking for post-surgical pain management, allergies or other personal triggers, major weight loss)
+- mood (e.g., tracking mood, identifying depressive symptoms)
 
 Be sure to focus on problems and goals, not potential design solutions.
 One way to help yourself identify a hierarchy of problems and goals is to ask "why?". For example:
