@@ -6,6 +6,8 @@ brandtext:  'CSE 440 - Introduction to HCI - Autumn 2015'
 
 navbar:
   items:
+    - text: 'Home'
+      link: 'index.html'
     - text: 'Calendar'
       link: 'calendar.html'
 
