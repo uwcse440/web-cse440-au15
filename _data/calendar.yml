@@ -18,12 +18,15 @@ locations:
   postersession:
     - time: "10:30 - 12:20"
       location: "CSE Atrium"
-#  officehoursjames:
-#    - time: "2:00 - 3:00"
-#      location: "CSE 666"
-#  officehoursdaniel:
-#    - time: "12:00 - 1:00"
-#      location: "CSE 218"
+  officehoursjames:
+    - time: "4:30 - 5:30"
+      location: "CSE 666"
+  officehoursalex:
+    - time: "1:30 - 2:30"
+      location: "CSE 218"
+  officehourslauren:
+    - time: "1:30 - 2:30"
+      location: "CSE 218"
 #  officehoursdanielforjames:
 #    - time: "2:00 - 3:00"
 #      location: "CSE 218"
@@ -119,60 +122,78 @@ sections:
 
 
 officehours:
-#  - date: "2014-09-30"
-#    name: "James Office Hour"
-#    location: officehoursjames
-#  - date: "2014-10-07"
-#    name: "Daniel Office Hour"
-#    location: officehoursdanielforjames
-#  - date: "2014-10-09"
-#    name: "Daniel Office Hour"
-#    location: officehoursdaniel
-#  - date: "2014-10-14"
-#    name: "James Office Hour"
-#    location: officehoursjames
-#  - date: "2014-10-16"
-#    name: "Daniel Office Hour"
-#    location: officehoursdaniel
-#  - date: "2014-10-21"
-#    name: "James Office Hour"
-#    location: officehoursjames
-#  - date: "2014-10-28"
-#    name: "James Office Hour"
-#    location: officehoursjames
-#  - date: "2014-10-30"
-#    name: "Daniel Office Hour"
-#    location: officehoursdaniel
-#  - date: "2014-11-04"
-#    name: "James Office Hour"
-#    location: officehoursjames
-#  - date: "2014-11-06"
-#    name: "Daniel Office Hour"
-#    location: officehoursdaniel
-#  - date: "2014-11-13"
-#    name: "Daniel Office Hour"
-#    location: officehoursdaniel
-#  - date: "2014-11-18"
-#    name: "James Office Hour"
-#    location: officehoursjames
-#  - date: "2014-11-19"
-#    name: "Presentation Workshop"
-#    location: officehourspresentationworkshop
-#  - date: "2014-11-20"
-#    name: "Daniel Office Hour"
-#    location: officehoursdaniel
-#  - date: "2014-11-25"
-#    name: "James Office Hour"
-#    location: officehoursjames
-#  - date: "2014-12-01"
-#    name: "Exam Q&A"
-#    location: officehoursexamreview
-#  - date: "2014-12-02"
-#    name: "James Office Hour"
-#    location: officehoursjames
-#  - date: "2014-12-04"
-#    name: "Daniel Office Hour"
-#    location: officehoursdaniel
+  - date: "2015-10-06"
+    name: "James Office Hour"
+    location: officehoursjames
+  - date: "2015-10-07"
+    name: "Lauren Office Hour"
+    location: officehourslauren
+  - date: "2015-10-08"
+    name: "Alex Office Hour"
+    location: officehoursalex
+  - date: "2015-10-13"
+    name: "James Office Hour"
+    location: officehoursjames
+  - date: "2015-10-14"
+    name: "Lauren Office Hour"
+    location: officehourslauren
+  - date: "2015-10-15"
+    name: "Alex Office Hour"
+    location: officehoursalex
+  - date: "2015-10-20"
+    name: "James Office Hour"
+    location: officehoursjames
+  - date: "2015-10-21"
+    name: "Lauren Office Hour"
+    location: officehourslauren
+  - date: "2015-10-22"
+    name: "Alex Office Hour"
+    location: officehoursalex
+  - date: "2015-10-27"
+    name: "James Office Hour"
+    location: officehoursjames
+  - date: "2015-10-28"
+    name: "Lauren Office Hour"
+    location: officehourslauren
+  - date: "2015-11-03"
+    name: "James Office Hour"
+    location: officehoursjames
+  - date: "2015-11-04"
+    name: "Lauren Office Hour"
+    location: officehourslauren
+  - date: "2015-11-05"
+    name: "Alex Office Hour"
+    location: officehoursalex
+  - date: "2015-11-12"
+    name: "Alex Office Hour"
+    location: officehoursalex
+  - date: "2015-11-17"
+    name: "James Office Hour"
+    location: officehoursjames
+  - date: "2015-11-18"
+    name: "Lauren Office Hour"
+    location: officehourslauren
+  - date: "2015-11-19"
+    name: "Alex Office Hour"
+    location: officehoursalex
+  - date: "2015-12-01"
+    name: "James Office Hour"
+    location: officehoursjames
+  - date: "2015-12-02"
+    name: "Lauren Office Hour"
+    location: officehourslauren
+  - date: "2015-12-03"
+    name: "Alex Office Hour"
+    location: officehoursalex
+  - date: "2015-12-08"
+    name: "James Office Hour"
+    location: officehoursjames
+  - date: "2015-12-09"
+    name: "Lauren Office Hour"
+    location: officehourslauren
+  - date: "2015-12-10"
+    name: "Alex Office Hour"
+    location: officehoursalex
 
 assignments:
   - date: "2015-10-02"
