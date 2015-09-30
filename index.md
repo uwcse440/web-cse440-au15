@@ -86,7 +86,7 @@ __Course Staff__:
     </div>
     <div class="col-md-2">
       <p>Kelsey Munsell</p>
-      <p><img src="https://placehold.it/150x200" width="150" alt="Kelsey Munsell"/></p>
+      <p><img src="{{ site.baseurl }}/images/kelsey_photo.jpg" width="150" alt="Kelsey Munsell"/></p>
     </div>
   </div>
 </html>
