@@ -21,7 +21,7 @@ Projects are exploring challenges and opportunities in self-tracking, also known
 > Personal informatics systems are systems that help people collect personally relevant information for the purpose of 
 > self-reflection and gaining self-knowledge.
 >
-> [Li _et al._, 2010](http://www.personalinformatics.org/lab/model/).
+> [Li _et al._, 2010]({{ site.baseurl }}/readings/PersonalInformatics-Li2010.pdf).
 
 Personal informatics relates heavily to the [Quantified Self](http://quantifiedself.com/) movement, which emphasizes:
 
