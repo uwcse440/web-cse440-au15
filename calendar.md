@@ -54,9 +54,7 @@ title: Calendar
           {% if currentdate == currentaway.date %}
             <tr class="away table-condensed">
               <td>
-                <small>
-                  {{ currentaway.name }}
-                </small>
+                {{ currentaway.name }}
               </td>
             </tr>
           {% endif %}
@@ -150,11 +148,9 @@ title: Calendar
           {% if currentdate == currentassignment.date %}
             <tr class="assignment">
               <td>
-                <small>
-                  {% if currentassignment.link != nil %}<a href="{{ site.baseurl }}/{{ currentassignment.link }}">{% endif %}
-                  {{ currentassignment.name }}<br>
-                  {% if currentassignment.link != nil %}</a>{% endif %}
-                </small>
+                {% if currentassignment.link != nil %}<a href="{{ site.baseurl }}/{{ currentassignment.link }}">{% endif %}
+                {{ currentassignment.name }}<br>
+                {% if currentassignment.link != nil %}</a>{% endif %}
               </td>
             </tr>
           {% endif %}
