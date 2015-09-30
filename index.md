@@ -3,8 +3,6 @@ layout: base/bar-sidebar-none
 title: Course Overview
 ---
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
 # Course Description
 
 This course provides an introduction to human-computer interaction and the design process. 
@@ -16,7 +14,7 @@ It is overwhelmingly organized around a group project, in which students:
 - Evaluate and Improve a Design
 - Communicate their Problem and Resulting Design
 
-## Project Theme
+# Project Theme
 
 Projects are exploring challenges and opportunities in self-tracking, also known as Personal Informatics:
 
@@ -32,9 +30,9 @@ Personal informatics relates heavily to the [Quantified Self](http://quantifieds
 > [Gary Wolf, 2009](http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself)
 
 People have long sought to better understand themselves, but recently technology advances are enabling fundamentally new approaches. 
-Students will explore the problems people encounter and how new technology can help people go beyond the data fetish toward reaching their goals. 
+Students will examine the problems people encounter, then explore how new technology can go beyond the data fetish to help people in reaching their goals. 
 
-## Project Structure
+# Project Structure
 
 Projects are organized around four assignments, each consistent of several milestones:
 
@@ -57,17 +55,22 @@ However, these represent examples of strong work in this course.
 
 __Contact__: Email all instructors at cse440-instr [at] cs.washington.edu
 
-    __Class times & locations__: Tuesdays & Thursdays, 10:30-11:50am MOR 234
+__Class Time & Location__: Tuesdays & Thursdays, 12:00-1:50 MOR 230
 
-    __Section times & locations__: Fridays, 10:30-11:30am MUE 154 or 3:30-4:30pm MGH 254
+__Section Times & Locations__: 
 
+- Fridays, 10:30-11:20 MGH 228
+- Fridays, 11:30-12:20 MGH 295
+- Fridays, 1:30-2:20 MGH 248
+- Fridays, 2:30-3:20 MGH 254
 
 __Office Hours__: 
 
 Scheduled hours are held most weeks, but check the calendar:
 
-     - James - Tuesdays, 2:00 - 3:00, CSE 666 
-     - Daniel - Thursdays, 12:00 - 1:00, CSE 218
+- James, Tuesdays, 4:30 - 5:30, CSE 666 
+- Lauren, Wednesdays, 1:30 - 2:30, CSE 218 
+- Alex, Thursday, 1:30 - 2:30, CSE 218
   
 Other meetings by appointment.
 
@@ -89,7 +92,7 @@ __Course Staff__:
     </div>
     <div class="col-md-2">
       <p>Saba Kawas</p>
-      <p><img src="https://placehold.it/150x200" width="150" alt="Saba Kawas"/></p>
+      <p><img src="{{ site.baseurl }}/images/saba_photo.jpg" width="150" alt="Saba Kawas"/></p>
     </div>
     <div class="col-md-2">
       <p>Kelsey Munsell</p>
@@ -99,6 +102,8 @@ __Course Staff__:
 </html>
 
 # Grading
+
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
 The overall course grade will be computed as follows:
 
@@ -136,7 +141,7 @@ The bulk of project grades is therefore attached to the final deliverables, whic
 
 # Submission
 
-Many assignments are due "the night before class". Catalyst implements this as 4:00am.
+Many assignments are due "the night before class". We will implement this in Canvas as 4:00am.
 
 In order to be prepared to give you feedback, the course staff must have your submission in the morning.
 Submitting the day of class, just before class, or in class is therefore unacceptable, risking zero credit.
