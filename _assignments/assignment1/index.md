@@ -53,16 +53,20 @@ Personal informatics relates heavily to the [Quantified Self](http://quantifieds
 >
 > [Gary Wolf, 2009](http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself)
  
-Current widely used examples of personal informatics systems include:
+Current widely used examples of personal informatics systems exist in a variety of domains, with more active or passive approaches:
 
-- [FitBit](http://www.fitbit.com/) (for tracking physical activity)
-- [Glooko](http://glooko.com/) (for tracking diabetes outcomes)
-- [Last.fm](http://www.last.fm) (for tracking music listening)
-- [Mint](http://www.mint.com/) (for tracking finances)
-- [Moves](http://www.moves-app.com/) (for tracking location)
-- [MyFitnessPal](http://www.myfitnesspal.com/) (for tracking food intake)
-- [RunKeeper](http://www.runkeeper.com/) (for tracking physical activity)
-- [Track your Happiness](https://www.trackyourhappiness.org/) (for tracking happiness)
+- Finances
+  - [Mint](http://www.mint.com/) (for tracking finances)
+- Health and Wellness
+  - [Glooko](http://glooko.com/) (for tracking diabetes outcomes)
+  - [Track your Happiness](https://www.trackyourhappiness.org/) (for tracking happiness)
+- Media
+  - [Last.fm](http://www.last.fm) (for tracking music listening)
+- Physical Activity
+  - [FitBit](http://www.fitbit.com/) (for tracking physical activity)
+  - [Moves](http://www.moves-app.com/) (for tracking location)
+  - [MyFitnessPal](http://www.myfitnesspal.com/) (for tracking food intake)
+  - [RunKeeper](http://www.runkeeper.com/) (for tracking physical activity)
 
 Individuals have gone much deeper into their own data:
 
@@ -202,7 +206,16 @@ Be sure your presentation looks good:
  - choose appropriate colors, fonts, and styles
  - make liberal use of whitespace 
 
-## Submission
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- Proposal that ultimately became [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [1b_aqueous.pdf]({{ site.baseurl }}/samples/1b/1b_aqueous.pdf)
+- Proposal that ultimately became [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [1b_iepconnect.pdf]({{ site.baseurl }}/samples/1b/1b_iepconnect.pdf)
+- Proposal that ultimately became [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [1b_kaching.pdf]({{ site.baseurl }}/samples/1b/1b_kaching.pdf)
+- Proposal that ultimately became [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [1b_soundscape.pdf]({{ site.baseurl }}/samples/1b/1b_soundscape.pdf)
+
+### Submission
 
 No more than one page of text in PDF format.
 
