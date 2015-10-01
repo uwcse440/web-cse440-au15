@@ -206,6 +206,20 @@ Be sure your presentation looks good:
  - choose appropriate colors, fonts, and styles
  - make liberal use of whitespace 
 
+### "Seeds" from UW Community
+
+We reached out to some people in the Computer Science, Design, and HCI community at UW for "seeds" of design projects for this course. 
+These are not intended to be complete proposals, nor are you expected to choose from them, nor is your proposal inherently more likely
+to be chosen for "funding" in the course if you do use one of these as a starting point. 
+These are just intended as points that might start you thinking in a space.
+
+These "seeds" are intentionally much shorter than your proposals. 
+This was to ensure the "seed" leaves plenty of room for you to develop your own ideas and direction.
+
+The responses we received are posted here:
+
+<https://canvas.uw.edu/courses/987987/discussion_topics/3039572>
+
 ### Examples from Prior Offerings
 
 Examples from prior offerings include:
