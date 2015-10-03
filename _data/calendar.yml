@@ -105,7 +105,7 @@ lectures:
 
 sections:
  - date: "2015-10-02"
-#    slides: "slides/section/s01-brainstorm.pdf"
+   slides: "slides/section/s01-brainstorm.pdf"
  - date: "2015-10-09"
 #    slides: "slides/section/s02-ideation.pdf"
  - date: "2015-10-16"
