@@ -51,7 +51,7 @@ lectures:
     slides: "slides/lecture/l01-intro.pdf"
   - date: "2015-10-06"
     name: "Design of Everyday Things"
-#    slides: "slides/lecture/l02-doet.pdf"
+    slides: "slides/lecture/l02-doet.pdf"
   - date: "2015-10-08"
     name: "Contextual Inquiry"
 #    slides: "slides/lecture/l03-contextualinquiry.pdf"
