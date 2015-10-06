@@ -103,8 +103,6 @@ __Course Staff__:
 
 # Grading
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
 The overall course grade will be computed as follows:
 
 - Group Project (__65%__)
