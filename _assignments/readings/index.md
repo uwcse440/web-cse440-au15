@@ -2,13 +2,14 @@
 layout: base/bar-sidebar-none
 title: "Readings"
 
-link_reading_contextual_inquiry: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
-link_reading_critique: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
-link_reading_prototyping_videos: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
-link_reading_research: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
----
+link_reading_contextual_inquiry: https://canvas.uw.edu/courses/987987/assignments/3011029
+date_reading_contextual_inquiry: Friday, October 9, 2015
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
+link_reading_critique: 
+link_reading_prototyping_videos:
+link_reading_paper_prototyping:
+link_reading_research: 
+---
 
 # Overview
 
@@ -30,28 +31,32 @@ We will make additional resources available for students to read as interested.
 ### Reading 1: Contextual Inquiry
 <a name="contextual_inquiry"></a>
 
+Read:
+
 - [Beyer and Holtzblatt (1997). Contextual Design. Chapter 3.]({{ site.baseurl }}/readings/ContextualInquiry-BeyerHoltzblatt1997.pdf)
   
-  Due: Uploaded by the end of the day Friday, October 3, 2014.
+Due: Uploaded the night before section {{ page.date_reading_contextual_inquiry }}.
 
-  After reading, consider how you might apply this approach to the project you proposed in Assignment 1b.
-  
-  - Briefly, what is your proposal (e.g., two sentences).
-  - Who and what might you propose to observe in a contextual inquiry (e.g., two sentences).
-  - What focus might you bring to your observation, and why? (e.g., two or three sentences).
-  - Identify a pitfall that seems likely (e.g., getting caught in abstractions) (e.g., two or three sentences).
-  - Describe how you might avoid or attempt to correct for this pitfall in your inquiry (e.g., two or three sentences).
+After reading, consider how you might apply this approach to the project you proposed in Assignment 1b.
 
-  This reading thus serves as some practice planning a contextual inquiry before moving on to your primary project.  
+- Briefly, what is your proposal (e.g., two sentences).
+- Who and what might you propose to observe in a contextual inquiry (e.g., two sentences).
+- What focus might you bring to your observation, and why? (e.g., two or three sentences).
+- Identify a pitfall that seems likely (e.g., getting caught in abstractions) (e.g., two or three sentences).
+- Describe how you might avoid or attempt to correct for this pitfall in your inquiry (e.g., two or three sentences).
 
-  No more than one page of text in PDF format.
-  
-  Submit via Catalyst here:
-  
-  {% if page.link_reading_contextual_inquiry != nil %}<{{ page.link_reading_contextual_inquiry }}>{% else %}`Catalyst link to be added`{% endif %}
+This reading thus serves as some practice planning a contextual inquiry before moving on to your primary project.  
+
+No more than one page of text in PDF format.
+
+Submit via Canvas here:
+
+{% if page.link_reading_contextual_inquiry != nil %}<{{ page.link_reading_contextual_inquiry }}>{% else %}`Link to be added`{% endif %}
 
 ### Reading 2: Critique and Teamwork
 <a name="critique"></a>
+
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
 - [Cheng (2013). How to Survive a Critique: A Guide to Giving and Receiving Feedback](http://www.aiga.org/how-to-survive-a-critique/)
 - [Katzenbach and Smith (1993). The Discipline of Teams.]({{site.baseurl}}/readings/DisciplineOfTeams-KatzenbachSmith.htm)
@@ -69,12 +74,14 @@ We will make additional resources available for students to read as interested.
   
   No more than one page of text in PDF format.
   
-  Submit via Catalyst here:
+  Submit via Canvas here:
   
-  {% if page.link_reading_contextual_inquiry != nil %}<{{ page.link_reading_contextual_inquiry }}>{% else %}`Catalyst link to be added`{% endif %}
+  {% if page.link_reading_critique != nil %}<{{ page.link_reading_critique }}>{% else %}`Link to be added`{% endif %}
 
 ### Reading 3: Prototyping Videos
 <a name="prototypingvideos"></a>
+
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
 - Watch the rapid prototyping videos linked from Lecture 7 and Lecture 8, including the context from which they were linked.
   - [Lecture 7]({{site.baseurl}}/slides/lecture/l07-designdiamond.pdf)
@@ -112,12 +119,14 @@ We will make additional resources available for students to read as interested.
 
   No more than one page of text in PDF format.
   
-  Submit via Catalyst here:
+  Submit via Canvas here:
   
-  {% if page.link_reading_prototyping_videos != nil %}<{{ page.link_reading_prototyping_videos }}>{% else %}`Catalyst link to be added`{% endif %}
+  {% if page.link_reading_prototyping_videos != nil %}<{{ page.link_reading_prototyping_videos }}>{% else %}`Link to be added`{% endif %}
   
 ### Reading 4: Paper Prototyping and Usability Testing
 <a name="paperprototyping"></a>
+
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
 - [Rettig (1994). Prototyping for Tiny Fingers]({{site.baseurl}}/readings/PaperPrototyping-Rettig1994.pdf)
 - [Snyder (2003). Paper Prototyping. Chapter 4.]({{site.baseurl}}/readings/PaperPrototyping-Chapter4-Snyder2003.pdf)
@@ -146,12 +155,14 @@ We will make additional resources available for students to read as interested.
 
   No more than one page of text in PDF format.
   
-  Submit via Catalyst here:
+  Submit via Canvas here:
   
-  {% if page.link_reading_contextual_inquiry != nil %}<{{ page.link_reading_contextual_inquiry }}>{% else %}`Catalyst link to be added`{% endif %}
+  {% if page.link_reading_paper_prototyping != nil %}<{{ page.link_reading_paper_prototyping }}>{% else %}`Link to be added`{% endif %}
 
 ### Reading 5: Research Paper
 <a name="research"></a>
+
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
 Due: Uploaded by the end of the day Friday, December 5, 2014.
 
@@ -188,6 +199,6 @@ No more than one page of text in PDF format.
 
 Also submit a PDF of the research paper you read.
 
-Submit via Catalyst here:
+Submit via Canvas here:
   
-{% if page.link_reading_research != nil %}<{{ page.link_reading_research }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_reading_research != nil %}<{{ page.link_reading_research }}>{% else %}`Link to be added`{% endif %}
