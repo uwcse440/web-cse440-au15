@@ -22,7 +22,7 @@ For example, your slide might be similar to our introduction slides in the first
 
 ### Submission
 
-Due: Submitted the night before class {{ date_assignment_0 }}.
+Due: Submitted the night before class {{ page.date_assignment_0 }}.
 
 One page in PDF format. Submit via Canvas here:
 
