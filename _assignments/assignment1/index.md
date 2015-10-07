@@ -6,8 +6,8 @@ link_project_1a: https://canvas.uw.edu/courses/987987/assignments/3000656
 date_project_1a: Friday, October 2, 2015
 link_project_1b: https://canvas.uw.edu/courses/987987/assignments/3000658
 date_project_1b: Tuesday, October 6, 2015
-link_project_1c_projects: 
-link_project_1c_bids: 
+link_project_1c_projects: https://canvas.uw.edu/courses/987987/discussion_topics/3047301
+link_project_1c_bids: https://canvas.uw.edu/courses/987987/quizzes/860487
 date_project_1c_bids: Thursday, October 8, 2015
 ---
 
