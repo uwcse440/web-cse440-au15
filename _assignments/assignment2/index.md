@@ -215,6 +215,15 @@ In another paragraph, describe how you will interact with your participants and 
  
 Please be as specific as possible, providing potential examples of your observation focus or interview questions.
 
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2b_aqueous.pdf]({{ site.baseurl }}/samples/2b/2b_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2b_iepconnect.pdf]({{ site.baseurl }}/samples/2b/2b_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2b_kaching.pdf]({{ site.baseurl }}/samples/2b/2b_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2b_soundscape.pdf]({{ site.baseurl }}/samples/2b/2b_soundscape.pdf)
+
 ### Submission
 
 No more than one page of text in PDF format. Submit via Canvas here:
@@ -253,7 +262,16 @@ can be difficult to get right and often important topics are left unresolved.
 - What are your plans for the remaining inquiries? 
 - How do you plan to change your protocol based on what you learned in your first inquiry?
 
-###Submission
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2c_aqueous.pdf]({{ site.baseurl }}/samples/2c/2c_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2c_iepconnect.pdf]({{ site.baseurl }}/samples/2c/2c_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2c_kaching.pdf]({{ site.baseurl }}/samples/2c/2c_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2c_soundscape.pdf]({{ site.baseurl }}/samples/2c/2c_soundscape.pdf)
+
+### Submission
 
 No more than one page of text in PDF format. Submit via Canvas here:
 
@@ -301,6 +319,15 @@ Provide brief answers to the following questions. These should help you begin to
 9. How often are the tasks performed?
 10. What are the time constraints on the tasks?
 11. What happens when things go wrong?
+
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2d_aqueous.pdf]({{ site.baseurl }}/samples/2d/2d_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2d_iepconnect.pdf]({{ site.baseurl }}/samples/2d/2d_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2d_kaching.pdf]({{ site.baseurl }}/samples/2d/2d_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2d_soundscape.pdf]({{ site.baseurl }}/samples/2d/2d_soundscape.pdf)
 
 ### Submission
 
