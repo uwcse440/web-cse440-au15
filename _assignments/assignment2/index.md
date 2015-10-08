@@ -142,15 +142,15 @@ More specifically, you will do the following:
 
 Due: Completed in section on Friday, October 3, 2014
 
-Generate 64 different ideas related to your project proposal, including:
+Generate 5 - 10 different ideas related to each of the following aspects of your project proposal:
 
-- problems: a need that a person might have 
-- tasks: what a person might accomplish 
+- data: the data that could/should be tracked as a part of your project 
 - features: a capability a design might have 
-- interactions: how a feature might work 
+- tasks: what a person might accomplish 
+- form factors: the type of technology which your proposal could be developed on top of (computer, watch, wearables, etc)
 
-We will provide large sheets of paper. Divide a large sheet of paper into 64 squares, each approximately 2in by 2in.
-Sketch 64 ideas, one in each square. Each idea should be a quick doodle with a caption or a one-sentence idea. 
+We will provide large sheets of paper. Divide a large sheet of paper into 32 squares, each approximately 2in by 2in.
+Sketch your ideas, one in each square. Each idea should be a quick doodle with a caption or a one-sentence idea. 
 A person familiar with your project but not in your group should be able to understand the idea each sketch conveys.
 
 The goal is to begin exploring the space of possibilities, not attempting to polish some particular possibility. 
