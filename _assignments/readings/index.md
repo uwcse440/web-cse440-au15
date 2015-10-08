@@ -6,6 +6,8 @@ link_reading_contextual_inquiry: https://canvas.uw.edu/courses/987987/assignment
 date_reading_contextual_inquiry: Friday, October 9, 2015
 
 link_reading_critique: 
+date_reading_critique: Friday, October 16, 2015
+
 link_reading_prototyping_videos:
 link_reading_paper_prototyping:
 link_reading_research: 
@@ -58,13 +60,11 @@ Submit via Canvas here:
 
 ### Reading 2: Critique and Teamwork
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
 - [Cheng (2013). How to Survive a Critique: A Guide to Giving and Receiving Feedback](http://www.aiga.org/how-to-survive-a-critique/)
 - [Katzenbach and Smith (1993). The Discipline of Teams.]({{site.baseurl}}/readings/DisciplineOfTeams-KatzenbachSmith.htm)
 - [Pausch. Tips for Working Successfully in a Group.]({{site.baseurl}}/readings/WorkingInGroups-Pausch.html)
 
-  Due: Uploaded by the end of the day Friday, October 10, 2014.
+  Due: Uploaded the night before section {{ page.date_reading_critique }}.
   
   After reading, please think back to your previous experiences working in groups, particularly an experience that could have been improved.
   
