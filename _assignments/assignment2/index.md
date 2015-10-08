@@ -177,7 +177,7 @@ Given a space of possible directions, your project needs to begin to gather info
 Following up on the above, additionally brainstorm:
  
 - People: types of people you might work with to learn more.
-- Foci: potential foci you might to your learning.
+- Foci: potential foci you might apply in your learning.
 
 The goal is to begin thinking about how to plan effective contextual inquiries toward your design process.
 
