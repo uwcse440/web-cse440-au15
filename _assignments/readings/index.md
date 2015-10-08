@@ -28,8 +28,9 @@ We will make additional resources available for students to read as interested.
 
 # Assigned Readings
 
-### Reading 1: Contextual Inquiry
 <a name="contextual_inquiry"></a>
+
+### Reading 1: Contextual Inquiry
 
 Read:
 
@@ -53,8 +54,9 @@ Submit via Canvas here:
 
 {% if page.link_reading_contextual_inquiry != nil %}<{{ page.link_reading_contextual_inquiry }}>{% else %}`Link to be added`{% endif %}
 
-### Reading 2: Critique and Teamwork
 <a name="critique"></a>
+
+### Reading 2: Critique and Teamwork
 
 `Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
@@ -78,8 +80,9 @@ Submit via Canvas here:
   
   {% if page.link_reading_critique != nil %}<{{ page.link_reading_critique }}>{% else %}`Link to be added`{% endif %}
 
-### Reading 3: Prototyping Videos
 <a name="prototypingvideos"></a>
+
+### Reading 3: Prototyping Videos
 
 `Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
@@ -123,8 +126,9 @@ Submit via Canvas here:
   
   {% if page.link_reading_prototyping_videos != nil %}<{{ page.link_reading_prototyping_videos }}>{% else %}`Link to be added`{% endif %}
   
-### Reading 4: Paper Prototyping and Usability Testing
 <a name="paperprototyping"></a>
+
+### Reading 4: Paper Prototyping and Usability Testing
 
 `Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
@@ -159,8 +163,9 @@ Submit via Canvas here:
   
   {% if page.link_reading_paper_prototyping != nil %}<{{ page.link_reading_paper_prototyping }}>{% else %}`Link to be added`{% endif %}
 
-### Reading 5: Research Paper
 <a name="research"></a>
+
+### Reading 5: Research Paper
 
 `Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
