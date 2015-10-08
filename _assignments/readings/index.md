@@ -6,6 +6,8 @@ link_reading_contextual_inquiry: https://canvas.uw.edu/courses/987987/assignment
 date_reading_contextual_inquiry: Friday, October 9, 2015
 
 link_reading_critique: 
+date_reading_critique: Friday, October 16, 2015
+
 link_reading_prototyping_videos:
 link_reading_paper_prototyping:
 link_reading_research: 
@@ -28,8 +30,9 @@ We will make additional resources available for students to read as interested.
 
 # Assigned Readings
 
-### Reading 1: Contextual Inquiry
 <a name="contextual_inquiry"></a>
+
+### Reading 1: Contextual Inquiry
 
 Read:
 
@@ -53,16 +56,15 @@ Submit via Canvas here:
 
 {% if page.link_reading_contextual_inquiry != nil %}<{{ page.link_reading_contextual_inquiry }}>{% else %}`Link to be added`{% endif %}
 
-### Reading 2: Critique and Teamwork
 <a name="critique"></a>
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
+### Reading 2: Critique and Teamwork
 
 - [Cheng (2013). How to Survive a Critique: A Guide to Giving and Receiving Feedback](http://www.aiga.org/how-to-survive-a-critique/)
 - [Katzenbach and Smith (1993). The Discipline of Teams.]({{site.baseurl}}/readings/DisciplineOfTeams-KatzenbachSmith.htm)
 - [Pausch. Tips for Working Successfully in a Group.]({{site.baseurl}}/readings/WorkingInGroups-Pausch.html)
 
-  Due: Uploaded by the end of the day Friday, October 10, 2014.
+  Due: Uploaded the night before section {{ page.date_reading_critique }}.
   
   After reading, please think back to your previous experiences working in groups, particularly an experience that could have been improved.
   
@@ -78,8 +80,9 @@ Submit via Canvas here:
   
   {% if page.link_reading_critique != nil %}<{{ page.link_reading_critique }}>{% else %}`Link to be added`{% endif %}
 
-### Reading 3: Prototyping Videos
 <a name="prototypingvideos"></a>
+
+### Reading 3: Prototyping Videos
 
 `Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
@@ -123,8 +126,9 @@ Submit via Canvas here:
   
   {% if page.link_reading_prototyping_videos != nil %}<{{ page.link_reading_prototyping_videos }}>{% else %}`Link to be added`{% endif %}
   
-### Reading 4: Paper Prototyping and Usability Testing
 <a name="paperprototyping"></a>
+
+### Reading 4: Paper Prototyping and Usability Testing
 
 `Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
@@ -159,8 +163,9 @@ Submit via Canvas here:
   
   {% if page.link_reading_paper_prototyping != nil %}<{{ page.link_reading_paper_prototyping }}>{% else %}`Link to be added`{% endif %}
 
-### Reading 5: Research Paper
 <a name="research"></a>
+
+### Reading 5: Research Paper
 
 `Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 

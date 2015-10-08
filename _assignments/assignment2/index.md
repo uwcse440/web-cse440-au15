@@ -2,17 +2,32 @@
 layout: base/bar-sidebar-none
 title: "Assignment 2: Getting the Right Design"
 
-link_project2b: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
-link_project2c: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994 
-link_project2d: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994 
-link_project2e: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
-link_project2f: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994 
-link_project2g: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994 
-link_project2h: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994 
-link_project2i: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994 
----
+date_project_2a: Friday, October 9, 2015
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
+link_project_2b: 
+date_project_2b: Tuesday, October 13, 2015
+
+link_project_2c:  
+date_project_2c: Friday, October 16, 2015
+
+link_project_2d:  
+date_project_2d: Tuesday, October 20, 2015
+
+link_project_2e: 
+date_project_2e: Friday, October 23, 2015
+
+link_project_2f:  
+date_project_2f: Tuesday, October 27, 2015
+
+link_project_2g:  
+date_project_2g: Friday, October 30, 2015
+
+link_project_2h:  
+date_project_2h: Tuesday, November 3, 2015
+
+link_project_2i:  
+date_project_2i: Thursday, November 5, 2015
+---
 
 # Overview
 
@@ -42,39 +57,39 @@ This is a group assignment, consisting of nine milestones.
 
 * [Assignment 2a: Project Ideation](#project_ideation)
 
-  Due: Completed in section on Friday, October 3, 2014
+  Due: Completed in section on {{ page.date_project_2a }}
   
 * [Assignment 2b: Contextual Inquiry Plan](#contextual_inquiry_plan)
 
-  Due: Uploaded the night before class Tuesday, October 7, 2014
+  Due: Uploaded the night before class {{ page.date_project_2b }}
   
 * [Assignment 2c: Contextual Inquiry Check-In](#contextual_inquiry_checkin)
 
-  Due: Uploaded the night before section Friday, October 10, 2014
+  Due: Uploaded the night before section {{ page.date_project_2c }}
 
 * [Assignment 2d: Contextual Inquiry Review](#contextual_inquiry_review)
 
-  Due: Uploaded the night before class Tuesday, October 14, 2014
+  Due: Uploaded the night before class {{ page.date_project_2d }}
 
 * [Assignment 2e: Task Review](#task_review)
 
-  Due: Uploaded the night before class Friday, October 17, 2014
+  Due: Uploaded the night before class {{ page.date_project_2e }}
   
 * [Assignment 2f: Design Check-In ("3x4")](#design_checkin)
 
-  Due: Uploaded the night before class Tuesday, October 21, 2014
+  Due: Uploaded the night before class {{ page.date_project_2f }}
 
 * [Assignment 2g: Design Review ("1x2")](#design_review)
 
-  Due: Uploaded the night before section Friday, October 24, 2014
+  Due: Uploaded the night before section {{ page.date_project_2g }}
 
 * [Assignment 2h: Final Report](#final_report)
 
-  Due: Uploaded the night before class Tuesday, October 28, 2014
+  Due: Uploaded the night before class {{ page.date_project_2h }}
 
 * [Presentation](#presentation)
 
-  Due: Uploaded the night before class Thursday, October 30, 2014
+  Due: Uploaded the night before class {{ page.date_project_2i }}
 
 # Project Description
 
@@ -140,23 +155,31 @@ More specifically, you will do the following:
 
 ## 2a: Project Ideation
 
-Due: Completed in section on Friday, October 3, 2014
+Due: Completed in section on {{ page.date_project_2a }}
 
-Generate 64 different ideas related to your project proposal, including:
+Generate 5 to 10 different ideas related to each of the following aspects of your project proposal:
 
-- problems: a need that a person might have 
-- tasks: what a person might accomplish 
-- features: a capability a design might have 
-- interactions: how a feature might work 
+- Forms: types of technology on which a design might be developed (e.g., desktop, phone/tablet, sensor, watch, wearable).
+- Data: types of data that a design might track or help a person track. 
+- Features: a specific capability a design might have. 
+- Tasks: what a person might accomplish with a design. 
 
-We will provide large sheets of paper. Divide a large sheet of paper into 64 squares, each approximately 2in by 2in.
-Sketch 64 ideas, one in each square. Each idea should be a quick doodle with a caption or a one-sentence idea. 
+We will provide large sheets of paper. Divide a large sheet of paper into 32 squares, each approximately 2in by 2in.
+Sketch your ideas, one in each square. Each idea should be either a quick doodle with a caption or a one-sentence idea. 
 A person familiar with your project but not in your group should be able to understand the idea each sketch conveys.
 
 The goal is to begin exploring the space of possibilities, not attempting to polish some particular possibility. 
 Focus on the quantity of ideas, not the quality of any one idea. 
 You may include ideas from existing products. No two ideas should be alike.
 When you get stuck, find a context to inspire new ideas.
+
+Given a space of possible directions, your project needs to begin to gather information on how to generate and consider ideas. 
+Following up on the above, additionally brainstorm:
+ 
+- People: types of people you might work with to learn more.
+- Foci: potential foci you might to your learning.
+
+The goal is to begin thinking about how to plan effective contextual inquiries toward your design process.
 
 ### Submission
 
@@ -166,13 +189,13 @@ You will be able to take your paper with you, and you should continue brainstorm
 
 ### Grading
 
-This milestone will be graded on a scale of __3 points__ based on a good-faith attempt to generate ideas during the ideation brainstorming exercise.
+This milestone will be graded on a scale of __3 points__ based on participation in generating ideas during the brainstorming exercise.
 
 <a name="contextual_inquiry_plan"></a>
 
 ## 2b: Contextual Inquiry Plan
 
-Due: Uploaded the night before class Tuesday, October 7, 2014
+Due: Uploaded the night before class {{ page.date_project_2b }}
 
 In one paragraph, describe the people who might use your design and other stakeholders for your design. 
 Describe the particular contextual inquiry participants you plan to pursue, 
@@ -182,7 +205,7 @@ Give enough details to convince us that you can actually find and interview your
 For example, your target participants should not be "doctors" but instead a specific group of doctors 
 (e.g., Family Practitioners in the UW Roosevelt Clinic). 
 If gaining access to the target participants is non-trivial (e.g., as with busy doctors), 
-describe the steps you have taken to gain access and your plans to recover if you are unable to gain access. 
+describe the steps you have already taken to gain access and your plans to recover if you are unable to gain access. 
 Indicate when you will be conducting your three inquiries, being as specific as possible.
 
 In another paragraph, describe how you will interact with your participants and your role as the "apprentice".
@@ -192,11 +215,20 @@ In another paragraph, describe how you will interact with your participants and 
  
 Please be as specific as possible, providing potential examples of your observation focus or interview questions.
 
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2b_aqueous.pdf]({{ site.baseurl }}/samples/2b/2b_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2b_iepconnect.pdf]({{ site.baseurl }}/samples/2b/2b_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2b_kaching.pdf]({{ site.baseurl }}/samples/2b/2b_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2b_soundscape.pdf]({{ site.baseurl }}/samples/2b/2b_soundscape.pdf)
+
 ### Submission
 
-No more than one page of text in PDF format. Submit via Catalyst here:
+No more than one page of text in PDF format. Submit via Canvas here:
 
-{% if page.link_project2b != nil %}<{{ page.link_project2b }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_2b != nil %}<{{ page.link_project_2b }}>{% else %}`Link to be added`{% endif %}
 
 In lecture, be prepared to discuss the plan with other teams and the course staff.
 
@@ -212,7 +244,7 @@ This milestone will be graded on a scale of __3 points__:
 
 ## 2c: Contextual Inquiry Check-In
 
-Due: Uploaded the night before section Friday, October 10, 2014
+Due: Uploaded the night before section {{ page.date_project_2c }}
 
 Complete at least one contextual inquiry prior to this check-in. 
 You hopefully learned something about the needs of people who might use your design, but also about how to conduct a contextual inquiry.
@@ -230,11 +262,20 @@ can be difficult to get right and often important topics are left unresolved.
 - What are your plans for the remaining inquiries? 
 - How do you plan to change your protocol based on what you learned in your first inquiry?
 
-###Submission
+### Examples from Prior Offerings
 
-No more than one page of text in PDF format. Submit via Catalyst here:
+Examples from prior offerings include:
 
-{% if page.link_project2c != nil %}<{{ page.link_project2c }}>{% else %}`Catalyst link to be added`{% endif %}
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2c_aqueous.pdf]({{ site.baseurl }}/samples/2c/2c_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2c_iepconnect.pdf]({{ site.baseurl }}/samples/2c/2c_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2c_kaching.pdf]({{ site.baseurl }}/samples/2c/2c_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2c_soundscape.pdf]({{ site.baseurl }}/samples/2c/2c_soundscape.pdf)
+
+### Submission
+
+No more than one page of text in PDF format. Submit via Canvas here:
+
+{% if page.link_project_2c != nil %}<{{ page.link_project_2c }}>{% else %}`Link to be added`{% endif %}
 
 In section, be prepared to discuss your contextual inquiry with other teams and the course staff.
 
@@ -249,7 +290,7 @@ This milestone will be graded on a scale of __6 points__:
 
 ## 2d: Contextual Inquiry Review
 
-Due: Uploaded the night before class Tuesday, October 14, 2014
+Due: Uploaded the night before class {{ page.date_project_2d }}
 
 #### Themes
 
@@ -279,6 +320,15 @@ Provide brief answers to the following questions. These should help you begin to
 10. What are the time constraints on the tasks?
 11. What happens when things go wrong?
 
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2d_aqueous.pdf]({{ site.baseurl }}/samples/2d/2d_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2d_iepconnect.pdf]({{ site.baseurl }}/samples/2d/2d_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2d_kaching.pdf]({{ site.baseurl }}/samples/2d/2d_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2d_soundscape.pdf]({{ site.baseurl }}/samples/2d/2d_soundscape.pdf)
+
 ### Submission
 
 No more than four pages of text in PDF format:
@@ -287,9 +337,9 @@ No more than four pages of text in PDF format:
  - contextual inquiry themes (less than one page)
  - task analysis questions (less than two pages)
  
-Submit via Catalyst here: 
+Submit via Canvas here: 
 
-{% if page.link_project2d != nil %}<{{ page.link_project2d }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_2d != nil %}<{{ page.link_project_2d }}>{% else %}`Link to be added`{% endif %}
 
 In lecture, be prepared to discuss your contextual inquiry with other teams and the course staff.
 
@@ -303,6 +353,8 @@ This milestone will be graded on a scale of __6 points__:
 <a name="task_review"></a>
 
 ## 2e: Task Review
+
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
 Due: Uploaded the night before class Friday, October 17, 2014
 
@@ -322,9 +374,9 @@ No more than two pages of text in PDF format:
 
  - six task descriptions (one paragraph each)
 
-Submit via Catalyst here:
+Submit via Canvas here:
 
-{% if page.link_project2e != nil %}<{{ page.link_project2e }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_2e != nil %}<{{ page.link_project_2e }}>{% else %}`Link to be added`{% endif %}
 
 In section, be prepared to discuss your tasks with other teams and the course staff.
 
@@ -337,6 +389,8 @@ This milestone will be graded on a scale of __6 points__:
 <a name="design_checkin"></a>
 
 ## 2f: Design Check-In ("3x4")
+
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
 Due: Uploaded the night before class Tuesday, October 21, 2014
 
@@ -364,9 +418,9 @@ Images do not count against your page limit, and are therefore effectively free.
 You should embed images throughout your PDF, keeping them near the text that references them.
 The limit applies to the approximate amount of text you would have if all images were removed.
 
-Submit via Catalyst here: 
+Submit via Canvas here: 
 
-{% if page.link_project2f != nil %}<{{ page.link_project2f }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_2f != nil %}<{{ page.link_project_2f }}>{% else %}`Link to be added`{% endif %}
 
 In lecture, be prepared to discuss your design sketches with other teams and the course staff.
 
@@ -379,6 +433,8 @@ This milestone will be graded on a scale of __6 points__:
 <a name="design_review"></a>
 
 ## 2g: Design Review ("1x2")
+
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
 Due: Uploaded the night before section Friday, October 24, 2014
 
@@ -413,9 +469,9 @@ Images do not count against your page limit, and are therefore effectively free.
 You should embed images throughout your PDF, keeping them near the text that references them.
 The limit applies to the approximate amount of text you would have if all images were removed.
 
-Submit via Catalyst here: 
+Submit via Canvas here: 
 
-{% if page.link_project2g != nil %}<{{ page.link_project2g }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_2g != nil %}<{{ page.link_project_2g }}>{% else %}`Link to be added`{% endif %}
 
 In section, be prepared to discuss your choices and storyboards with other teams and the course staff.
 
@@ -429,6 +485,8 @@ This milestone will be graded on a scale of __6 points__:
 <a name="final_report">
 
 ## 2h: Final Report
+
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
 Due: Uploaded the night before class Tuesday, October 28, 2014
 
@@ -511,9 +569,9 @@ Images do not count against your page limit, and are therefore effectively free.
 You should embed images throughout your PDF, keeping them near the text that references them.
 The limit applies to the approximate amount of text you would have if all images were removed.
 
-Submit via Catalyst here: 
+Submit via Canvas here: 
 
-{% if page.link_project2h != nil %}<{{ page.link_project2h }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_2h != nil %}<{{ page.link_project_2h }}>{% else %}`Link to be added`{% endif %}
 
 ### Grading
 
@@ -585,9 +643,9 @@ You should optimize your presentation for portability (e.g., ensure any necessar
 If we detect any obvious formatting issues on the presentation machine, we may fix them or contact you to fix them.
 But you are ultimately responsible for your presentation.
 
-Submit via Catalyst here: 
+Submit via Canvas here: 
 
-{% if page.link_project2i != nil %}<{{ page.link_project2i }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_2i != nil %}<{{ page.link_project_2i }}>{% else %}`Link to be added`{% endif %}
 
 ### Grading
 
