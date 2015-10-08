@@ -3,16 +3,30 @@ layout: base/bar-sidebar-none
 title: "Assignment 2: Getting the Right Design"
 
 date_project_2a: Friday, October 9, 2015
+
 link_project_2b: 
 date_project_2b: Tuesday, October 13, 2015
+
 link_project_2c:  
 date_project_2c: Friday, October 16, 2015
+
 link_project_2d:  
+date_project_2d: Tuesday, October 20, 2015
+
 link_project_2e: 
+date_project_2e: Friday, October 23, 2015
+
 link_project_2f:  
+date_project_2f: Tuesday, October 27, 2015
+
 link_project_2g:  
+date_project_2g: Friday, October 30, 2015
+
 link_project_2h:  
+date_project_2h: Tuesday, November 3, 2015
+
 link_project_2i:  
+date_project_2i: Thursday, November 5, 2015
 ---
 
 # Overview
