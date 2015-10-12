@@ -4,7 +4,7 @@ title: "Assignment 2: Getting the Right Design"
 
 date_project_2a: Friday, October 9, 2015
 
-link_project_2b: 
+link_project_2b: https://canvas.uw.edu/courses/987987/assignments/3016432
 date_project_2b: Tuesday, October 13, 2015
 
 link_project_2c:  
