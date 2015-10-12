@@ -5,7 +5,7 @@ title: "Readings"
 link_reading_contextual_inquiry: https://canvas.uw.edu/courses/987987/assignments/3011029
 date_reading_contextual_inquiry: Friday, October 9, 2015
 
-link_reading_critique: 
+link_reading_critique: https://canvas.uw.edu/courses/987987/assignments/3016470
 date_reading_critique: Friday, October 16, 2015
 
 link_reading_prototyping_videos:
