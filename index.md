@@ -51,6 +51,12 @@ Example project from prior offerings include:
 Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
 However, these represent examples of strong work in this course.
 
+# Readings
+
+A small set of readings are assigned throughout the quarter, with additional resources also made available.
+
+- [Reading Assignments]({{ site.baseurl }}/assignments/readings/)
+
 # Basic Information
 
 __Contact__: Email all instructors at cse440-instr [at] cs.washington.edu
