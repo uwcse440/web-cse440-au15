@@ -58,7 +58,7 @@ lectures:
     # notes: "Required for Project 2a, CI Planning Over Weekend"
   - date: "2015-10-13"
     name: "Critique"
-#    slides: "slides/lecture/l04-critique.pdf"
+    slides: "slides/lecture/l04-critique.pdf"
     # notes: "Required for Project 2b"
   - date: "2015-10-15"
     name: "Task Analysis"
