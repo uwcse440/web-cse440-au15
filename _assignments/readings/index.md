@@ -60,25 +60,27 @@ Submit via Canvas here:
 
 ### Reading 2: Critique and Teamwork
 
+Read:
+
 - [Cheng (2013). How to Survive a Critique: A Guide to Giving and Receiving Feedback](http://www.aiga.org/how-to-survive-a-critique/)
 - [Katzenbach and Smith (1993). The Discipline of Teams.]({{site.baseurl}}/readings/DisciplineOfTeams-KatzenbachSmith.htm)
 - [Pausch. Tips for Working Successfully in a Group.]({{site.baseurl}}/readings/WorkingInGroups-Pausch.html)
 
-  Due: Uploaded the night before section {{ page.date_reading_critique }}.
+Due: Uploaded the night before section {{ page.date_reading_critique }}.
   
-  After reading, please think back to your previous experiences working in groups, particularly an experience that could have been improved.
+After reading, please think back to your previous experiences working in groups, particularly an experience that could have been improved.
   
-  - Briefly describe the project and the group (e.g., two sentences).
-  - What went poorly in this group (e.g., two sentences)?
-  - From concepts discussed in these readings, what could have been done differently to improve the group experience (e.g., up to two paragraphs)?
-  
-  These readings thus reflection on receiving feedback, prior group experiences, and how to maximize your success in this course.
-  
-  No more than one page of text in PDF format.
-  
-  Submit via Canvas here:
-  
-  {% if page.link_reading_critique != nil %}<{{ page.link_reading_critique }}>{% else %}`Link to be added`{% endif %}
+- Briefly describe the project and the group (e.g., two sentences).
+- What went poorly in this group (e.g., two sentences)?
+- From concepts discussed in these readings, what could have been done differently to improve the group experience (e.g., up to two paragraphs)?
+
+These readings thus reflection on receiving feedback, prior group experiences, and how to maximize your success in this course.
+
+No more than one page of text in PDF format.
+
+Submit via Canvas here:
+
+{% if page.link_reading_critique != nil %}<{{ page.link_reading_critique }}>{% else %}`Link to be added`{% endif %}
 
 <a name="prototypingvideos"></a>
 
