@@ -62,7 +62,7 @@ lectures:
     # notes: "Required for Project 2b"
   - date: "2015-10-15"
     name: "Task Analysis"
-#    slides: "slides/lecture/l05-tasks.pdf"
+    slides: "slides/lecture/l05-taskanalysis.pdf"
     # notes: "Required for Project 2d"
   - date: "2015-10-20"
 #  - date: "2014-10-14"
