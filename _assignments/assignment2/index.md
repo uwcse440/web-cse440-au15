@@ -5,6 +5,7 @@ title: "Assignment 2: Getting the Right Design"
 date_project_2a: Friday, October 9, 2015
 
 link_project_2b: https://canvas.uw.edu/courses/987987/assignments/3016432
+link_project_2b_critique: https://canvas.uw.edu/courses/987987/assignments/3017985
 date_project_2b: Tuesday, October 13, 2015
 
 link_project_2c: https://canvas.uw.edu/courses/987987/assignments/3016469
@@ -230,7 +231,17 @@ No more than one page of text in PDF format. Submit via Canvas here:
 
 {% if page.link_project_2b != nil %}<{{ page.link_project_2b }}>{% else %}`Link to be added`{% endif %}
 
+### In-Class Peer Critique
+
 In lecture, be prepared to discuss the plan with other teams and the course staff.
+
+Be sure to take notes during critique. We will provide a worksheet you can use:
+
+[2b-critique-worksheet-ciplan.pdf]({{ site.baseurl }}/assignments/assignment2/2b-critique-worksheet-ciplan.pdf)
+
+After class, submit images of your notes in PDF format. Submit via Canvas here:
+
+{% if page.link_project_2b_critique != nil %}<{{ page.link_project_2b_critique }}>{% else %}`Link to be added`{% endif %}
 
 ### Grading
 
