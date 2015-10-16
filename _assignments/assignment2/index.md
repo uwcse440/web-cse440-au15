@@ -344,6 +344,7 @@ Examples from prior offerings include:
 
 No more than four pages of text in PDF format:
 
+ - summary of key findings or takeaways (one paragraph at the beginning of the report)
  - contexutal inquiry participants (less than one page)
  - contextual inquiry themes (less than one page)
  - task analysis questions (less than two pages)
