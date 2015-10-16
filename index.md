@@ -67,7 +67,7 @@ __Section Times & Locations__:
 
 - Fridays, 10:30-11:20 MGH 228
 - Fridays, 11:30-12:20 MGH 295
-- Fridays, 1:30-2:20 MGH 248
+- Fridays, 1:30-2:20 MGH 254
 - Fridays, 2:30-3:20 MGH 254
 
 __Office Hours__: 
