@@ -21,7 +21,7 @@ locations:
     - time: "11:30 - 12:20"
       location: "MGH 295"
     - time: "1:30 - 2:20"
-      location: "MGH 248"
+      location: "MGH 254"
     - time: "2:30 - 3:20"
       location: "MGH 254"
   postersession:
