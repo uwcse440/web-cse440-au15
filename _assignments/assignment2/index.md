@@ -378,6 +378,15 @@ Building on what you learned in your contextual inquiry, design six tasks that y
 Each task should be described in text. Tasks say what is accomplished, leaving open how to accomplish it.
 So be sure that your task conveys a problem and what is accomplished, rather than a step-by-step walkthrough of scenario with a particular design.
 
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2e_aqueous.pdf]({{ site.baseurl }}/samples/2e/2e_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2e_iepconnect.pdf]({{ site.baseurl }}/samples/2e/2e_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2e_kaching.pdf]({{ site.baseurl }}/samples/2e/2e_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2e_soundscape.pdf]({{ site.baseurl }}/samples/2e/2e_soundscape.pdf)
+
 ### Submission
 
 No more than two pages of text in PDF format: 
@@ -411,6 +420,15 @@ You will now brainstorm and sketch three very different initial designs for your
 
 The purpose of these sketches is to explore the design space before you lock yourself into a single design.
 They must demonstrate significant consideration of substantially different approaches to your problem.
+
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2f_aqueous.pdf]({{ site.baseurl }}/samples/2f/2f_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2f_iepconnect.pdf]({{ site.baseurl }}/samples/2f/2f_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2f_kaching.pdf]({{ site.baseurl }}/samples/2f/2f_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2f_soundscape.pdf]({{ site.baseurl }}/samples/2f/2f_soundscape.pdf)
 
 ### Submission
 
