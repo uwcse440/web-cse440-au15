@@ -11,10 +11,10 @@ date_project_2b: Tuesday, October 13, 2015
 link_project_2c: https://canvas.uw.edu/courses/987987/assignments/3016469
 date_project_2c: Friday, October 16, 2015
 
-link_project_2d:  
+link_project_2d: https://canvas.uw.edu/courses/987987/assignments/3022206
 date_project_2d: Tuesday, October 20, 2015
 
-link_project_2e: 
+link_project_2e: https://canvas.uw.edu/courses/987987/assignments/3022211
 date_project_2e: Friday, October 23, 2015
 
 link_project_2f:  
@@ -366,9 +366,7 @@ This milestone will be graded on a scale of __6 points__:
 
 ## 2e: Task Review
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
-Due: Uploaded the night before class Friday, October 17, 2014
+Due: Uploaded the night before class {{ page.date_project_2e }}
 
 Building on what you learned in your contextual inquiry, design six tasks that you believe are integral to your overall design goal:
 
@@ -378,7 +376,7 @@ Building on what you learned in your contextual inquiry, design six tasks that y
  - Your six tasks should span a wide range of functionality and difficulty, from easy to hard tasks.
 
 Each task should be described in text. Tasks say what is accomplished, leaving open how to accomplish it.
-So be sure that your task conveys a problem and what is accomplished, rather than a step-by-step walkthrough of a particular design.
+So be sure that your task conveys a problem and what is accomplished, rather than a step-by-step walkthrough of scenario with a particular design.
 
 ### Submission
 
@@ -402,15 +400,13 @@ This milestone will be graded on a scale of __6 points__:
 
 ## 2f: Design Check-In ("3x4")
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
-Due: Uploaded the night before class Tuesday, October 21, 2014
+Due: Uploaded the night before class {{ page.date_project_2f }}
 
 You have identified and described six important tasks for your design problem. 
 You will now brainstorm and sketch three very different initial designs for your interface:
  
  - Each design should support four of your tasks, but they do not necessarily need to all support the same four tasks.
- - Do not illustrate the entire design, but instead sketch key aspects needed to illustrate the functionality. 
+ - Sketch key aspects needed to illustrate the functionality in your four tasks. A design may imply additional tasks, but do not illustrate the entire design. 
  - These should be rough sketches on paper (i.e., not digital mockups), including illustrations of their relations (e.g., arrows showing transitions and relationships).
 
 The purpose of these sketches is to explore the design space before you lock yourself into a single design.
@@ -420,7 +416,7 @@ They must demonstrate significant consideration of substantially different appro
 
 No more than three pages of text in PDF format:
 
- - six task descriptions (one paragraph each, updated from prior assignment)
+ - six task descriptions (one paragraph each, updated as needed from prior assignment)
  - for each of three initial designs
    - the high-level idea of the design (one paragraph)
    - scanned images of the design (sketches, not digital mockups)
