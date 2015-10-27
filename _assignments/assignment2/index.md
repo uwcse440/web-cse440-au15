@@ -22,14 +22,15 @@ link_project_2f: https://canvas.uw.edu/courses/987987/assignments/3022221
 link_project_2f_critique: https://canvas.uw.edu/courses/987987/assignments/3029342
 date_project_2f: Tuesday, October 27, 2015
 
-link_project_2g:  
+link_project_2g: https://canvas.uw.edu/courses/987987/assignments/3029616
 date_project_2g: Friday, October 30, 2015
 
-link_project_2h:  
+link_project_2h: https://canvas.uw.edu/courses/987987/assignments/3029620
 date_project_2h: Tuesday, November 3, 2015
 
-link_project_2i:  
+link_project_2i: https://canvas.uw.edu/courses/987987/assignments/3029622
 date_project_2i: Thursday, November 5, 2015
+
 ---
 
 # Overview
@@ -483,9 +484,7 @@ This milestone will be graded on a scale of __6 points__:
 
 ## 2g: Design Review ("1x2")
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
-Due: Uploaded the night before section Friday, October 24, 2014
+Due: Uploaded the night before section {{ page.date_project_2g }}
 
 From your design sketches, select one design that you will refine in the remainder of this course. 
 Then select two tasks that will be the focus of your design refinement. 
@@ -506,6 +505,15 @@ They should clearly indicate the functionality of the design and what the interf
 conveying the major aspects of the design in enough detail that a person not in your group can understand 
 how the design supports each task. 
 As needed, add descriptions that explicitly reference the storyboard, add more sketches, or annotate them in multiple colors.
+
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2g_aqueous.pdf]({{ site.baseurl }}/samples/2g/2g_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2g_iepconnect.pdf]({{ site.baseurl }}/samples/2g/2g_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2g_kaching.pdf]({{ site.baseurl }}/samples/2g/2g_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2g_soundscape.pdf]({{ site.baseurl }}/samples/2g/2g_soundscape.pdf)
 
 ### Submission
 
@@ -535,9 +543,7 @@ This milestone will be graded on a scale of __6 points__:
 
 ## 2h: Final Report
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
-Due: Uploaded the night before class Tuesday, October 28, 2014
+Due: Uploaded the night before class {{ page.date_project_2h }}
 
 Prepare a report documenting your process of getting the right design.
 Your report should follow the outline below, and will be graded using the guidelines that follow.
@@ -552,7 +558,7 @@ include how you have addressed and incorporated that feedback to improve relativ
 
    A short, creative, and marketable title capturing the key idea.
 
-2. __Each Team Member’s Name and Role__
+2. __Each Team Member’s Name and Role(s)__
 
 3. __Problem and Solution Overview__: (1 paragraph)
 
@@ -610,6 +616,15 @@ Be sure your presentation looks good:
  - choose appropriate colors, fonts, and styles
  - make liberal use of whitespace 
 
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2h_aqueous.pdf]({{ site.baseurl }}/samples/2h/2h_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2h_iepconnect.pdf]({{ site.baseurl }}/samples/2h/2h_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2h_kaching.pdf]({{ site.baseurl }}/samples/2h/2h_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2h_soundscape.pdf]({{ site.baseurl }}/samples/2h/2h_soundscape.pdf)
+
 ### Submission
 
 No more than eight pages of text in PDF format, following the above outline.
@@ -641,7 +656,7 @@ This report will be graded on a scale of __25 points__:
 
 ## Presentation
 
-Due: Uploaded the night before class Thursday, October 30, 2014
+Due: Uploaded the night before class {{ page.date_project_2i }}
 
 Prepare a presentation of your process in getting the right design. It should encompass all of your work in Assignment 2.
 
@@ -682,6 +697,15 @@ A suggested organization of this presentation is:
 
 We strongly recommend rehearsing your presentation beforehand. 
 For example, arrange to practice together with another group or two, giving each other feedback on your presentations.
+
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2i_aqueous.pdf]({{ site.baseurl }}/samples/2i/2i_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2i_iepconnect.pdf]({{ site.baseurl }}/samples/2i/2i_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2i_kaching.pdf]({{ site.baseurl }}/samples/2i/2i_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2i_soundscape.pdf]({{ site.baseurl }}/samples/2i/2i_soundscape.pdf)
 
 ### Submission
 
