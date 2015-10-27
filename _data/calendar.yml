@@ -73,7 +73,7 @@ lectures:
     slides: "slides/lecture/l07-humanperformance.pdf"
   - date: "2015-10-27"
     name: "Storyboarding and<br>Video Prototyping"
-#    slides: "slides/lecture/l08-storyboarding.pdf"
+    slides: "slides/lecture/l08-storyboarding.pdf"
     # notes: "Required for Project 2g"
   - date: "2015-10-29"
     name: "History"
