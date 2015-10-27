@@ -316,7 +316,9 @@ aways:
 #          James Away<br>
 #          Matt Lecture
   - date: "2015-10-23"
-    name: "Alex Away"
+    name: >
+          Alex Away<br>
+          Lauren In All Sections
   - date: "2015-10-26"
     name: "Alex Away"
   - date: "2015-10-27"
@@ -328,7 +330,9 @@ aways:
   - date: "2015-10-29"
     name: "Saba Away"
   - date: "2015-10-30"
-    name: "Saba Away"
+    name: >
+          Saba Away<br>
+          Lauren In All Sections
   - date: "2015-11-05"
     name: "Lauren Away"
   - date: "2015-11-06"
@@ -336,7 +340,9 @@ aways:
   - date: "2015-11-09"
     name: "James Away"
   - date: "2015-11-10"
-    name: "James Away"
+    name: >
+          James Away<br>
+          Lauren Lecture
   - date: "2015-11-11"
     name: "James Away"
   - date: "2015-11-12"
