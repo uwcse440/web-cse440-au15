@@ -8,7 +8,9 @@ date_reading_contextual_inquiry: Friday, October 9, 2015
 link_reading_critique: https://canvas.uw.edu/courses/987987/assignments/3016470
 date_reading_critique: Friday, October 16, 2015
 
-link_reading_prototyping_videos:
+link_reading_prototyping_videos: https://canvas.uw.edu/courses/987987/assignments/3029582
+date_reading_prototyping_videos: Friday, October 30, 2015
+
 link_reading_paper_prototyping:
 link_reading_research: 
 ---
@@ -86,13 +88,13 @@ Submit via Canvas here:
 
 ### Reading 3: Prototyping Videos
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
+Watch the rapid prototyping videos linked from Lecture 6 and Lecture 8, including the context from which they were linked.
 
-- Watch the rapid prototyping videos linked from Lecture 7 and Lecture 8, including the context from which they were linked.
-  - [Lecture 7]({{site.baseurl}}/slides/lecture/l07-designdiamond.pdf)
+  - [Lecture 6]({{site.baseurl}}/slides/lecture/l06-designdiamond.pdf)
   - [Lecture 8]({{site.baseurl}}/slides/lecture/l08-storyboarding.pdf)
   
-- Specifically, that is these videos:
+Specifically, that is these videos:
+
   - [IDEO Deep Dive](http://courses.cs.washington.edu/courses/cse440/videos/designdiamond/IDEO-DeepDive.mp4)
   - [Mackay Stop Motion](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Mackay-StopAction.mp4)
   - [Mackay Stop Motion Result](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Mackay-StopActionResult.mp4)
@@ -108,25 +110,31 @@ Submit via Canvas here:
   - [ParkSmart](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Parksmart.mp4)
   - [Plantr](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Plantr.mp4)
   
-- Optionally, check out these fun "vision of the future" videos:  
+Optionally, check out these fun "vision of the future" videos:  
+
   - [Starfire](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Vision-Sun-Starfire.mp4)
   - [Knowledge Navigator](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Vision-Apple-Knowledge-Navigator.mp4)
   - [A Day Made of Glass](http://courses.cs.washington.edu/courses/cse440/videos/videoprototyping/Vision-Corning-A-Day-Made-Of-Glass.mp4)
 
-  Due: Uploaded by the end of the day Friday, October 24, 2014.
-  
-  After viewing, consider what approaches were more or less effective in these examples.
-  
-  - In one paragraph, describe a technique you saw in these videos that was highly effective. Discuss why it was effective.  
-  - In one paragraph, describe a technique you saw that was ineffective. Discuss why it was ineffective.
+Due: Uploaded the night before section {{ page.date_reading_videos }}.
 
-  These videos thus support your reflection on how to effectively develop and illustrate a design.
+After viewing, consider what approaches were more or less effective in these examples.
 
-  No more than one page of text in PDF format.
-  
-  Submit via Canvas here:
-  
-  {% if page.link_reading_prototyping_videos != nil %}<{{ page.link_reading_prototyping_videos }}>{% else %}`Link to be added`{% endif %}
+- In one paragraph, describe a technique you saw in these videos that was highly effective.
+  Be specific, such that it is clear you watched the videos.
+  Discuss why it was effective.  
+- In one paragraph, describe a technique you saw that was ineffective. 
+  Be specific, such that it is clear you watched the videos.
+  Discuss why it was ineffective.
+
+These videos thus support your reflection on how to effectively develop and illustrate a design.
+Techniques in these and other videos will also directly apply as you prepare a video later this quarter.
+
+No more than one page of text in PDF format.
+
+Submit via Canvas here:
+
+{% if page.link_reading_prototyping_videos != nil %}<{{ page.link_reading_prototyping_videos }}>{% else %}`Link to be added`{% endif %}
   
 <a name="paperprototyping"></a>
 
