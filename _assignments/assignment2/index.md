@@ -12,12 +12,14 @@ link_project_2c: https://canvas.uw.edu/courses/987987/assignments/3016469
 date_project_2c: Friday, October 16, 2015
 
 link_project_2d: https://canvas.uw.edu/courses/987987/assignments/3022206
+link_project_2d_critique: https://canvas.uw.edu/courses/987987/assignments/3024240
 date_project_2d: Tuesday, October 20, 2015
 
 link_project_2e: https://canvas.uw.edu/courses/987987/assignments/3022211
 date_project_2e: Friday, October 23, 2015
 
 link_project_2f: https://canvas.uw.edu/courses/987987/assignments/3022221
+link_project_2f_critique: https://canvas.uw.edu/courses/987987/assignments/3029342
 date_project_2f: Tuesday, October 27, 2015
 
 link_project_2g:  
@@ -353,7 +355,17 @@ Submit via Canvas here:
 
 {% if page.link_project_2d != nil %}<{{ page.link_project_2d }}>{% else %}`Link to be added`{% endif %}
 
+### In-Class Peer Critique
+
 In lecture, be prepared to discuss your contextual inquiry with other teams and the course staff.
+
+Be sure to take notes during critique. We will provide a worksheet you can use:
+
+[2d-critique-worksheet-cireview.pdf]({{ site.baseurl }}/assignments/assignment2/2d-critique-worksheet-cireview.pdf)
+
+After class, submit images of your notes in PDF format. Submit via Canvas here:
+
+{% if page.link_project_2d_critique != nil %}<{{ page.link_project_2d_critique }}>{% else %}`Link to be added`{% endif %}
 
 ### Grading
 
@@ -448,7 +460,18 @@ Submit via Canvas here:
 
 {% if page.link_project_2f != nil %}<{{ page.link_project_2f }}>{% else %}`Link to be added`{% endif %}
 
+### In-Class Peer Critique
+
 In lecture, be prepared to discuss your design sketches with other teams and the course staff.
+
+Be sure to take notes during critique. We will provide a worksheet you can use:
+
+[2f-critique-worksheet-designcheckin.pdf]({{ site.baseurl }}/assignments/assignment2/2f-critique-worksheet-designcheckin.pdf)
+
+After class, submit images of your notes in PDF format. Submit via Canvas here:
+
+{% if page.link_project_2f_critique != nil %}<{{ page.link_project_2f_critique }}>{% else %}`Link to be added`{% endif %}
+
 
 ### Grading
 
