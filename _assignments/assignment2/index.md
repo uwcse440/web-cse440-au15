@@ -707,6 +707,13 @@ Examples from prior offerings include:
 - [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2i_kaching.pdf]({{ site.baseurl }}/samples/2i/2i_kaching.pdf)
 - [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2i_soundscape.pdf]({{ site.baseurl }}/samples/2i/2i_soundscape.pdf)
 
+- [Awearness](https://courses.cs.washington.edu/courses/cse440/14au/projects/awearness/): [2i_awearness.pdf]({{ site.baseurl }}/samples/2i/2i_awearness.pdf)
+- [Bandit](https://courses.cs.washington.edu/courses/cse440/14au/projects/bandit/): [2i_bandit.pdf]({{ site.baseurl }}/samples/2i/2i_bandit.pdf)
+- [Distrack](https://courses.cs.washington.edu/courses/cse440/14au/projects/distrack/): [2i_distrack.pdf]({{ site.baseurl }}/samples/2i/2i_distrack.pdf)
+- [GroupShop](https://courses.cs.washington.edu/courses/cse440/14au/projects/groupshop/): [2i_groupshop.pdf]({{ site.baseurl }}/samples/2i/2i_groupshop.pdf)
+- [Koala](https://courses.cs.washington.edu/courses/cse440/14au/projects/koala/): [2i_koala.pdf]({{ site.baseurl }}/samples/2i/2i_koala.pdf)
+- [Running With Friends](https://courses.cs.washington.edu/courses/cse440/14au/projects/runningwithfriends/): [2i_runningwithfriends.pdf]({{ site.baseurl }}/samples/2i/2i_runningwithfriends.pdf)
+
 ### Submission
 
 Your presentation may be in PPT, PPTX, or PDF format. 
