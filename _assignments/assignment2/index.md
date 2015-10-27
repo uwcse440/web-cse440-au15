@@ -17,7 +17,7 @@ date_project_2d: Tuesday, October 20, 2015
 link_project_2e: https://canvas.uw.edu/courses/987987/assignments/3022211
 date_project_2e: Friday, October 23, 2015
 
-link_project_2f:  
+link_project_2f: https://canvas.uw.edu/courses/987987/assignments/3022221
 date_project_2f: Tuesday, October 27, 2015
 
 link_project_2g:  
