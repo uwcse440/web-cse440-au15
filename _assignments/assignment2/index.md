@@ -702,10 +702,14 @@ For example, arrange to practice together with another group or two, giving each
 
 Examples from prior offerings include:
 
+The projects we have been posting this quarter:
+
 - [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [2i_aqueous.pdf]({{ site.baseurl }}/samples/2i/2i_aqueous.pdf)
 - [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [2i_iepconnect.pdf]({{ site.baseurl }}/samples/2i/2i_iepconnect.pdf)
 - [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [2i_kaching.pdf]({{ site.baseurl }}/samples/2i/2i_kaching.pdf)
 - [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [2i_soundscape.pdf]({{ site.baseurl }}/samples/2i/2i_soundscape.pdf)
+
+Additional projects from the same prior offerings:
 
 - [Awearness](https://courses.cs.washington.edu/courses/cse440/14au/projects/awearness/): [2i_awearness.pdf]({{ site.baseurl }}/samples/2i/2i_awearness.pdf)
 - [Bandit](https://courses.cs.washington.edu/courses/cse440/14au/projects/bandit/): [2i_bandit.pdf]({{ site.baseurl }}/samples/2i/2i_bandit.pdf)
@@ -713,6 +717,15 @@ Examples from prior offerings include:
 - [GroupShop](https://courses.cs.washington.edu/courses/cse440/14au/projects/groupshop/): [2i_groupshop.pdf]({{ site.baseurl }}/samples/2i/2i_groupshop.pdf)
 - [Koala](https://courses.cs.washington.edu/courses/cse440/14au/projects/koala/): [2i_koala.pdf]({{ site.baseurl }}/samples/2i/2i_koala.pdf)
 - [Running With Friends](https://courses.cs.washington.edu/courses/cse440/14au/projects/runningwithfriends/): [2i_runningwithfriends.pdf]({{ site.baseurl }}/samples/2i/2i_runningwithfriends.pdf)
+
+Additional examples of CSE 441 presentations. 
+These cover a different scope of content, but were polished based on an initial round of feedback.
+So their structure will be different than your talks, but you may benefit from seeing their presentation.
+
+- [Bookmate](https://courses.cs.washington.edu/courses/cse441/15sp/projects/bookmate/): [441_bookmate.pdf]({{ site.baseurl }}/samples/2i/441_bookmate.pdf)
+- [IEP Collect](https://courses.cs.washington.edu/courses/cse441/15sp/projects/iepcollect/): [441_iepcollect.pdf]({{ site.baseurl }}/samples/2i/441_iepcollect.pdf)
+- [Memorable](https://courses.cs.washington.edu/courses/cse441/15sp/projects/memorable/): [441_memorable.pdf]({{ site.baseurl }}/samples/2i/441_memorable.pdf)
+- [Serendipity](https://courses.cs.washington.edu/courses/cse441/15sp/projects/serendipity/): [441_serendipity.pdf]({{ site.baseurl }}/samples/2i/441_serendipity.pdf)
 
 ### Submission
 
