@@ -191,6 +191,15 @@ Submit detailed images of your paper prototype. Include both:
 - An overview image that shows your entire paper prototype.
 - Detailed images showing each component as you walk through your two primary tasks.
 
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [3a_aqueous.pdf]({{ site.baseurl }}/samples/3a/3a_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [3a_iepconnect.pdf]({{ site.baseurl }}/samples/3a/3a_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [3a_kaching.pdf]({{ site.baseurl }}/samples/3a/3a_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [3a_soundscape.pdf]({{ site.baseurl }}/samples/3a/3a_soundscape.pdf)
+
 ### Submission
 
 No more than one page of text in PDF format.
