@@ -2,12 +2,27 @@
 layout: base/bar-sidebar-none
 title: "Assignment 3: Getting the Design Right"
 
-link_project3a: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
-link_project3c: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
-link_project3d: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
-link_project3e: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
-link_project3f: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
-link_project3g: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
+link_project_3a: 
+date_project_3a: Tuesday, November 10, 2015
+
+link_project_3b: 
+date_project_3b: Tuesday, November 10, 2015
+
+link_project_3c: 
+date_project_3c: Friday, November 13, 2015
+
+link_project_3d: 
+date_project_3d: Tuesday, November 17, 2015
+
+link_project_3e: 
+date_project_3e: Friday, November 20, 2015
+
+link_project_3f: 
+date_project_3f: Tuesday, December 1, 2015
+
+link_project_3g: 
+date_project_3g: Thursday, December 3, 2015
+
 ---
 
 # Overview
@@ -37,31 +52,31 @@ This is a group assignment, consisting of five milestones.
 
 * [Assignment 3a: Paper Prototype](#paper_prototype)
 
-  Due: Uploaded the night before class Tuesday, November 4, 2014 
+  Due: Uploaded the night before class {{ page.date_project_3a }} 
 
 * [Assignment 3b: Heuristic Evaluation](#heuristic_evaluation) 
 
-  Due: Completed in class Tuesday, November 4, 2014 
+  Due: Completed in class {{ page.date_project_3b }} 
 
 * [Assignment 3c: Usability Testing Check-In](#usability_testing_checkin)
 
-  Due: Uploaded the night before section Friday, November 7, 2014
+  Due: Uploaded the night before section {{ page.date_project_3c }}
 
 * [Assignment 3d: Usability Testing Review](#usability_testing_review)
 
-  Due: Uploaded the night before Tuesday, November 11, 2014
+  Due: Uploaded the night before {{ page.date_project_3d }}
 
 * [Assignment 3e: Digital Mockup](#digital_mockup) 
 
-  Due: Uploaded the night before section Friday, November 14, 2014
+  Due: Uploaded the night before section {{ page.date_project_3e }}
 
 * [Assignment 3f: Final Report](#final_report)
 
-  Due: Uploaded the night before class Tuesday November 18, 2014
+  Due: Uploaded the night before class {{ page.date_project_3f }} 
 
 * [Presentation](#presentation)
 
-  Due: Uploaded the night before class Thursday, November 20, 2014
+  Due: Uploaded the night before class {{ page.date_project_3g }}
 
 # Project Description 
 
@@ -166,9 +181,7 @@ Finally, you will present your design process in a report and presentation.
 
 ## 3a: Paper Prototype 
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
-Due: Uploaded the night before class Tuesday, November 4, 2014 
+Due: Uploaded the night before class {{ page.date_project_3a }}.
 
 Develop a paper prototype for your design. 
 It should convey all critical aspects of your design, including support for testing your two primary tasks.
@@ -186,9 +199,9 @@ Images do not count against your page limit, and are therefore effectively free.
 You should embed images throughout your PDF, keeping them near the text that references them.
 The limit applies to the approximate amount of text you would have if all images were removed.
 
-Submit via Catalyst here: 
+Submit via Canvas here: 
 
-{% if page.link_project3a != nil %}<{{ page.link_project3a }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_3a != nil %}<{{ page.link_project_3a }}>{% else %}`Link to be added`{% endif %}
 
 Bring your prototype to class. You will need it to conduct Heuristic Evaluation.
 
@@ -203,12 +216,10 @@ This milestone will be graded on a scale of __9 points__:
 
 ## 3b: Heuristic Evaluations 
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
-Due: Conducted in class Tuesday, November 4, 2014.
+Due: Conducted in class {{ page.date_project_3b }}.
 
 Conduct a heuristic evaluation of your paper prototype.
-You will not be able to complete this if you do not bring your prototype to class on Tuesday, November 4, 2014.
+You will not be able to complete this if you do not bring your prototype to class on {{ page.date_project_3b }}.
 
 Each team will split in half to conduct heuristic evaluations, pairing with another half-team from a different project. 
 For 15 minutes, one half-team will conduct a heuristic evaluation of the other’s paper prototype. 
@@ -227,7 +238,9 @@ Your tasks and scenarios are likely stable, but revise them if your evaluation r
 The evaluated project will keep the created index cards, so they can use them to improve their design.
 The evaluated project should be careful not to lose these, as their contents will be submitted in the next assignment.
 
-At the end of the in-class exercise, the course staff will confirm your participation.
+After class, submit images of your notes in PDF format. Submit via Canvas here:
+
+{% if page.link_project_3b != nil %}<{{ page.link_project_3b }}>{% else %}`Link to be added`{% endif %}
 
 ### Grading
 
@@ -239,9 +252,7 @@ This milestone will be graded on a scale of __4 points__:
 
 ## 3c: Usability Testing Check-In
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
-Due: Uploaded the night before section Friday, November 7, 2014.
+Due: Uploaded the night before section {{ page.date_project_3c }}.
 
 You received two heuristic evaluations of your paper prototype. 
 If desired, you may also conduct a heuristic evaluation or cognitive walkthrough for your own paper prototype.
@@ -280,9 +291,9 @@ Images do not count against your page limit, and are therefore effectively free.
 You should embed images throughout your PDF, keeping them near the text that references them.
 The limit applies to the approximate amount of text you would have if all images were removed.
 
-Submit via Catalyst here: 
+Submit via Canvas here: 
 
-{% if page.link_project3c != nil %}<{{ page.link_project3c }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_3c != nil %}<{{ page.link_project_3c }}>{% else %}`Link to be added`{% endif %}
 
 In section, be prepared to discuss your iterative revision of your paper prototype.
 Also bring your prototype to section. You will need it to demonstrate for critique.
@@ -300,11 +311,7 @@ This milestone will be graded on a scale of __12 points__:
 
 ## 3d: Usability Testing Review
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
-Due: Uploaded the night before Tuesday, November 11, 2014.
-
-We do not have class Tuesday, November 11, 2014. This milestone is to ensure your progress toward the digital mockup.
+Due: Uploaded the night before {{ page.date_project_3d }}.
 
 Complete your three usability tests and finalize your paper prototype according to what you learn.
 
@@ -336,9 +343,9 @@ Images do not count against your page limit, and are therefore effectively free.
 You should embed images throughout your PDF, keeping them near the text that references them.
 The limit applies to the approximate amount of text you would have if all images were removed.
 
-Submit via Catalyst here: 
+Submit via Canvas here: 
 
-{% if page.link_project3d != nil %}<{{ page.link_project3d }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_3d != nil %}<{{ page.link_project_3d }}>{% else %}`Link to be added`{% endif %}
 
 ### Grading
 
@@ -353,9 +360,7 @@ This milestone will be graded on a scale of __12 points__:
 
 ## 3e: Digital Mockup 
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
-Due: Uploaded the night before section Friday, November 14, 2014
+Due: Uploaded the night before section {{ page.date_project_3e }}.
 
 Create your digital mockup based on your final paper prototype.
 The mockup should effectively communicate your design in a manner appropriate for your final report, website, and poster.
@@ -382,9 +387,9 @@ Images do not count against your page limit, and are therefore effectively free.
 You should embed images throughout your PDF, keeping them near the text that references them.
 The limit applies to the approximate amount of text you would have if all images were removed.
 
-Submit via Catalyst here: 
+Submit via Canvas here: 
 
-{% if page.link_project3d != nil %}<{{ page.link_project3d }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_3e != nil %}<{{ page.link_project_3e }}>{% else %}`Link to be added`{% endif %}
 
 ### Grading
 
@@ -398,18 +403,7 @@ This milestone will be graded on a scale of __12 points__:
 
 ## 3f: Final Report
 	
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
-Due: Uploaded the night before class Tuesday, November 18, 2014
-
-Prepare a report documenting your design process.
-Your report should follow the outline below, and will be graded using the guidelines that follow.
-The provided page allocations are estimates, intended to help convey how to divide up the space.
-
-If you completed all of your milestones above, you will have much of the content for this report.
-But it is critical that you revise and update that content.
-You have received extensive feedback throughout your design process, and evaluation of your report will 
-include how you have addressed and incorporated that feedback to improve relative to your prior milestones.
+Due: Uploaded the night before class {{ page.date_project_3f }}.
 
 Prepare a report documenting your process of getting the design right. 
 Your report should follow the outline below, and will be graded using the guidelines that follow. 
@@ -485,9 +479,9 @@ Images and your appendix do not count against your page limit, and are therefore
 You should embed images throughout your PDF, keeping them near the text that references them.
 The limit applies to the approximate amount of text you would have if all images were removed.
 
-Submit via Catalyst here:
+Submit via Canvas here:
 
-{% if page.link_project3f != nil %}<{{ page.link_project3f }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_3f != nil %}<{{ page.link_project_3f }}>{% else %}`Link to be added`{% endif %}
 
 ### Grading
 
@@ -508,9 +502,7 @@ This report will be graded on a scale of __25 points__:
 
 ## Presentation
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
-Due: Uploaded the night before class Thursday, November 20, 2014
+Due: Uploaded the night before class {{ page.date_project_3g }}.
 
 Prepare a presentation of your process in getting the design right. It should encompass all of your work in Assignment 3.
 
@@ -571,9 +563,9 @@ You should optimize your presentation for portability (e.g., ensure any necessar
 If we detect any obvious formatting issues on the presentation machine, we may fix them or contact you to fix them.
 But you are ultimately responsible for your presentation.
 
-Submit via Catalyst here: 
+Submit via Canvas here: 
 
-{% if page.link_project3g != nil %}<{{ page.link_project3g }}>{% else %}`Catalyst link to be added`{% endif %}
+{% if page.link_project_3g != nil %}<{{ page.link_project_3g }}>{% else %}`Link to be added`{% endif %}
 
 ### Grading
 
@@ -589,7 +581,7 @@ The content of this presentation will be graded on a scale of __10 points__:
 - Testing results are illuminating in terms of the design.
 - Final paper prototype has a strong connection to the results of the testing process.
 - Digital mockup effectively implements the final paper prototype.
-- Digical mockup is at the proper fidelity.
+- Digital mockup is at the proper fidelity.
 - Presentation covered the required scope within the 8 minute time period.
 
 The delivery of this presentation will be graded on a scale of __4 points__:
