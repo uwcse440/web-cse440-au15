@@ -740,6 +740,14 @@ Submit via Canvas here:
 
 {% if page.link_project_2i != nil %}<{{ page.link_project_2i }}>{% else %}`Link to be added`{% endif %}
 
+### In-Class Feedback Forms
+
+The course staff and your peers will have feedback forms they keep during your presentation:
+
+[2h-presentation-instructor-form.pdf]({{ site.baseurl }}/assignments/assignment2/2h-presentation-instructor-form.pdf)
+
+[2h-presentation-student-form.pdf]({{ site.baseurl }}/assignments/assignment2/2h-presentation-student-form.pdf)
+
 ### Grading
 
 The content of this presentation will be graded on a scale of __10 points__:
