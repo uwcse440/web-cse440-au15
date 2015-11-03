@@ -10,8 +10,6 @@ link_project3f: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
 link_project3g: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
 ---
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
 # Overview
 
 Now that you have chosen a design, it is time to iteratively refine that design.
@@ -168,6 +166,8 @@ Finally, you will present your design process in a report and presentation.
 
 ## 3a: Paper Prototype 
 
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
+
 Due: Uploaded the night before class Tuesday, November 4, 2014 
 
 Develop a paper prototype for your design. 
@@ -203,6 +203,8 @@ This milestone will be graded on a scale of __9 points__:
 
 ## 3b: Heuristic Evaluations 
 
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
+
 Due: Conducted in class Tuesday, November 4, 2014.
 
 Conduct a heuristic evaluation of your paper prototype.
@@ -236,6 +238,8 @@ This milestone will be graded on a scale of __4 points__:
 <a name="usability_testing_checkin"></a>
 
 ## 3c: Usability Testing Check-In
+
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
 Due: Uploaded the night before section Friday, November 7, 2014.
 
@@ -296,6 +300,8 @@ This milestone will be graded on a scale of __12 points__:
 
 ## 3d: Usability Testing Review
 
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
+
 Due: Uploaded the night before Tuesday, November 11, 2014.
 
 We do not have class Tuesday, November 11, 2014. This milestone is to ensure your progress toward the digital mockup.
@@ -347,6 +353,8 @@ This milestone will be graded on a scale of __12 points__:
 
 ## 3e: Digital Mockup 
 
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
+
 Due: Uploaded the night before section Friday, November 14, 2014
 
 Create your digital mockup based on your final paper prototype.
@@ -390,6 +398,8 @@ This milestone will be graded on a scale of __12 points__:
 
 ## 3f: Final Report
 	
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
+
 Due: Uploaded the night before class Tuesday, November 18, 2014
 
 Prepare a report documenting your design process.
@@ -497,6 +507,8 @@ This report will be graded on a scale of __25 points__:
 <a name="presentation"></a>
 
 ## Presentation
+
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
 Due: Uploaded the night before class Thursday, November 20, 2014
 
