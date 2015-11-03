@@ -2,10 +2,10 @@
 layout: base/bar-sidebar-none
 title: "Assignment 3: Getting the Design Right"
 
-link_project_3a: 
+link_project_3a: https://canvas.uw.edu/courses/987987/assignments/3035453
 date_project_3a: Tuesday, November 10, 2015
 
-link_project_3b: 
+link_project_3b: https://canvas.uw.edu/courses/987987/assignments/3035454
 date_project_3b: Tuesday, November 10, 2015
 
 link_project_3c: 
