@@ -8,13 +8,13 @@ date_project_3a: Tuesday, November 10, 2015
 link_project_3b: https://canvas.uw.edu/courses/987987/assignments/3035454
 date_project_3b: Tuesday, November 10, 2015
 
-link_project_3c: 
+link_project_3c: https://canvas.uw.edu/courses/987987/assignments/3040077
 date_project_3c: Friday, November 13, 2015
 
-link_project_3d: 
+link_project_3d: https://canvas.uw.edu/courses/987987/assignments/3040177
 date_project_3d: Tuesday, November 17, 2015
 
-link_project_3e: 
+link_project_3e: https://canvas.uw.edu/courses/987987/assignments/3040179
 date_project_3e: Friday, November 20, 2015
 
 link_project_3f: 
@@ -292,6 +292,15 @@ Present your iterative revisions and your plan going forward:
 - Present your plan for the remainder of your usability tests. Describe who you will target for participation, what
   goals you have for the additional tests, planned roles for each team member, and any new approaches you will employ.
 
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [3c_aqueous.pdf]({{ site.baseurl }}/samples/3c/3c_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [3c_iepconnect.pdf]({{ site.baseurl }}/samples/3c/3c_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [3c_kaching.pdf]({{ site.baseurl }}/samples/3c/3c_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [3c_soundscape.pdf]({{ site.baseurl }}/samples/3c/3c_soundscape.pdf)
+
 ### Submission
 
 No more than three pages of text in PDF format.
@@ -344,6 +353,15 @@ Present the results of your usability testing and your final paper prototype:
   prototype based on issues identified in inspection, usability testing, or critique. These issues may already be 
   included in the above list, but discuss them in more detail and argue why detecting and fixing them is important to your design.
 
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [3d_aqueous.pdf]({{ site.baseurl }}/samples/3d/3d_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [3d_iepconnect.pdf]({{ site.baseurl }}/samples/3d/3d_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [3d_kaching.pdf]({{ site.baseurl }}/samples/3d/3d_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [3d_soundscape.pdf]({{ site.baseurl }}/samples/3d/3d_soundscape.pdf)
+
 ### Submission
 
 No more than three pages of text in PDF format.
@@ -386,7 +404,14 @@ Present your digital mockup together with discussion of the decisions and change
   
 - Discuss decisions and changes you made in implementing the digital mockup.
 
-<a name="design_critique"></a>
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [3e_aqueous.pdf]({{ site.baseurl }}/samples/3e/3e_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [3e_iepconnect.pdf]({{ site.baseurl }}/samples/3e/3e_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [3e_kaching.pdf]({{ site.baseurl }}/samples/3e/3e_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [3e_soundscape.pdf]({{ site.baseurl }}/samples/3e/3e_soundscape.pdf)
 
 ### Submission
 
