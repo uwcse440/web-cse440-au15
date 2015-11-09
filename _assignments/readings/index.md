@@ -11,7 +11,7 @@ date_reading_critique: Friday, October 16, 2015
 link_reading_prototyping_videos: https://canvas.uw.edu/courses/987987/assignments/3029582
 date_reading_prototyping_videos: Friday, October 30, 2015
 
-link_reading_paper_prototyping:
+link_reading_paper_prototyping: https://canvas.uw.edu/courses/987987/assignments/3039948
 date_reading_paper_prototyping: Friday, November 13, 2015
 
 link_reading_research: 
