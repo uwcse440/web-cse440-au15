@@ -236,6 +236,10 @@ After 15 minutes, groups will reverse roles.
 Each half-team will therefore conduct and receive one heuristic evaluation. 
 Each team will therefore receive two evaluations of their prototype.
 
+We will provide a worksheet with Nielsen's heuristics:
+
+[3b-nielsen-heuristics.pdf]({{ site.baseurl }}/assignments/assignment3/3b-nielsen-heuristics.pdf)
+
 Evaluators will use index cards to record issues identified in evaluation. 
 Include what heuristic is violated, and a severity rating (ranging from 0 for _no problem_ to 4 for _usability catastrophe_).
 
