@@ -84,7 +84,7 @@ lectures:
     slides: "slides/lecture/l10-testingandpatterns.pdf"
   - date: "2015-11-10"
     name: "Inspection"
-#    slides: "slides/lecture/l12-inspection.pdf"
+    slides: "slides/lecture/l12-inspection.pdf"
     # notes: "Required for Project 3b"
   - date: "2015-11-12"
 #    name: "History"
