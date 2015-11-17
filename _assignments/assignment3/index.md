@@ -12,6 +12,7 @@ link_project_3c: https://canvas.uw.edu/courses/987987/assignments/3040077
 date_project_3c: Friday, November 13, 2015
 
 link_project_3d: https://canvas.uw.edu/courses/987987/assignments/3040177
+link_project_3d_critique: https://canvas.uw.edu/courses/987987/assignments/3046463
 date_project_3d: Tuesday, November 17, 2015
 
 link_project_3e: https://canvas.uw.edu/courses/987987/assignments/3040179
@@ -377,6 +378,18 @@ The limit applies to the approximate amount of text you would have if all images
 Submit via Canvas here: 
 
 {% if page.link_project_3d != nil %}<{{ page.link_project_3d }}>{% else %}`Link to be added`{% endif %}
+
+### In-Class Peer Critique
+
+In lecture, be prepared to discuss your usability testing with other teams and the course staff.
+
+Be sure to take notes during critique. We will provide a worksheet you can use:
+
+[3d-critique-worksheet-testingreview.pdf]({{ site.baseurl }}/assignments/assignment3/3d-critique-worksheet-testingreview.pdf)
+
+After class, submit images of your notes in PDF format. Submit via Canvas here:
+
+{% if page.link_project_3d_critique != nil %}<{{ page.link_project_3d_critique }}>{% else %}`Link to be added`{% endif %}
 
 ### Grading
 
