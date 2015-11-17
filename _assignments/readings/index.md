@@ -14,7 +14,9 @@ date_reading_prototyping_videos: Friday, October 30, 2015
 link_reading_paper_prototyping: https://canvas.uw.edu/courses/987987/assignments/3039948
 date_reading_paper_prototyping: Friday, November 13, 2015
 
-link_reading_research: 
+link_reading_research_writeup: https://canvas.uw.edu/courses/987987/assignments/3046595
+link_reading_research_paper: https://canvas.uw.edu/courses/987987/assignments/3046597
+date_reading_research: Friday, December 4, 2015
 ---
 
 # Overview
@@ -153,7 +155,7 @@ Optionally, check out this video on paper prototyping:
 
 - [Nielsen Norman Group. Paper Prototyping: A How-To Video.](http://courses.cs.washington.edu/courses/cse440/videos/paperprototyping/NielsenNorman.mp4)
 
-Due: Uploaded by the end of the day {{ page.date_reading_paper_prototyping }}.
+Due: Uploaded the night before section {{ page.date_reading_paper_prototyping }}.
 
 After reading, consider how you might apply this approach in your paper prototyping and usability testing.
 
@@ -180,9 +182,7 @@ Submit via Canvas here:
 
 ### Reading 5: Research Paper
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
-Due: Uploaded by the end of the day Friday, December 5, 2014.
+Due: Uploaded the night before section {{ page.date_reading_research }}.
 
 Researchers and designers often re-invent. 
 Instead it is valuable to take advantage of what is already known.
@@ -197,11 +197,15 @@ We have discussed a number of research papers in this class from HCI-related con
 - [UIST](http://www.acm.org/uist/uist2014/)
 - [UbiComp](http://ubicomp.org/ubicomp2014/)
 
-But you might find a research paper in another related field, such as psychology or medicine.
+But you might find a research paper in another related field, such as psychology or medicine. Some conferences at the intersection of technology and health include:
 
-Two sites that work well for finding research papers are [Google Scholar](http://scholar.google.com/) and the [ACM Digital Library](http://dl.acm.org/). 
-The search tool for the ACM Digital Library is pretty terrible.
-Google search of the Digital Library can often help, like [this](https://www.google.com/#q=personal+informatics+site:dl.acm.org). 
+- [AMIA](https://www.amia.org/)
+- [PervasiveHealth](http://pervasivehealth.org/)
+
+Many papers are available via the [ACM Digital Library](http://dl.acm.org/) or on author websites.
+ 
+The search tool for the ACM Digital Library is pretty terrible, so a better choice is typically [Google Scholar](http://scholar.google.com/). 
+
 These resources are easiest to access while on the UW network, but you can also access them off campus using the [UW Libraries proxy](http://www.lib.washington.edu/help/connect.html).
 
 - In one paragraph, summarize the findings of the research paper. 
@@ -211,12 +215,16 @@ These resources are easiest to access while on the UW network, but you can also 
   - After reading this paper, is there anything you wish you had done differently in your design? 
   - Do you think you've designed something that's improved upon what this paper discusses?
 
-If you wish, you can do this assignment in __pairs__ from your project team. Please have only one person submit, and remember to include both of your names in the submission.
+If you wish, you can do this assignment in __pairs__ from your project team. If you do so, please both submit and include both of your names in the submission.
 
 No more than one page of text in PDF format. 
+
+Submit via Canvas here:
+  
+{% if page.link_reading_research_writeup != nil %}<{{ page.link_reading_research_writeup }}>{% else %}`Link to be added`{% endif %}
 
 Also submit a PDF of the research paper you read.
 
 Submit via Canvas here:
   
-{% if page.link_reading_research != nil %}<{{ page.link_reading_research }}>{% else %}`Link to be added`{% endif %}
+{% if page.link_reading_research_paper != nil %}<{{ page.link_reading_research_paper }}>{% else %}`Link to be added`{% endif %}
