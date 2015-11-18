@@ -115,7 +115,7 @@ sections:
  - date: "2015-10-30"
 #    slides: "slides/section/s05-design.pdf"
  - date: "2015-11-13"
-#    slides: "slides/section/s07-paper.pdf"
+   slides: "slides/section/s07-paper.pdf"
  - date: "2015-11-20"
 #    slides: "slides/section/s08-mockup.pdf"
  - date: "2015-12-11"
