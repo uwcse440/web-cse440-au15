@@ -522,6 +522,15 @@ include how you have addressed and incorporated that feedback to improve relativ
      Include identified critical incidents from your usability testing. 
      The appendix materials and screenshots do not count in your page limit.
 
+### Examples from Prior Offerings
+
+Examples from prior offerings include:
+
+- [Aqueous](https://courses.cs.washington.edu/courses/cse440/14au/projects/aqueous/): [3f_aqueous.pdf]({{ site.baseurl }}/samples/3f/3f_aqueous.pdf)
+- [IEP Connect](https://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/): [3f_iepconnect.pdf]({{ site.baseurl }}/samples/3f/3f_iepconnect.pdf)
+- [Ka-Ching](https://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/): [3f_kaching.pdf]({{ site.baseurl }}/samples/3f/3f_kaching.pdf)
+- [Soundscape](https://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/): [3f_soundscape.pdf]({{ site.baseurl }}/samples/3f/3f_soundscape.pdf)
+
 ### Submission
 
 No more than eight pages of text in PDF format, following the above outline.
