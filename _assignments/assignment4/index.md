@@ -8,8 +8,6 @@ link_project4c: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
 link_project4e: https://catalyst.uw.edu/collectit/dropbox/jaf1978/32994
 ---
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
 # Overview
 
 Now that you have identified a problem, selected a good design, and
@@ -107,6 +105,8 @@ You will create a video prototype, a website, a poster, and a pitch to present y
 
 ## 4a: Initial Video Prototype
 
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
+
 Due: Uploaded the night before class Tuesday, November 25, 2014
 
 Submit your video prototype in a portable and playable format.
@@ -139,6 +139,8 @@ But later critique and refinement will help further improve it before the final 
 <a name="initial_website"></a>
 
 ## 4b: Initial Website
+
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
 Due: Uploaded before end of day Wednesday, November 26, 2014
 
@@ -191,6 +193,8 @@ But later critique and refinement will help further improve it before the final 
 
 ## 4c: Poster Critique and Pitch
 
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
+
 Due: Uploaded the night before class Thursday, December 4, 2014
 
 Your poster should include:
@@ -236,6 +240,8 @@ This milestone will be graded on a scale of __6 points__:
 
 ## 4d: Communication Critique
 
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
+
 Due: Completed in section on Friday, December 5, 2014
 
 This is a flexible critique day. 
@@ -250,6 +256,8 @@ Bring at least one of your artifacts to class (e.g., be prepared to show them on
 <a name="final_everything"></a>
 
 ## 4e: Final Poster, Final Video, Final Website
+
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
 Due: Uploaded the night before poster session Monday, December 8, 2014. 
 
@@ -311,6 +319,8 @@ Your final video, final website, and final poster will each be graded on a scale
 <a name="poster_session"></a>
 
 ## 4f: Poster Session
+
+`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
 
 Attend 10:30 to 12:20, Monday, December 8, 2014.
 
