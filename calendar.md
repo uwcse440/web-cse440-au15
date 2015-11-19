@@ -93,7 +93,7 @@ title: Calendar
   
         {% for currentsection in site.data.calendar.sections %}
           {% if currentdate == currentsection.date %}
-            {% assign currentlocation = currentlecture.location %}
+            {% assign currentlocation = currentsection.location %}
             {% if currentlocation == nil %}
               {% assign currentlocation = "sections" %}
             {% endif %}
