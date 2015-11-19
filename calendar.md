@@ -3,8 +3,6 @@ layout: base/bar-sidebar-none
 title: Calendar
 ---
 
-`Content is still being developed and migrated to this site, everything here should be considered temporary and subject to change`
-
 {% comment %} Starting from the first date of instruction, find Sunday {% endcomment %}
 {% assign startdateseconds = site.data.calendar.dates_of_instruction.start | append: 'Z' | date: '%s' %}
 {% assign startdayofweek = startdateseconds | date: '%w' %}
@@ -93,7 +91,7 @@ title: Calendar
   
         {% for currentsection in site.data.calendar.sections %}
           {% if currentdate == currentsection.date %}
-            {% assign currentlocation = currentlecture.location %}
+            {% assign currentlocation = currentsection.location %}
             {% if currentlocation == nil %}
               {% assign currentlocation = "sections" %}
             {% endif %}
@@ -103,7 +101,11 @@ title: Calendar
                 {% if currentsection.slides != nil %}
                   <a href="{{ site.baseurl }}/{{ currentsection.slides }}">
                 {% endif %}
-                  Section<br>
+                  {% if currentsection.name != nil %}
+                    {{ currentsection.name }}<br>
+                  {% else %}   
+                    Section<br>
+                  {% endif %}
                 {% if currentsection.slides != nil %}
                   </a>
                 {% endif %}
@@ -115,13 +117,6 @@ title: Calendar
                 </small>
               </td>
             </tr>
-            {% if currentsection.name != nil %}
-              <tr class="section">
-                <td colspan="2">
-                  {{ currentsection.name }}<br>
-                </td>
-              </tr>
-            {% endif %}
           {% endif %}
         {% endfor %}
 
