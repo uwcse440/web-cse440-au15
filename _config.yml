@@ -8,6 +8,8 @@ navbar:
   items:
     - text: 'Home'
       link: 'index.html'
+    - text: 'Projects'
+      link: 'projects.html'
     - text: 'Calendar'
       link: 'calendar.html'
 
@@ -27,4 +29,6 @@ exclude:
 
 collections:
   assignments:
+    output: true
+  projects:
     output: true
