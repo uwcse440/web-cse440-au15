@@ -119,28 +119,17 @@ You will create a website, a video prototype, a poster, and a pitch to present y
 
 Due: Uploaded the night before class {{ page.date_project_4a }}
 
-We will use your websites and video to advertise the poster session.
+We will use your websites to advertise the poster session.
 Although this is in an initial website on which you will get feedback and will be able to update,
-you should submit complete and high-quality versions of your website and video.
+you should submit a complete and high-quality versions of your website.
 
-Your website will be served from a subdirectory of this course website:
-
-```
-- [Aqueous]({{ site.baseurl }}/projects/aqueous/)
-- [Awearness]({{ site.baseurl }}/projects/awearness/)
-- [Band-It]({{ site.baseurl }}/projects/bandit/)
-- [DisTrack]({{ site.baseurl }}/projects/distrack/)
-- [GroupShop]({{ site.baseurl }}/projects/groupshop/)
-- [IEP Connect]({{ site.baseurl }}/projects/iepconnect/)
-- [Ka-ching]({{ site.baseurl }}/projects/kaching/)
-- [Koala]({{ site.baseurl }}/projects/koala/)
-- [Running With Friends]({{ site.baseurl }}/projects/runningwithfriends/)
-- [SoundScape]({{ site.baseurl }}/projects/soundscape/)
-```
+Your website will be served from a subdirectory of this course website.
 
 You can build your website however you like, but everything needed for your site must be in your directory.
 Do not attempt to integrate with the Jekyll functionality used for this course website.
 Simply build your website and submit the set of static files to be served from your directory. 
+
+You will later add your video to the website.
 
 ### Examples from Prior Offerings
 
