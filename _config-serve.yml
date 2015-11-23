@@ -1,2 +1,2 @@
-# Placeholder field, as Jekyll hates empty config files
-placeholder: ''
+# Serve from the root, as a convenience
+baseurl:
