@@ -113,7 +113,7 @@ You will create a website, a video prototype, a poster, and a pitch to present y
 
 # Deliverables
 
-<a name="initial_video_prototype"></a>
+<a name="initial_website"></a>
 
 ## 4a: Initial Website
 
@@ -181,7 +181,7 @@ This milestone will be graded on a scale of __8 points__:
 Your website should be complete and will be evaluated as such.
 But later critique and refinement will help further improve it before the final poster session.
 
-<a name="poster_pitch"></a>
+<a name="initial_video_prototype"></a>
 
 ## 4b: Initial Video Prototype
 
@@ -234,7 +234,7 @@ This milestone will be graded on a scale of __6 points__:
 Your video prototype should be complete and will be evaluated as such.
 But later critique and refinement will help further improve it before the final poster session.
 
-<a name="initial_website"></a>
+<a name="poster_pitch"></a>
 
 ## 4c: Poster Critique and Pitch
 
