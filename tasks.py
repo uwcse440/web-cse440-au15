@@ -25,7 +25,7 @@ def build():
 @invoke.task(pre=[update_dependencies])
 def serve():
     invoke.run(
-        'bundle exec jekyll serve -t --config _config.yml,_config-serve.yml --watch --force_polling --incremental'
+        'bundle exec jekyll serve -t --config _config.yml,_config-serve.yml --watch --force_polling'
     )
 
 
