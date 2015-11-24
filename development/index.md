@@ -13,6 +13,10 @@ This site is implemented in Jekyll, thus requiring Ruby and Node.js. We also use
 Packages installed by the above can sometimes require a native compiler, for which we use Microsoft Visual Studio.
 {% endcomment %}
 
+Please remember not to attempt to integrate your project site with our build process.
+It will be much simpler to submit a static set of pages that can be served from your assigned directory.
+You may nevertheless find it helpful to build our site as part of confirming that your file integrate correctly.
+
 ## Installing Node.js, Python, Ruby, and Ruby DevKit
 
 We currently use:
