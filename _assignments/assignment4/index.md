@@ -124,6 +124,9 @@ Although this is in an initial website on which you will get feedback and will b
 you should submit a complete and high-quality versions of your website.
 
 Your website will be served from a subdirectory of this course website.
+It is also link via a thumbnail from the projects page:
+
+[Projects Page]({{ site.baseurl }}/projects.html)
 
 You can build your website however you like, but everything needed for your site must be in your directory.
 Do not attempt to integrate with the Jekyll functionality used for this course website.
@@ -153,11 +156,12 @@ Additional projects from the same prior offerings:
 
 ### Submission
 
-```
-Follow the [contributing instructions]({{ site.baseurl }}/contributing.html) 
-to submit a pull request containing the content for your project website. 
+Submit a pull request containing your website. We will merge as quickly as possible. 
+You can submit multiple requests if needed to fix issues or improve your website.
 Your request should not modify anything outside your project website.
-```
+Information on building a local copy of this site, and on submitting a pull request, is here:
+
+[Development Guide]({{ site.baseurl }}/development/index.html)
 
 Submit simple pull requests early so that you become familiar with this functionality.
 Do not wait until the final moments to begin to learn how to do this.

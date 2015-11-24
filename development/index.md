@@ -2,7 +2,7 @@
 layout: base/bar-sidebar-none
 title: Development Guide
 
-working_directory: web-fogies
+working_directory: web-cse440-au15
 ---
 
 # Building a Jekyll Site
@@ -140,3 +140,23 @@ To build the site:
 To build and serve the site on `localhost:4000`, continuously updating based on changes:
 
     invoke serve
+
+## Submitting Changes via Pull Request
+
+This course website lives on GitHub:
+
+<https://github.com/uwcse440/web-cse440-au15> 
+
+We recommend the GitHub Desktop client:
+
+<https://desktop.github.com/>
+
+You can submit pull requests, and should be certain you submit them via feature branches:
+
+<https://guides.github.com/introduction/flow/>
+
+<https://www.atlassian.com/git/tutorials/comparing-workflows>
+
+<https://spring.io/blog/2010/12/21/social-coding-in-spring-projects>
+
+<http://codeinthehole.com/writing/pull-requests-and-other-good-practices-for-teams-using-github/>
