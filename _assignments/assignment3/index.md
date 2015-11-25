@@ -18,10 +18,10 @@ date_project_3d: Tuesday, November 17, 2015
 link_project_3e: https://canvas.uw.edu/courses/987987/assignments/3040179
 date_project_3e: Friday, November 20, 2015
 
-link_project_3f: 
+link_project_3f: https://canvas.uw.edu/courses/987987/assignments/3052941
 date_project_3f: Tuesday, December 1, 2015
 
-link_project_3g: 
+link_project_3g: https://canvas.uw.edu/courses/987987/assignments/3052942
 date_project_3g: Thursday, December 3, 2015
 
 ---
