@@ -12,6 +12,21 @@ module.exports = function(grunt) {
                 dest: 'build/<%= pkg.name %>.min.js'
             }
         },
+        clean: {
+            main: ['vendor/**', '.sass-cache/**', 'style.css', 'style.css.map']
+        },
+        copy: {
+            main: {
+                files: [
+                    {
+                        expand: true,
+                        cwd: 'bower_components',
+                        src: ['./*/dist/**'],
+                        dest: './vendor'
+                    }
+                ]
+            }
+        },
         sass: { // Task
             dist: { // Target
                 files: { // Dictionary of files
@@ -36,10 +51,12 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-contrib-copy');
 
     // Default task(s).
-    grunt.registerTask('default', ['uglify', 'sass:dist']);
+    grunt.registerTask('default', ['clean', 'uglify', 'sass:dist', 'copy']);
 
-    grunt.registerTask('serve', ['uglify', 'sass:dist', 'connect']);
+    grunt.registerTask('serve', ['clean', 'uglify', 'sass:dist', 'copy', 'connect']);
 
 };
