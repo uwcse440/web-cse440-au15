@@ -1,0 +1,30 @@
+{
+  "name": "sitless",
+  "homepage": "https://github.com/g-liu/web-cse440-au15",
+  "authors": [
+    "Geoffrey Liu",
+    "Keting Cen",
+    "Artem Minyaylov",
+    "Adrian Sham"
+  ],
+  "description": "Sitless project",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "sitless",
+    "health"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4"
+  }
+}
