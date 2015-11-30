@@ -271,3 +271,16 @@ a
 {
     background-color: lightgoldenrodyellow;
 }
+
+.thumbnailBox
+{
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.projectThumbnail
+{
+    max-width: 150px;
+    max-height: 150px;
+    border: 1px solid gray;
+}
