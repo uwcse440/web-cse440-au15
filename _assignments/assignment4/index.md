@@ -2,7 +2,7 @@
 layout: base/bar-sidebar-none
 title: "Assignment 4: Communicating Your Design"
 
-link_project_4a: 
+link_project_4a: https://canvas.uw.edu/courses/987987/assignments/3055624 
 date_project_4a: Tuesday, December 1, 2015
 
 link_project_4b: 
