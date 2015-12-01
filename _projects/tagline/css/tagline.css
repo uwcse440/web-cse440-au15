@@ -84,7 +84,7 @@ hr {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.95);
 }
 
 .intro-text {
@@ -197,6 +197,11 @@ footer p {
 .designs {
     height:300px;
     width: 500px;
+}
+
+.video {
+    height: 300px;
+    width: 400px;
 }
 
 #service{ padding: 20px 0px;}
