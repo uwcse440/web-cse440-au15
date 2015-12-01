@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="school view project from UW CSE440">
+    <meta name="author" content="chiahan">
+
+    <title>School View</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- FontAwesome CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" >
+    
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <div class="sidebar-brand">
+                    <img src="img/logo.png" alt="home" width="100%">
+                </div>
+                <li>
+                    <a onclick="scrollAnimate(this)" data-target="overview" >OVERVIEW</a>
+                </li>
+                <li>
+                    <a onclick="scrollAnimate(this)" data-target="prototype">PROTOTYPE</a>
+                </li>              
+                <li>
+                    <a onclick="scrollAnimate(this)" data-target="team">OUR TEAM</a>
+                </li>
+                <li>
+                    <a onclick="scrollAnimate(this)" data-target="document">DOCUMENT</a>
+                </li>
+            </ul>
+        </div>
+        <!-- #sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div class="page-content-wrapper overview" id="overview">            
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Overview</h1>
+                        <h4>Problem & Solution</h4>
+                        <hr style="border-color: black;">
+                        
+                        <h5>Our problem</h5>
+                        <p>Middle school is where the most frequent and severe bullying occurs today. Our project addresses the need for teachers and administrators to track and gain insight into bullying behavior trends in order to implement or refine current school policies to address bullying among middle school students. Our web-based design offers tools to teachers that expand solutions beyond simply punishing individual students and promote systemic, school wide changes and track their results.
+                        <h5>Our solution</h5>
+                        <div class="jumbotron">
+                            <div class="row text-center">
+                                <div class="col-md-6">
+                                    <img src="img/trend.jpg" class="img-responsive">
+                                    <h4>Overall Trend</h4>
+                                    <p>...</p>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <img src="img/policy.jpg" class="img-responsive">
+                                    <h4>Policy monitor</h4>
+                                    <p>...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="page-content-wrapper prototype" id="prototype">            
+            <div class="container-fluid">
+                <div class="row">
+                     <div class="col-lg-12">
+                        
+                        <h1>Prototype</h1>
+                        <hr style="border-color: black;">
+                        
+                        <h4><i class="fa fa-fw fa-smile-o"></i>Digital Mockup</h4>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Task 1: Trend tracking</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <img src="img/1e.jpg" alt="report" class="img-responsive thumbnail">
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <img src="img/1f.jpg" alt="report" class="img-responsive thumbnail">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Task2: Policy monitoring</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <img src="img/2h.jpg" alt="report" class="img-responsive thumbnail">
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <img src="img/2i.jpg" alt="report" class="img-responsive thumbnail">
+                            </div>
+                        </div>
+                            <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <h4>Bonus: Tutorial</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <img src="img/Tutorial1.jpg" alt="report" class="img-responsive thumbnail">
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <img src="img/Tutorial4.jpg" alt="report" class="img-responsive thumbnail">
+                            </div>
+                        </div>
+                        <h4><i class="fa fa-fw fa-smile-o"></i>Video Prototype</h4>
+                        <!-- 16:9 aspect ratio -->
+                        <div class="jumbotron"> 
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="854" height="480" src="https://www.youtube.com/embed/fy3vWBtXwO0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-content-wrapper team" id="team">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Our Team</h1>
+                        <h4>A great interdisciplinary team in CSE440 Human-Computer Interaction.</h4>
+                        <hr style="border-color: black;">
+                        
+                        <div class="row">
+                            <div class="col-sm-4 text-center">
+                                <img src="img/chiahan.jpg" class="img-responsive img-circle center-block" width="65%">
+                                <h3>Chia-Han Chung</h3>
+                                <hr style="width: 70%; border-color: black; margin-top: 0.5em; margin-bottom: 0.5em">
+                                <p>Computer Science<br>Web developer, Designer</p>
+                                <a href="https://www.linkedin.com/in/chiahan"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            </div>
+                            <div class="col-sm-4 text-center">
+                                <img src="img/jisoo.jpg" class="img-responsive img-circle center-block" width="65%">
+                                <h3>Ji Soo Yim</h3>
+                                <hr style="width: 70%; border-color: black; margin-top: 0.5em; margin-bottom: 0.5em">
+                                <p>School of Life<br>Writer, Story boarding</p>
+                                <a href=""><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            </div>
+                            <div class="col-sm-4 text-center">
+                                <img src="img/kyle.png" class="img-responsive img-circle center-block" width="65%">
+                                <h3>Kyle Freed</h3>
+                                <hr style="width: 70%; border-color: black; margin-top: 0.5em; margin-bottom: 0.5em">
+                                <p>HCI+D<br>Project manager, Designer</p>
+                                <a href="https://www.linkedin.com/in/kyle-freed-873a2825"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-content-wrapper document" id="document">            
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Document</h1>
+                        <h4>Our design processes and works</h4>
+                        <hr style="border-color: black;">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="img/report.jpg" alt="report" class="img-responsive thumbnail">
+                            </div>
+                            <div class="col-sm-10">
+                                <h4>Initial Report</h4>
+                                <p>Get the Right Design: Including context inquery, task analysis, design sketches and storyboards.</p>
+                                <p> 
+                                    <a href="file/proj2FinalReport.pdf" class="btn btn-primary" role="button" target="_blank">View</a> 
+                                    <a href="file/proj2FinalReport.pdf" class="btn btn-default" role="button" download>Download</a>
+                                </p>
+                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="img/presentation.png" alt="report" class="img-responsive thumbnail">
+                            </div>
+                            <div class="col-sm-10">
+                                <h4>Initial Presentation</h4>
+                                <p>Getting the Right Design: Including context inquery, task analysis, design sketches and storyboards.</p>
+                                <p> 
+                                    <a href="file/proj2Presentation.pdf" class="btn btn-primary" role="button" target="_blank">View</a> 
+                                    <a href="file/proj2Presentation.pdf" class="btn btn-default" role="button" download>Download</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="img/report.jpg" alt="report" class="img-responsive thumbnail">
+                            </div>
+                            <div class="col-sm-10">
+                                <h4>Final Report</h4>
+                                <p>Getting the Design Right: Including paper prototype, heuristic evaluation, usability testing and digital mockup.</p>
+                                <p> 
+                                    <a href="file/proj2FinalReport.pdf" class="btn btn-primary" role="button" target="_blank">View</a> 
+                                    <a href="file/proj2FinalReport.pdf" class="btn btn-default" role="button" download>Download</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="img/presentation.png" alt="report" class="img-responsive thumbnail">
+                            </div>
+                            <div class="col-sm-10">
+                                <h4>Final Presentation</h4>
+                                <p>Getting the Design Right: Including paper prototype, heuristic evaluation, usability testing and digital mockup.</p>
+                                <p> 
+                                    <a href="file/proj2FinalReport.pdf" class="btn btn-primary" role="button" target="_blank">View</a> 
+                                    <a href="file/proj2FinalReport.pdf" class="btn btn-default" role="button" download>Download</a>
+                                </p>
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script>
+            function scrollAnimate(target) {
+                var target_id = target.getAttribute("data-target");
+                $('html, body').animate({
+                    scrollTop: $("#"+target_id).offset().top
+                }, 1000);
+            }
+  </script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
