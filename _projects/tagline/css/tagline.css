@@ -200,8 +200,9 @@ footer p {
 }
 
 .video {
-    height: 300px;
-    width: 400px;
+    height: 450px;
+    width: 750px;
+    border-radius: 5px;
 }
 
 #service{ padding: 20px 0px;}
