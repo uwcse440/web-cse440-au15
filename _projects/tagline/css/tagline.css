@@ -24,7 +24,10 @@ h6 {
     font-weight: 700;
     letter-spacing: 1px;
 }
+h3 {
+    font-size: 16px;
 
+}
 p {
     font-size: 1.25em;
     line-height: 1.6;
