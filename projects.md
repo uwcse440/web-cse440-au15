@@ -56,11 +56,11 @@ Students will examine the problems people encounter, then explore how new techno
   <div class="row">
     {% for item_project in page.projects %}
       <div class="col-md-3">        
-        <p>
+        <div class="thumbnailBox">
           <a href="{{ site.baseurl }}/projects/{{ item_project.path }}/">
-            <img src="{{ site.baseurl }}/projects/{{ item_project.path }}/project_thumb.png" width="150" alt="{{ item_project.name }}"/>
+            <img src="{{ site.baseurl }}/projects/{{ item_project.path }}/project_thumb.png" width="150" class="projectThumbnail" alt="{{ item_project.name }}"/>
           </a>
-        </p>
+        </div>
         <p>
           <a href="{{ site.baseurl }}/projects/{{ item_project.path }}/">
             {{ item_project.name }}
