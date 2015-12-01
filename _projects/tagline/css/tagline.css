@@ -108,6 +108,8 @@ hr {
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 footer p {
@@ -215,8 +217,8 @@ footer p {
 #service .service-tab ul li{ border-right: 1px solid #DBE2E2;}
 #service .service-tab ul li a{color: #9FA9A9; padding-top: 23px; padding-bottom: 17px;font-size: 20px; /*font-family: 'Raleway', sans-serif; */font-weight: 400;display: block; padding-right: 60px}
 #service .service-tab ul li a i{font-size: 45px; margin-right: 40px; position: relative;top: 10px;}
-#service .service-tab ul li a:hover{border-right: 10px solid #5DCA88;padding-right: 50px}
-#service .service-tab ul li a:hover i{color: #5DCA88}
+#service .service-tab ul li a:hover{border-right: 10px solid #8c4de1;padding-right: 50px}
+#service .service-tab ul li a:hover i{color: #8c4de1}
 
 .edit-tab{overflow: hidden;}
 .edit-tab h1{/*color: #636C6C; */font-size: 24px; /*font-family: 'Raleway', sans-serif; font-weight: 700; margin: 0px;*/margin: 0px;padding-bottom: 30px; padding-top:50px;}
