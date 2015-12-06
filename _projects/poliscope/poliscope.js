@@ -1,6 +1,6 @@
 /*
  * Janet Gao
- * Last updated: December 4, 2015
+ * Last updated: December 5, 2015
  */
 
 "use strict";
@@ -10,8 +10,6 @@
 		var menu_navigation = document.getElementById("menu_navigation");
 		menu_navigation.onmouseover = toggleMenuOn;
 		menu_navigation.onmouseout = toggleMenuOff;
-		
-		checkResolution();
 	};
 	
 	// issue with below is if you start from a smaller window size and try to resize, you keep getting the popup
@@ -42,11 +40,5 @@
 		menu.style.display = "none";
 		var menu_button = document.getElementById("menu_button");
 		menu_button.src = "menu_button.png"
-	}
-	
-	function checkResolution() {
-		if (window.innerWidth <= 331) {
-			alert("Your browser window is too narrow for the Poliscope site. Some elements may appear cut off or out of place.")
-		}
 	}
 })();
