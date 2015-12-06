@@ -1,6 +1,6 @@
 /*
  * Janet Gao
- * Last updated: December 4, 2015
+ * Last updated: December 5, 2015
  */
 
 * {
@@ -26,7 +26,7 @@ a, #footer a:hover, #main_content a:hover, #navigation a:hover {
 	transition-timing-function: linear;
 }
 
-.app_img, #filler_video, .team_img {
+.app_img, .team_img, #video video {
 	margin-top: 15px;
 }
 
@@ -199,6 +199,18 @@ hr, #main_content {
 }
 
 /* SCALING */
+
+#poliscope_video {
+	height: 390px;
+	width: 700px;
+}
+
+@media screen and (max-width: 720px) {
+	#poliscope_video {
+		height: 277px;
+		width: 500px;
+	}
+}
 
 #menu_navigation {
 	display: none;
