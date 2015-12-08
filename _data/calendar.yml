@@ -40,7 +40,7 @@ locations:
     - time: "2:30 - 3:20"
       location: "MGH 254"
   postersession:
-    - time: "10:30 - 12:20"
+    - time: "11:00 - 12:20"
       location: "CSE Atrium"
   officehoursjames:
     - time: "4:30 - 5:30"
@@ -320,7 +320,7 @@ majors:
   - date: "2015-11-24"
     name: "Exam"
     location: "lectures"
-  - date: "2015-12-17"
+  - date: "2015-12-16"
     name: "Poster Session"
     location: "postersession"
     link: "assignments/assignment4/#final_everything"
