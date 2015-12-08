@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: url('../img/bg2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -20,12 +20,12 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "TW Cen MT", "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-weight: 700;*/
     letter-spacing: 1px;
 }
 h3 {
-    font-size: 16px;
+    font-size: 18px;
 
 }
 p {
@@ -82,7 +82,7 @@ hr {
 
 .box {
     margin-bottom: 20px;
-    padding: 30px 15px;
+    padding: 30px 15px 50px;
     background: #fff;
     background: rgba(255,255,255,0.95);
 }
@@ -124,9 +124,9 @@ footer p {
         padding: 30px 0 10px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 5em;
-        font-weight: 700;
+        font-family: "TW Cen MT", "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 6em;
+        /*font-weight: 700;*/
         line-height: normal;
         color: #fff;
     }
@@ -195,16 +195,72 @@ footer p {
         clear: both;
     }
 }
+.box.top {
+    margin-top: 330px;
+}
+.laptop {
+    position: relative;
+    height: 210px;
+    text-align: center;
+}
+.laptop img{
+    position: relative;
+    top: -360px;
+    height: 600px;
+    width: 900px;
+}
+.docs {
+    height: 150px;
+    width: 165px;
+    background-color: white;
+    padding-top: 20px;
+    /*border-radius: 5px;*/
+    box-shadow: 1px 1px 6px #eee;
+}
+.docs.inactive {
+    background-color: #ccc;
+    opacity: 0.5;
+}
+.docs img {
+    width: 50px;
+    height: 50px;
+}
 
 .designs {
     height:300px;
     width: 500px;
+    box-shadow: 1px 1px 6px #aaa;
+    margin-bottom: 20px;
 }
 
 .video {
     height: 450px;
     width: 750px;
     border-radius: 5px;
+}
+.toProto {
+    color: white;
+    border-radius: 2px;
+    background-color: #7361b7;
+    border-color: #5b4d92;
+    color: white;
+    margin-left: 35%;
+    margin-left: calc(50% - 80px);
+}
+.toProto:hover, .toProto:focus {
+    background-color: #62539d;
+    border-color: #4d427c;
+}
+.toProto:active, .toProto:active:focus, .toProto:hover:active {
+    background-color: #4a3f77;
+    border-color: #2c2546;
+}
+
+.carousel-indicators li {
+    border-color: #ddd;
+}
+.carousel-indicators .active {
+    background-color: #ddd;
 }
 
 #service{ padding: 20px 0px;}
@@ -213,6 +269,7 @@ footer p {
 #service .service-header p{color:#AFB8B8; font-size: 16px; font-family: 'Raleway', sans-serif; font-weight: 400; line-height: 24px}
 */
 #service .service-tab{}
+
 #service .service-tab ul{float: left;list-style: outside none none;padding: 0;margin-right: 100px;}
 #service .service-tab ul li{ border-right: 1px solid #DBE2E2;}
 #service .service-tab ul li a{color: #9FA9A9; padding-top: 23px; padding-bottom: 17px;font-size: 20px; /*font-family: 'Raleway', sans-serif; */font-weight: 400;display: block; padding-right: 60px}
@@ -220,11 +277,22 @@ footer p {
 #service .service-tab ul li a:hover{border-right: 10px solid #8c4de1;padding-right: 50px}
 #service .service-tab ul li a:hover i{color: #8c4de1}
 
+#service .service-tab ul li.active {
+    background-color: rgba(230,230,230, 0.5);
+}
+
 .edit-tab{overflow: hidden;}
-.edit-tab h1{/*color: #636C6C; */font-size: 24px; /*font-family: 'Raleway', sans-serif; font-weight: 700; margin: 0px;*/margin: 0px;padding-bottom: 30px; padding-top:50px;}
-.edit-tab p{/*color:#AFB8B8;*/ font-size: 16px;/*font-family: 'Raleway', sans-serif; font-weight: 400; */line-height: 24px;margin: 0px;}
+.edit-tab h1{/*color: #636C6C; */font-size: 24px; /*font-family: 'Raleway', sans-serif; font-weight: 700; margin: 0px;*/margin: 0px;padding-bottom: 30px; padding-top:20px;}
+.edit-tab p{/*color:#AFB8B8;*/ font-size: 16px;/*font-family: 'Raleway', sans-serif; font-weight: 400; */line-height: 24px;margin: 0 0 10px;}
 
 /*.edit-tab-content{padding-top: 30px}*/
 .teb-icon-edit{ height: 170px;width: 170px; margin: 0 auto; color:#5DCA88;}
 .teb-icon-edit i{font-size: 170px}
 
+a {
+    color: #6b4cb7;
+}
+a:hover {
+    text-decoration: none;
+    color: #4d387c;
+}

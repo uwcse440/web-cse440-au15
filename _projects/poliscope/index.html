@@ -3,83 +3,146 @@
 	<head>
 		<title>Poliscope</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700|PT+Sans+Narrow:400,700|News+Cycle:400,700|Roboto+Condensed' rel='stylesheet' type='text/css'>
+		<script src="poliscope.js" type="text/javascript"></script>
 		<link rel="shortcut icon" href="logo.ico">
 		<!--
-		Website created by Janet Gao & Ian Turner
-		University of Washington
-		CSE 440: Poliscope
-		Last updated November, 2015
+		Janet Gao
+		Last updated: December 5, 2015
 		-->
 	</head>
 	
 	<body>
-		<div id="navbar"><span id="brand"><a href="index.html">Poliscope</a></span><span id="navigation"><a href="#overview">Overview</a><a href="#design">Design</a><a href="#video">Video Prototype</a><a href="#team">Team</a><a href="#reports">Reports</a></span></div>
-		<div id="banner"></div>
-		
-		<div id="main_content">
-			<div id="optimization_message">
-				<h1>We're Sorry</h1>
-				This site is not optimized for your screen resolution.
+		<div id="navbar">
+			<div id="brand"><a href="index.html">Poliscope</a></div>
+			<div id="navigation">
+				<a href="#overview" class="nav_link">Overview</a>
+				<a href="#design" class="nav_link">Design</a>
+				<a href="#video" class="nav_link">Video</a>
+				<a href="#reports" class="nav_link">Reports</a>
+				<a href="#team" class="nav_link">Team</a>
 			</div>
+			
+			<div id="menu_navigation">
+				<img src="menu_button.png" id="menu_button" /><br />
+				<ul id="menu_links">
+					<li><a href="#overview" class="nav_link">Overview</a></li>
+					<li><a href="#design" class="nav_link">Design</a></li>
+					<li><a href="#video" class="nav_link">Video</a></li>
+					<li><a href="#reports" class="nav_link">Reports</a></li>
+					<li><a href="#team" class="nav_link">Team</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="banner">
+			<div id="banner_content">
+				<h1>Poliscope</h1>
+				<h2>The news you want, in one place</h2>
+				<a href="#overview"><span id="banner_button">Learn More</span></a>
+			</div>
+		</div>
 		
+		<div id="main_content">		
 			<div id="overview">
 				<h1>Overview</h1>
+				<hr />
 				<img src="news_feed.png" class="app_img" /><br />
-				For those tired of sifting through news they don't care about, Poliscope brings all your political news straight to your fingertips.  Now you can keep track of news topics that interest you and find out what your friends like too.
+				For those tired of sifting through news they don't care about, Poliscope brings all your political news straight to your fingertips. Now you can keep track of news topics that interest you and find out what your friends like too.
 			</div>
 			<div id="design">
-				<hr />
 				<h1>How It Works</h1>
-				<div class="design_block"><img src="news_feed.png" class="app_img" alt="Poliscope New's Feed"/><br />Read articles selected for you.</div>
-				<div class="design_block"><img src="customize_feed.png" class="app_img" alt="Poliscope New's Feed Customization Menu" /><br />Customize what shows up on your feed.</div>
-				<br />
-				<div class="design_block"><img src="add_friend.png" class="app_img" alt="Poliscope Friends List" /><br />Add friends and follow their activity.</div>	
-				<div class="design_block"><img src="friend_profile.png" class="app_img" alt="Poliscope Friend's Profile" /><br />See what your friends are interested in.</div>
+				<hr />
+				<div class="coupled_block"><img src="news_feed.png" class="app_img" alt="Poliscope New's Feed" /><br />Read articles selected for you.</div>
+				<div class="coupled_block"><img src="customize_feed.png" class="app_img" alt="Poliscope New's Feed Customization Menu" /><br />Customize what shows up on your feed.</div>
+				
+				<br id="phone_img_break" />
+				
+				<div class="coupled_block"><img src="add_friend.png" class="app_img" alt="Poliscope Friends List" /><br />Add friends and follow their activity.</div>	
+				<div class="coupled_block"><img src="friend_profile.png" class="app_img" alt="Poliscope Friend's Profile" /><br />See what your friends are interested in.</div>
 			</div>
 			<div id="video">
+				<h1>Video Prototype</h1>
 				<hr />
-				<h1>Our Video Prototype</h1>
-				<!-- OUR VIDEO -->
-				<img src="filler_video.png" />
-			</div>
-			<div id="team">
-				<hr />
-				<h1>Meet the Team</h1>
-				<!-- IMAGES AND NAMES OF US -->
-				<div class="hori_group"><img id = "member_image" src="janet.jpg"/>
-					<br/>Janet Gao
-					<a href="https://www.facebook.com/janet.gao.58?fref=ts" target="_blank"><img id = "social_media_icon" src="Facebook_icon.jpg"/></a>
-					<!--<a href="janet has no linked in" target="_blank"><img id = "social_media_icon" src="linkedin-logo.jpg"/></a>-->
-				</div>
-				<div class="hori_group"><img id = "member_image" src="kiyana.jpg"/>
-					<br/>Kiyana Salkeld
-					<a href="https://www.facebook.com/kiyanasalkeld?fref=ts" target="_blank"><img id = "social_media_icon" src="Facebook_icon.jpg"/></a>
-					<a href="https://www.linkedin.com/in/kiyanasalkeld" target="_blank"><img id = "social_media_icon" src="linkedin-logo.jpg"/></a>
-				</div>
-				<br/>
-				<div class="hori_group"><img id = "member_image" src="kim.jpg"/>
-					<br/>Kim Le
-					<a href="https://www.facebook.com/kim.le.104?fref=ts" target="_blank"><img id = "social_media_icon" src="Facebook_icon.jpg"/></a>
-					<a href="https://www.linkedin.com/in/kle15" target="_blank"><img id = "social_media_icon" src="linkedin-logo.jpg"/></a>
-				</div>
-				<div class="hori_group"><img id = "member_image" src="ian.jpg"/>
-					<br/>Ian Turner
-					<a href="https://www.facebook.com/ian.turner.735" target="_blank"><img id = "social_media_icon" src="Facebook_icon.jpg"/></a>
-					<a href="https://www.linkedin.com/in/ian-turner-42973194" target="_blank"><img id = "social_media_icon" src="linkedin-logo.jpg"/></a>
-				</div>
+				<video id="poliscope_video" controls>
+					<source src="PoliscopeVideo.mp4" type="video/mp4">
+					Your browser does not support playback of this video.
+				</video>
 			</div>
 			<div id="reports">
+				<h1>Project Reports</h1>
 				<hr />
-				<h1>View Our Reports</h1>
-				<!-- NEED TO ADD REMAINING IMAGES -->
-				<div class="hori_group"><a href="2HFinalReport.pdf" target="_blank"><img src="button_contextual_inquiry.png" alt="Poliscope Contextual Inquiry Report" /><br />Contextual Inquiry</a></div>
-				<div class="hori_group"><a href="presentation_1.pdf" target="_blank"><img src="button_presentation_1.png" alt="Poliscope 'Getting the Right Design' PowerPoint" /><br />Presentation 1</a></div>
+				<p class="link_block">
+					<a href="2HFinalReport.pdf" target="_blank">
+						<img src="notebook123.png" alt="notebook icon" /><br />
+						Contextual Inquiry
+					</a>
+				</p>
+				<p class="link_block">
+					<a href="presentation_1.pdf" target="_blank">
+						<img src="school14.png" alt="books icon" /><br />
+						Getting the Right Design
+					</a>
+				</p>
+				
+				<br class="team_reports_break" />
+				
+				<p class="link_block">
+					<a href="3FFinalReport.pdf" target="_blank">
+						<img src="tool822.png" alt="scissors icon" /><br />
+						Usability Testing
+					</a>
+				</p>
+				<p class="link_block">
+					<a href="presentation_2.pdf" target="_blank">
+						<img src="light231.png" alt="lamp icon" /><br />
+						Getting the Design Right
+					</a>
+				</p>
+			</div>
+			<div id="team">
+				<h1>Meet the Team</h1>
+				<hr />
+				<div class="coupled_block">
+					<img src="janet.jpg" class="team_img" alt="Janet" />
+					<br />
+					Janet Gao
+					<br />
+					<a href="https://www.facebook.com/janet.gao.58?fref=ts" target="_blank"><img src="facebook4.png" alt="Facebook" class="network_icon" /></a>
+				</div>
+				<div class="coupled_block">
+					<img src="kim.jpg" class="team_img" alt="Kim" />
+					<br />
+					Kim Le
+					<br />
+					<a href="https://www.facebook.com/kim.le.104?fref=ts" target="_blank"><img src="facebook4.png" alt="Facebook" class="network_icon" /></a>
+					<a href="https://www.linkedin.com/in/kle15" target="_blank"><img src="linkedin2.png" alt="LinkedIn" class="network_icon" /></a>
+				</div>
+				
+				<br class="team_reports_break" />
+				
+				<div class="coupled_block">
+					<img src="kiyana.jpg" class="team_img" alt="Kiyana" />
+					<br />
+					Kiyana Salkeld
+					<br />
+					<a href="https://www.facebook.com/kiyanasalkeld?fref=ts" target="_blank"><img src="facebook4.png" alt="Facebook" class="network_icon" /></a>
+					<a href="https://www.linkedin.com/in/kiyanasalkeld" target="_blank"><img src="linkedin2.png" alt="LinkedIn" class="network_icon" /></a>
+				</div>
+				<div class="coupled_block">
+					<img src="ian.jpg" class="team_img" alt="Ian" />
+					<br />
+					Ian Turner
+					<br />
+					<a href="https://www.facebook.com/ian.turner.735" target="_blank"><img src="facebook4.png" alt="Facebook" class="network_icon" /></a>
+					<a href="https://www.linkedin.com/in/ian-turner-42973194" target="_blank"><img src="linkedin2.png" alt="LinkedIn" class="network_icon" /></a>
+				</div>
 			</div>
 		</div>
 		
 		<div id="footer">
-			Copyright &copy; 2015 Poliscope Team<br />
-			CSE 440 Autumn 2015
+			Poliscope Team &copy; 2015<br />
+			University of Washington CSE 440 Autumn 2015
+			<div>Icons made by <a href="http://www.flaticon.com/authors/elegant-themes" title="Elegant Themes">Elegant Themes</a> and <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
 		</div>
 	</body>
 </html>
