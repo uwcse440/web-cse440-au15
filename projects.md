@@ -59,9 +59,9 @@ Students have examined the problems people encounter, then explored how new tech
 <div class="panel-body" markdown="block">
 Please join us for a poster session celebrating the outstanding design work of CSE 440 students:
 
-Thursday, December 17
+Wednesday, December 16
 
-10:30 am
+11:00 am
   
 [CSE Atrium](http://www.washington.edu/maps/#!/cse)
 </div>
@@ -80,12 +80,12 @@ Thursday, December 17
     {% for item_project in page.projects %}
       <div class="col-sm-3 col-xs-6">        
         <p>
-          <a href="{{ site.baseurl }}/projects/{{ item_project.path }}/">
+          <a href="{{ site.baseurl }}/projects/{{ item_project.path }}/" target="_blank">
             {{ item_project.name }}
           </a>
         </p>
         <div class="thumbnailBox">
-          <a href="{{ site.baseurl }}/projects/{{ item_project.path }}/">
+          <a href="{{ site.baseurl }}/projects/{{ item_project.path }}/" target="_blank">
             <img src="{{ site.baseurl }}/projects/{{ item_project.path }}/project_thumb.png" width="150" class="projectThumbnail" alt="{{ item_project.name }}"/>
           </a>
         </div>
