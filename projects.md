@@ -21,18 +21,21 @@ projects:
     path: sitless
   - name: SmartClothing
     path: smartclothing
-  - name: Social Reconnection
-    path: socialreconnection
   - name: TagLine
     path: tagline
   - name: Timeout
     path: timeout
+  - name: Zonect
+    path: zonect
    
 ---
 
+<html>
+<div class="row">
+<div class="col-md-9" markdown="block">
 # Project Theme
 
-Projects are exploring challenges and opportunities in self-tracking, also known as Personal Informatics:
+Projects explored challenges and opportunities in self-tracking, also known as Personal Informatics:
 
 > Personal informatics systems are systems that help people collect personally relevant information for the purpose of 
 > self-reflection and gaining self-knowledge.
@@ -46,7 +49,26 @@ Personal informatics relates heavily to the [Quantified Self](http://quantifieds
 > [Gary Wolf, 2009](http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself)
 
 People have long sought to better understand themselves, but recently technology advances are enabling fundamentally new approaches. 
-Students will examine the problems people encounter, then explore how new technology can go beyond the data fetish to help people in reaching their goals. 
+Students have examined the problems people encounter, then explored how new technology can go beyond the data fetish to help people in reaching their goals. 
+</div>
+<div class="col-md-3" markdown="block">
+<div class="panel panel-default" style="margin-top:20px;">
+<div class="panel-heading" markdown="block">
+## Poster Session
+</div>
+<div class="panel-body" markdown="block">
+Please join us for a poster session celebrating the outstanding design work of CSE 440 students:
+
+Thursday, December 17
+
+10:30 am
+  
+[CSE Atrium](http://www.washington.edu/maps/#!/cse)
+</div>
+</div>
+</div>
+</div>
+</html>
 
 # Project Websites
 
@@ -54,8 +76,9 @@ Students will examine the problems people encounter, then explore how new techno
 
 <html>
   <div class="row">
+    <div class="col-md-9">
     {% for item_project in page.projects %}
-      <div class="col-md-3">        
+      <div class="col-sm-3 col-xs-6">        
         <p>
           <a href="{{ site.baseurl }}/projects/{{ item_project.path }}/">
             {{ item_project.name }}
@@ -72,5 +95,6 @@ Students will examine the problems people encounter, then explore how new techno
         {% endunless %}
       </div>
     {% endfor %}
+    </div>
   </div>
 </html>
