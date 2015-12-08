@@ -117,6 +117,21 @@ footer p {
     padding: 50px 0;
 }
 
+.box.top {
+    margin-top: 130px;
+}
+.laptop {
+    position: relative;
+    height: 105px;
+    text-align: center;
+}
+.laptop img{
+    position: relative;
+    top: -180px;
+    max-height: 300px;
+    max-width: 450px;
+}
+
 @media screen and (min-width:768px) {
     .brand {
         display: inherit;
@@ -186,6 +201,20 @@ footer p {
         table-layout: fixed;
         font-size: 1.25em;
     }
+    .box.top {
+        margin-top: 330px;
+    }
+    .laptop {
+        position: relative;
+        height: 210px;
+        text-align: center;
+    }
+    .laptop img{
+        position: relative;
+        top: -360px;
+        max-height: 600px;
+        max-width: 900px;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -195,27 +224,19 @@ footer p {
         clear: both;
     }
 }
-.box.top {
-    margin-top: 330px;
-}
-.laptop {
-    position: relative;
-    height: 210px;
-    text-align: center;
-}
-.laptop img{
-    position: relative;
-    top: -360px;
-    height: 600px;
-    width: 900px;
-}
+
+
+
 .docs {
+    margin-left: auto;
+    margin-right: auto;
     height: 150px;
     width: 165px;
     background-color: white;
     padding-top: 20px;
     /*border-radius: 5px;*/
     box-shadow: 1px 1px 6px #eee;
+    margin-bottom: 5px;
 }
 .docs.inactive {
     background-color: #ccc;
@@ -246,6 +267,7 @@ footer p {
     color: white;
     margin-left: 35%;
     margin-left: calc(50% - 80px);
+    margin-bottom: 10px;
 }
 .toProto:hover, .toProto:focus {
     background-color: #62539d;
