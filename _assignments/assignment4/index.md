@@ -5,15 +5,15 @@ title: "Assignment 4: Communicating Your Design"
 link_project_4a: https://canvas.uw.edu/courses/987987/assignments/3055624 
 date_project_4a: Tuesday, December 1, 2015
 
-link_project_4b: 
+link_project_4b: https://canvas.uw.edu/courses/987987/assignments/3056710
 date_project_4b: Tuesday, December 8, 2015
 
-link_project_4c: 
+link_project_4c: https://canvas.uw.edu/courses/987987/assignments/3056711
 date_project_4c: Thursday, December 10, 2015
 
 date_project_4d: Friday, December 11, 2015
 
-link_project_4e: 
+link_project_4e: https://canvas.uw.edu/courses/987987/assignments/3056712
 date_project_4e: Tuesday, December 15, 2015
 
 date_project_4f: 10:30 to 12:20, Thursday, December 17, 2015
@@ -328,10 +328,13 @@ Finalize your video prototype and website so we can finalize grading.
 
 ### Submission
 
-```
-Follow the [contributing instructions]({{ site.baseurl }}/contributing.html) 
-to submit a pull request containing your final video and final website. 
-```
+Submit a pull request containing your website. We will merge as quickly as possible. 
+You can submit multiple requests if needed to fix issues or improve your website.
+Your request should not modify anything outside your project website.
+Information on building a local copy of this site, and on submitting a pull request, is here:
+
+[Development Guide]({{ site.baseurl }}/development/index.html)
+
 Submit simple pull requests early so that you become familiar with this functionality.
 Do not wait until the final moments to begin to learn how to do this.
 
@@ -339,9 +342,7 @@ Depending on how you embed your video in your website, it may or may not be part
 For example, embedding a YouTube or Vimeo player does not give us your video.
 We therefore ask that final videos also be submitted via Canvas here: 
 
-```
 {% if page.link_project_4e != nil %}<{{ page.link_project_4e }}>{% else %}`Link to be added`{% endif %}
-```
 
 ### Grading
 

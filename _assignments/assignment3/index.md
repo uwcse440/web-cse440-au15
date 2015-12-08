@@ -568,7 +568,7 @@ Prepare a presentation of your process in getting the design right. It should en
 
 - Two members of your team should deliver the presentation, each speaking to relatively equals portions.
 - An eight minute time limit will be strictly enforced, with additional time for questions.
-- Your presenters should be different from your presenters in Assignment 2, such that everybody now presents.
+- Your presenters should be different from your presenters in Assignment 2, such that everybody has presented at least once this quarter.
   If there is some reason this cannot work for your team, be sure you have communicated with us.
 
 A suggested organization of this presentation is:
@@ -655,6 +655,12 @@ But you are ultimately responsible for your presentation.
 Submit via Canvas here: 
 
 {% if page.link_project_3g != nil %}<{{ page.link_project_3g }}>{% else %}`Link to be added`{% endif %}
+
+### In-Class Feedback Forms
+
+The course staff will have a feedback form they keep during your presentation:
+
+[3g-presentation-instructor-form.pdf]({{ site.baseurl }}/assignments/assignment3/3g-presentation-instructor-form.pdf)
 
 ### Grading
 

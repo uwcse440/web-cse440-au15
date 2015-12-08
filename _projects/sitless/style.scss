@@ -24,3 +24,7 @@ img {
     display:block;
     margin:auto;
 }
+
+video, div.video-js {
+	max-width: 100%;
+}
