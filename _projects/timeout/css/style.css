@@ -17,7 +17,7 @@ h1,h2,h3,h4, .navbar-nav a {
 }
 
 .green {
-	color: #94b629;
+	color: #2db458;
 }
 
 .white {
@@ -245,7 +245,7 @@ a:hover { text-decoration: none; }
   border-right: 4px solid #2db458;
   padding: 60px;
   position: relative;
-  top: 70px;
+  
 }
 .tm-overview-h3 { padding-bottom: 20px; }
 .tm-overview .about-bottom-des {
