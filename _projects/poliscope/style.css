@@ -84,6 +84,7 @@ a, #footer a:hover, #main_content a:hover, #navigation a:hover {
 
 #banner_content {
 	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 400;
 	margin-top: 300px;
 	z-index: 50;
 }
@@ -155,7 +156,7 @@ hr, #main_content {
 	position: fixed;
 	text-transform: uppercase;
 	transition-property: background;
-	transition-duration: .3s;
+	transition-duration: .2s;
 	transition-timing-function: linear;
 	z-index: 100;
 }
@@ -193,6 +194,11 @@ hr, #main_content {
 
 #reports .link_block {
 	margin: 20px;
+}
+
+.subtext {
+	color: #333333;
+	font-weight: 300;
 }
 
 .team_img {
