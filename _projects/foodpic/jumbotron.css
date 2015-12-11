@@ -4,8 +4,27 @@ body {
   padding-bottom: 20px;
 }
 
+#Overview .jumbotron {
+	padding-top: 0px;
+}
 
 .jumbotron .picDescrip {
 	font-size: 10pt;
 	text-align: center;
+}
+
+.jumbotron #logo {
+	height: 90px;
+	text-align: left;
+	background-color: white;
+	width: 100%;
+}
+
+.jumbotron #logo img {
+	height: 100%;
+	margin-bottom: 5px;
+}
+
+.jumbotron {
+	background-color: white;
 }
