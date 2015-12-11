@@ -11,6 +11,9 @@ body {
   background-size: cover;
   background-attachment: fixed; }
 
+.navbar {
+  padding: 0; }
+
 .heading {
   padding-bottom: 20px; }
 
