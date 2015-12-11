@@ -6,6 +6,7 @@
  * Instead you should be editing style.scss, which is compiled to the CSS file.
  */
 body {
+  position: relative;
   padding-top: 70px;
   background-image: url("assets/office-space.jpg");
   background-size: cover;
