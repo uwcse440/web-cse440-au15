@@ -1,6 +1,6 @@
 /*
  * Janet Gao
- * Last updated: December 5, 2015
+ * Last updated: December 10, 2015
  */
 
 * {
@@ -154,6 +154,9 @@ hr, #main_content {
 	line-height: 75px;
 	position: fixed;
 	text-transform: uppercase;
+	transition-property: background;
+	transition-duration: .3s;
+	transition-timing-function: linear;
 	z-index: 100;
 }
 
