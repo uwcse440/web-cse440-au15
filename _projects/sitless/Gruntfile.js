@@ -13,7 +13,7 @@ module.exports = function(grunt) {
             }
         },
         clean: {
-            main: ['vendor/**', '.sass-cache/**', 'style.css', 'style.css.map']
+            main: ['vendor/**', '.sass-cache/**', 'style.css', 'style.css.map', 'validation-*.json']
         },
         copy: {
             main: {
@@ -39,10 +39,40 @@ module.exports = function(grunt) {
             server: {
                 options: {
                     hostname: 'localhost',
-                    keepalive: true,
                     base: './',
+                    keepalive: true,
                     livereload: true
                 }
+            }
+        },
+        watch: {
+            all: {
+                options: {
+                    livereload: true
+                },
+                files: ["./style.scss", "./index.html"],
+                tasks: ["sass:dist", "validation", "postcss:dist"]
+            }
+        },
+        validation: {
+            options: {
+                generateReport: false
+            },
+            files: {
+                src: ['index.html']
+            }
+        },
+        postcss: {
+            options: {
+                processors: [
+                    require('pixrem'),
+                    require('autoprefixer')({
+                        browsers: 'last 2 versions'
+                    })
+                ]
+            },
+            dist: {
+                src: 'style.css'
             }
         }
     });
@@ -53,10 +83,14 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+
+    grunt.loadNpmTasks('grunt-w3c-html-validation');
+    grunt.loadNpmTasks('grunt-postcss');
 
     // Default task(s).
-    grunt.registerTask('default', ['clean', 'uglify', 'sass:dist', 'copy']);
+    grunt.registerTask('default', ['clean', 'uglify', 'validation', 'sass:dist', 'postcss:dist', 'copy']);
 
-    grunt.registerTask('serve', ['clean', 'uglify', 'sass:dist', 'copy', 'connect']);
+    grunt.registerTask('serve', ['clean', 'uglify', 'validation', 'sass:dist', 'postcss:dist', 'copy', 'connect']);
 
 };
