@@ -1,5 +1,17 @@
+/**
+ * WARNING!!!
+ *
+ * Do NOT edit the style.css file directly!!
+ *
+ * Instead you should be editing style.scss, which is compiled to the CSS file.
+ */
+
+
 body {
   padding-top: 70px;
+  background-image: url('assets/office-space.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .heading {
@@ -9,6 +21,7 @@ body {
 .slogan {
   padding-left: 10px;
   font-size: 16pt;
+  font-style: italic;
 }
 
 .anchor {
@@ -21,8 +34,9 @@ body {
 }
 
 img {
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
+    max-width: 100%;
 }
 
 video, div.video-js {
