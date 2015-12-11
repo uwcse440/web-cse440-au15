@@ -39,10 +39,28 @@ module.exports = function(grunt) {
             server: {
                 options: {
                     hostname: 'localhost',
-                    keepalive: true,
                     base: './',
+                    keepalive: true,
                     livereload: true
                 }
+            }
+        },
+        watch: {
+            sass: {
+                options: {
+                    livereload: true,
+                    spawn: true
+                },
+                files: ["style.scss"],
+                tasks: ["sass:dist"]
+            }
+        },
+        validation: {
+            options: {
+                serverUrl: 'https://validator.w3.org/check'
+            },
+            files: {
+                src: ['index.html']
             }
         }
     });
@@ -53,10 +71,13 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+
+    grunt.loadNpmTasks('grunt-html-validation');
 
     // Default task(s).
     grunt.registerTask('default', ['clean', 'uglify', 'sass:dist', 'copy']);
 
-    grunt.registerTask('serve', ['clean', 'uglify', 'sass:dist', 'copy', 'connect']);
+    grunt.registerTask('serve', ['clean', 'uglify', 'sass:dist', 'copy', 'connect', 'watch']);
 
 };
