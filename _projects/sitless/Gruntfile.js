@@ -46,12 +46,11 @@ module.exports = function(grunt) {
             }
         },
         watch: {
-            sass: {
+            all: {
                 options: {
-                    livereload: true,
-                    spawn: true
+                    livereload: true
                 },
-                files: ["style.scss"],
+                files: ["./style.scss"],
                 tasks: ["sass:dist"]
             }
         },
@@ -78,6 +77,6 @@ module.exports = function(grunt) {
     // Default task(s).
     grunt.registerTask('default', ['clean', 'uglify', 'sass:dist', 'copy']);
 
-    grunt.registerTask('serve', ['clean', 'uglify', 'sass:dist', 'copy', 'connect', 'watch']);
+    grunt.registerTask('serve', ['clean', 'uglify', 'sass:dist', 'copy', 'connect']);
 
 };
