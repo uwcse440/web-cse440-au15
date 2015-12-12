@@ -61,6 +61,19 @@ module.exports = function(grunt) {
             files: {
                 src: ['index.html']
             }
+        },
+        postcss: {
+            options: {
+                processors: [
+                    require('pixrem'),
+                    require('autoprefixer')({
+                        browsers: 'last 2 versions'
+                    })
+                ]
+            },
+            dist: {
+                src: 'style.css'
+            }
         }
     });
 
@@ -73,10 +86,11 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.loadNpmTasks('grunt-html-validation');
+    grunt.loadNpmTasks('grunt-postcss');
 
     // Default task(s).
-    grunt.registerTask('default', ['clean', 'uglify', 'sass:dist', 'copy']);
+    grunt.registerTask('default', ['clean', 'uglify', 'sass:dist', 'postcss:dist', 'copy']);
 
-    grunt.registerTask('serve', ['clean', 'uglify', 'sass:dist', 'copy', 'connect']);
+    grunt.registerTask('serve', ['clean', 'uglify', 'sass:dist', 'postcss:dist', 'copy', 'connect']);
 
 };

@@ -154,6 +154,16 @@ section {
   }
 }
 
+.headroom {
+    transition: transform 200ms linear;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
 img {
     display: block;
     margin: auto;
@@ -191,4 +201,30 @@ video, div.video-js {
     position: fixed; /* keeps it on the bottom once in view */
     bottom: 18px;
     right: 10px;
+}
+
+
+#site-footer {
+  background-color: #111;
+  color: #eee;
+
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  #sources {
+    font-size: 90%;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1040px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
 }

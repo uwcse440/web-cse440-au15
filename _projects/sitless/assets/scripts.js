@@ -24,5 +24,7 @@ $(function() {
           offset: {top: 200}
       });
   }
+
+  $("nav.navbar").headroom();
 });
 
