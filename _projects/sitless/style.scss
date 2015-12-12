@@ -11,6 +11,9 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
 
 $content-background: white;
+$sitless: #ff893b;
+
+$navbar-height: 51px;
 
 html, body {
   height: 100%;
@@ -36,10 +39,16 @@ h1, h2 {
   padding-bottom: 20px;
 }
 
+#main-logo {
+  -webkit-filter: drop-shadow(1px 1px 3px rgba(25, 12, 0, 0.2));
+  filter: drop-shadow(1px 1px 3px rgba(25, 12, 0, 0.2));
+}
+
 .slogan {
   padding-left: 10px;
   font-size: 16pt;
   font-style: italic;
+  color: #f2f2f2;
 }
 
 .image-caption {
@@ -53,10 +62,14 @@ section {
   padding: 0.75em;
 }
 
-.navbar-header img {
-  margin-top: 13px;
-  max-width: 100px;
-  margin-right: 2em;
+.navbar-header {
+  height: $navbar-height;
+
+  img {
+    margin-top: 13px;
+    max-width: 100px;
+    margin-right: 2em;
+  }
 }
 
 .page-header {
@@ -64,7 +77,7 @@ section {
   color: #eee;
   text-align: center;
 
-  background-image: url('assets/sunrise-yoga.jpg');
+  background-image: url('assets/morning-lake-cropped-oil.jpg');
   background-size: 100% auto;
   background-position: right;
   background-attachment: fixed;
@@ -72,19 +85,24 @@ section {
 
   padding: 0;
 
-  height: 100%;
-  min-height: 100%;
+  height: calc(100% - 51px);
+  min-height: calc(100% - 51px);
+
+  margin-top: $navbar-height;
 
   .filter-overlay {
-    background-image: url('assets/sitless-layer.png');
+    background-image: url('assets/sitless-layer-16-by-16.png');
     background-repeat: repeat;
     background-position: top left;
+    background-attachment: fixed;
 
     display: table;
     width: 100%;
 
     height: 100%;
     min-height: 100%;
+
+    position: relative;
 
     .center-block {
       display: table-cell;
@@ -94,8 +112,7 @@ section {
 
   .slogan {
     font-family: 'PT Sans Caption', sans-serif;
-    font-size: 150%;
-    margin-bottom: 2.5em;
+    font-size: 175%;
   }
 
   hr {
@@ -107,7 +124,33 @@ section {
   }
 
   img {
-    max-width: 50%;
+    max-width: 45%;
+  }
+
+  .btn {
+    box-shadow: 2px 2px 6px 2px rgba(20, 20, 20, 0.1);
+    margin-top: 3em;
+    
+    background-color: $sitless;
+    border-color: darken($sitless, 5%);
+
+    &:hover, &:focus {
+      background-color: lighten($sitless, 4%);
+      border-color: lighten($sitless, 2%);
+    }
+    &:active {
+      background-color: darken($sitless, 4%);
+      border-color: darken($sitless, 2%);
+    }
+  }
+
+  .photo-credit {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    color: #d6d6d6;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    font-size: 90%;
   }
 }
 
@@ -119,6 +162,24 @@ img {
 
 video, div.video-js {
 	max-width: 100%;
+}
+
+#documents {
+  span.glyphicon {
+    margin-right: 0.5em;
+  }
+}
+
+#team {
+  img {
+    border-radius: 50%;
+  }
+
+  .member-links {
+    a:not(:last-of-type) {
+      margin-right: 0.5em;
+    }
+  }
 }
 
 #top-link-block.affix-top {

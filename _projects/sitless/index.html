@@ -11,6 +11,8 @@
     <!-- <link href="vendor/bootstrap/dist/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" /> -->
     <link href="vendor/video.js/dist/video-js.min.css" type="text/css" rel="stylesheet" />
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
     <link href="style.css" type="text/css" rel="stylesheet" />
 </head>
 
@@ -35,13 +37,17 @@
     <header class="page-header">
         <div class="filter-overlay">
             <div class="center-block">
-                <img src="assets/sitless-logo-orange-dropshadow.png" alt="Sitless" />
+                <img id="main-logo" src="assets/sitless-logo-invert.png" alt="Sitless" />
+                <h1 class="text-hide">Sitless</h1>
 
                 <hr />
 
                 <p class="slogan">Your body is a temple.<br/>Keep it standing.</p>
-                <a href="#title" class="btn btn-success">Learn more</a>
+                <a href="#title" class="btn btn-warning btn-lg">Learn more</a>
             </div>
+            <aside class="photo-credit">
+                <strong>Photo credit:</strong> Dennis Yang, Flickr
+            </aside>
         </div>
     </header>
 
@@ -49,21 +55,27 @@
         <section id="title" class="row heading">
 
             <div class="col-xs-12">
-                <p>When you sit, your muscles burn less fat. This makes it easier for fatty acids to clog your heart.</p>
+                <p>The average person spends over 7.7 hours sitting, per day</p>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <!-- <p>When you sit, your muscles burn less fat. This makes it easier for fatty acids to clog your heart.</p> -->
                 
-                <blockquote class="blockquote-reverse">
-                    <p>Sitting more than 10 hours a day increases risk of heart disease.</p>
+                        <blockquote class="blockquote">
+                            <p>Sitting more than 10 hours a day increases risk of heart disease.</p>
 
-                    <footer><cite><a href="http://content.onlinejacc.org/article.aspx?articleid=1679535" target="_blank">American College of Cardiology</a></cite></footer>
-                </blockquote>
-            </div>
+                            <footer><cite><a href="http://content.onlinejacc.org/article.aspx?articleid=1679535" target="_blank">American College of Cardiology</a></cite></footer>
+                        </blockquote>
+                    </div>
 
-            <div class="col-xs-12">
-                <p>Excess sitting results in higher insulin production.</p>
-                <blockquote class="blockquote-reverse">
-                    <p><em>Sitting more than 8 hours a day linked to 90% increase risk of diabetes.</em></p>
-                    <footer><cite><a href="http://link.springer.com/article/10.1007%2Fs00125-012-2677-z" target="_blank">University Hospitals of Leicester, UK</a></cite></footer>
-                </blockquote>
+                    <div class="col-sm-6">
+                        <!-- <p>Excess sitting results in higher insulin production.</p> -->
+                        <blockquote class="blockquote">
+                            <p><em>Sitting more than 8 hours a day linked to 90% increase risk of diabetes.</em></p>
+                            <footer><cite><a href="http://link.springer.com/article/10.1007%2Fs00125-012-2677-z" target="_blank">University Hospitals of Leicester, UK</a></cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
 
                 <p>Sitting for long durations is an unhealthy habit that can be broken with proper awareness. The Sitless band learns your daily routine and finds the most convenient times to interrupt you. This helps motivate better sitting behavior.</p>
             </div>
@@ -156,22 +168,22 @@
 
 
         <section id="documents" class="row">
-            <div class="col-xs-12">
-                <h2>Documents</h2>
-            </div>
+            <!-- <div class="col-xs-12"> -->
+                <h2 class="col-xs-12">Documents</h2>
+            <!-- </div> -->
 
             <p class="col-xs-6">
-                <span class="glyphicon glyphicon-list-alt"></span>  <a href="assets/FinalReport1.pdf" target="_blank">Initial Report</a>
+                <span class="glyphicon glyphicon-list-alt"></span> <a href="assets/FinalReport1.pdf" target="_blank">Initial Report</a>
             </p>
             <p class="col-xs-6">
-                <span class="glyphicon glyphicon-list-alt"></span>  <a href="assets/3fFinalReport.pdf" target="_blank">Final Report</a>
+                <span class="glyphicon glyphicon-list-alt"></span> <a href="assets/3fFinalReport.pdf" target="_blank">Final Report</a>
             </p>
 
             <p class="col-xs-6">
-                <span class="glyphicon glyphicon-blackboard"></span>  <a href="assets/Presentation1.pdf" target="_blank">Initial Presentation</a>
+                <span class="glyphicon glyphicon-blackboard"></span> <a href="assets/Presentation1.pdf" target="_blank">Initial Presentation</a>
             </p>
             <p class="col-xs-6">
-                <span class="glyphicon glyphicon-blackboard"></span>  <a href="assets/Presentation2.pdf" target="_blank">Final Presentation</a>
+                <span class="glyphicon glyphicon-blackboard"></span> <a href="assets/Presentation2.pdf" target="_blank">Final Presentation</a>
             </p>
         </section>
 
@@ -184,27 +196,51 @@
                 <img src="assets/geoff.jpg" alt="Geoffrey" width="200" height="200">
                 <h3 class="image-caption">Geoffrey Liu</h3>
                 <p class="image-caption">Project Lead</p>
+
+                <div class="member-links text-center">
+                    <a href="http://twitter.com/geo_liu" target="_BLANK"><i class="fa fa-twitter"></i></a>
+                    <a href="http://g-liu.com/" target="_BLANK"><i class="fa fa-globe"></i></a>
+                    <a href="http://linkedin.com/in/geoffliu/" target="_BLANK"><i class="fa fa-linkedin"></i></a>
+                </div>
             </div>
             <div class="col-xs-3">
                 <img src="assets/keting.png" alt="Keting" width="200" height="200">
                 <h3 class="image-caption">Keting Cen</h3>
                 <p class="image-caption">User Researcher</p>
+
+                <div class="member-links text-center">
+                    <a href=""><i class="fa fa-dribbble"></i></a>
+                    <a href=""><i class="fa fa-globe"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
             </div>
             <div class="col-xs-3">
                 <img src="assets/adrian.png" alt="Adrian" width="200" height="200">
                 <h3 class="image-caption">Adrian Sham</h3>
                 <p class="image-caption">Designer</p>
+
+                <div class="member-links text-center">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-globe"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
             </div>
             <div class="col-xs-3">
                 <img src="assets/artem.png" alt="Artem" width="200" height="200">
                 <h3 class="image-caption">Artem Minyaylov</h3>
                 <p class="image-caption">Developer</p>
+
+                <div class="member-links text-center">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-globe"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
             </div>
         </section>
     </div><!-- .container -->
 
     <span id="top-link-block" class="hidden">
-        <a href="#top" class="well well-sm"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <a href="#" class="well well-sm">
             <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
         </a>
     </span><!-- /top-link-block -->
