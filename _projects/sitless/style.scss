@@ -35,10 +35,6 @@ h1, h2 {
   font-weight: bold;
 }
 
-.heading {
-  padding-bottom: 20px;
-}
-
 #main-logo {
   -webkit-filter: drop-shadow(1px 1px 3px rgba(25, 12, 0, 0.2));
   filter: drop-shadow(1px 1px 3px rgba(25, 12, 0, 0.2));
@@ -58,17 +54,26 @@ h1, h2 {
 section {
   background-color: $content-background;
   margin-bottom: 3em;
-  border-radius: 2px;
-  padding: 0.75em;
+  padding: 2em;
+  width: 100%;
+
+  &:nth-child(even) {
+    background-color: darken($content-background, 5%);
+  }
+
+  hr {
+    border-top: 2px solid lighten($sitless, 10%);
+    width: 15%;
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
 }
 
 .navbar-header {
   height: $navbar-height;
 
   img {
-    margin-top: 13px;
     max-width: 100px;
-    margin-right: 2em;
   }
 }
 
@@ -164,10 +169,9 @@ section {
     transform: translateY(-100%);
 }
 
-img {
-    display: block;
-    margin: auto;
-    max-width: 100%;
+sup.footnote {
+  font-size: 90%;
+  color: #555;
 }
 
 video, div.video-js {
@@ -180,16 +184,8 @@ video, div.video-js {
   }
 }
 
-#team {
-  img {
-    border-radius: 50%;
-  }
-
-  .member-links {
-    a:not(:last-of-type) {
+#team .member-links a:not(:last-of-type) {
       margin-right: 0.5em;
-    }
-  }
 }
 
 #top-link-block.affix-top {
@@ -201,19 +197,6 @@ video, div.video-js {
     position: fixed; /* keeps it on the bottom once in view */
     bottom: 18px;
     right: 10px;
-}
-
-
-#site-footer {
-  background-color: #111;
-  color: #eee;
-
-  padding-top: 2em;
-  padding-bottom: 2em;
-
-  #sources {
-    font-size: 90%;
-  }
 }
 
 

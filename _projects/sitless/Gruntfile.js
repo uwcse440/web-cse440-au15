@@ -50,13 +50,13 @@ module.exports = function(grunt) {
                 options: {
                     livereload: true
                 },
-                files: ["./style.scss"],
-                tasks: ["sass:dist"]
+                files: ["./style.scss", "./index.html"],
+                tasks: ["sass:dist", "validation"]
             }
         },
         validation: {
             options: {
-                serverUrl: 'https://validator.w3.org/check'
+                generateReport: false
             },
             files: {
                 src: ['index.html']
@@ -85,12 +85,12 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.loadNpmTasks('grunt-html-validation');
+    grunt.loadNpmTasks('grunt-w3c-html-validation');
     grunt.loadNpmTasks('grunt-postcss');
 
     // Default task(s).
-    grunt.registerTask('default', ['clean', 'uglify', 'sass:dist', 'postcss:dist', 'copy']);
+    grunt.registerTask('default', ['clean', 'uglify', 'sass:dist', 'postcss:dist', 'copy', 'validation']);
 
-    grunt.registerTask('serve', ['clean', 'uglify', 'sass:dist', 'postcss:dist', 'copy', 'connect']);
+    grunt.registerTask('serve', ['clean', 'uglify', 'sass:dist', 'postcss:dist', 'copy', 'validation', 'connect']);
 
 };

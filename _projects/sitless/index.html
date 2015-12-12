@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link href="vendor/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
-    <!-- <link href="vendor/bootstrap/dist/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" /> -->
     <link href="vendor/video.js/dist/video-js.min.css" type="text/css" rel="stylesheet" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
@@ -20,11 +19,14 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <a class="pull-left" href="#"><img src="assets/sitless-logo-invert.png" alt="Sitless" /></a>
+                <a class="navbar-brand" href="#">
+                    <img src="assets/sitless-logo-invert.png" alt="Sitless branding" class="img-responsive" />
+                </a>
             </div>
 
             <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav" role="tablist">
+                <ul class="nav navbar-nav navbar-right" role="tablist">
+                    <li><a class="page-scroll" href="#title">About</a></li>
                     <li><a class="page-scroll" href="#demo">Demo</a></li>
                     <li><a class="page-scroll" href="#features">Features</a></li>
                     <li><a class="page-scroll" href="#documents">Documents</a></li>
@@ -51,197 +53,215 @@
         </div>
     </header>
 
-    <div class="container">
-        <section id="title" class="row heading">
+    <section id="title">
 
-            <div class="col-xs-12">
-                <p class="lead">The average person spends over 7.7 hours sitting, per day</p>
+        <div class="container">
 
-                <div class="row">
-                    <div class="col-sm-6">
-                        <!-- <p>When you sit, your muscles burn less fat. This makes it easier for fatty acids to clog your heart.</p> -->
-                
-                        <blockquote class="blockquote">
-                            <p>Sitting more than 10 hours a day increases risk of heart disease.</p>
+            <div class="row">
 
-                            <footer><cite><a href="http://content.onlinejacc.org/article.aspx?articleid=1679535" target="_blank">American College of Cardiology</a></cite></footer>
-                        </blockquote>
+                <h2 class="text-hide">Overview</h2>
+
+                <p style="font-size:600%;" class="text-center">7.7 hours.</p>
+                <p class="lead text-center">That's how long the average person spends sitting in a day</p>
+
+                <hr />
+
+                <p>According to the University Hospitals of Leicester UK, sitting for more than 8 hours a day increases the risk of diabetes by 90 percent. Furthermore, the American Medical Association (AMA) says that sitting for extended periods of time is unhealthy behavior. While we might think that regular exercise can offset this, studies have found that the amount of time a person sits during the day is associated with a higher risk of heart disease, diabetes, cancer, and death, regardless of regular exercise.</p>
+
+                <h2>Introducing Sitless</h2>
+
+                <p>Our solution to this problem is a smart leg band that we call the Sitless band. It is a device that wraps around your thigh and is worn underneath the pants all day long. Through embedded sensors, Sitless knows how long you've been sitting, and can remind you to take a break. An app on your smartphone allows you to track your progress, and see how you can improve your sitting habits. Sitless optionally integrates with your computer and your calendar, to send you reminders at an appropriate time.</p>
+
+                <div>
+                    <img src="assets/sitless-band.png" alt="Sitless band" class="img-responsive center-block" style="max-width: 50%;"/>
+                    <!-- <div class="col-md-3 col-sm-6 col-xs-12">
                     </div>
-
-                    <div class="col-sm-6">
-                        <!-- <p>Excess sitting results in higher insulin production.</p> -->
-                        <blockquote class="blockquote">
-                            <p><em>Sitting more than 8 hours a day linked to 90% increase risk of diabetes.</em></p>
-                            <footer><cite><a href="http://link.springer.com/article/10.1007%2Fs00125-012-2677-z" target="_blank">University Hospitals of Leicester, UK</a></cite></footer>
-                        </blockquote>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <img src="assets/calendar-icon.png" alt="Calendar integration" class="thumbnail img-responsive" />
                     </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <img src="assets/desktop-computer-icon.png" alt="Calendar integration" class="thumbnail img-responsive" />
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <img src="assets/mobile-phone-icon.png" alt="Calendar integration" class="thumbnail img-responsive" />
+                    </div> -->
                 </div>
 
-                <p>Sitting for long durations is an unhealthy habit that can be broken with proper awareness. The Sitless band learns your daily routine and finds the most convenient times to interrupt you. This helps motivate better sitting behavior.</p>
             </div>
-        </section><!-- #title -->
+        </div><!-- #title -->
+    </section>
 
 
-        <section id="demo" class="row">
-            <div class="col-xs-12">
+    <section id="demo" class="row">
+        <div class="container">
+            <div class="row">
                 <h2>Demo</h2>
-                <video id="sitless-video-demo" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" data-setup='{"example_option":true}'>
-                    <source src="assets/video-prototype.mp4" type="video/mp4" />
+                <div class="col-xs-12">
+                    <video id="sitless-video-demo" class="video-js vjs-default-skin vjs-big-play-centered center-block" controls preload="auto" data-setup='{"example_option":true}' width="720">
+                        <source src="assets/video-prototype.mp4" type="video/mp4" />
 
-                    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-                </video>
+                        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+                    </video>
+                </div>
             </div>
-        </section><!-- #demo -->
+        </div>
+    </section><!-- #demo -->
 
-        <section id="features" class="row">
-            <div class="col-xs-12">
+    <section id="features">
+        <div class="container">
+            <div class="row">
                 <h2>Features</h2>
+
+                <!-- <ul class="nav nav-pills nav-stacked">
+                    <li role="presentation" class="active">
+                        <a href="#features-stats">Detailed statistics on your sitting behavior</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#features-achievements">Achievements as motivation</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#features-sync">Computer and calendar sync</a>
+                    </li>
+                </ul> -->
 
                 <h3>Detailed statistics on your sitting behavior</h3>
                 <p>You can track your daily, weekly, and monthly sitting behavior with our clean, intuitive interface.</p>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <div class="row">
-                                    <div class="col-xs-4">
-                                        <h3 class="image-caption">Daily Report</h3>
-                                        <img src="assets/report_daily.png" alt="Daily Report" width=250 height=510>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <h3 class="image-caption">Weekly Report</h3>
-                                        <img src="assets/report_weekly.png" alt="Weekly Report" width=250 height=510>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <h3 class="image-caption">Monthly Report</h3>
-                                        <img src="assets/report_monthly.png" alt="Monthly Report" width=250 height=510>
-                                    </div>
-                                </div><!-- .row -->
-                            </div><!-- .panel-body -->
-                        </div><!-- .panel-default -->
-                    </div>
-                </div><!-- .row -->
+
+                <div class="col-xs-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <h3 class="image-caption">Daily Report</h3>
+                                    <img src="assets/report_daily.png" alt="Daily Report" width=250 height=510>
+                                </div>
+                                <div class="col-xs-4">
+                                    <h3 class="image-caption">Weekly Report</h3>
+                                    <img src="assets/report_weekly.png" alt="Weekly Report" width=250 height=510>
+                                </div>
+                                <div class="col-xs-4">
+                                    <h3 class="image-caption">Monthly Report</h3>
+                                    <img src="assets/report_monthly.png" alt="Monthly Report" width=250 height=510>
+                                </div>
+                            </div><!-- .row -->
+                        </div><!-- .panel-body -->
+                    </div><!-- .panel-default -->
+                </div><!-- .col-xs-12 -->
 
                 <h3>Achievements as motivation</h3>
                 <p>Over time, you earn achievements based on your sitting behavior for the day as well as positively changing your habits over a long period of time.</p>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <div class="row">
-                                    <div class="col-xs-6">
-                                        <h3 class="image-caption">Achievements</h3>
-                                        <img src="assets/achievements1.png" alt="Achievements" width=250 height=510>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <h3 class="image-caption">Description</h3>
-                                        <img src="assets/achievements2.png" alt="Achievement Description" width=250 height=510>
-                                    </div>
-                                </div><!-- .row -->
-                            </div><!-- .panel-body -->
-                        </div><!-- .panel-default -->
-                    </div>
-                </div><!-- .row -->
+                <div class="col-xs-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <h3 class="image-caption">Achievements</h3>
+                                    <img src="assets/achievements1.png" alt="Achievements" width=250 height=510>
+                                </div>
+                                <div class="col-xs-6">
+                                    <h3 class="image-caption">Description</h3>
+                                    <img src="assets/achievements2.png" alt="Achievement Description" width=250 height=510>
+                                </div>
+                            </div><!-- .row -->
+                        </div><!-- .panel-body -->
+                    </div><!-- .panel-default -->
+                </div><!-- .col-xs-12 -->
 
                 <h3>Computer and calendar sync</h3>
                 <p>Sitless taps into your agenda and computer usage to determine the best time to motivate you to take a break from sitting.</p>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <div class="row">
-                                    <div class="col-xs-6">
-                                        <h3 class="image-caption">Calendar Integration</h3>
-                                        <img src="assets/calendar.png" alt="Calendar" width=250 height=510>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <h3 class="image-caption">Desktop Integration</h3>
-                                        <img src="assets/desktop_app.png" alt="Desktop" width=250 height=510>
-                                    </div>
-                                </div><!-- .row -->
-                            </div><!-- .panel-body -->
-                        </div><!-- .panel-default -->
-                    </div>
-                </div><!-- .row -->
-            </div><!-- .col-xs-12 -->
-        </section>
+                <div class="col-xs-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <h3 class="image-caption">Calendar Integration</h3>
+                                    <img src="assets/calendar.png" alt="Calendar" width=250 height=510>
+                                </div>
+                                <div class="col-xs-6">
+                                    <h3 class="image-caption">Desktop Integration</h3>
+                                    <img src="assets/desktop_app.png" alt="Desktop" width=250 height=510>
+                                </div>
+                            </div><!-- .row -->
+                        </div><!-- .panel-body -->
+                    </div><!-- .panel-default -->
+                </div><!-- .col-xs-12 -->
+            </div><!-- .row -->
+        </div>
+    </section><!-- #features -->
 
 
-        <section id="documents" class="row">
-            <!-- <div class="col-xs-12"> -->
-                <h2 class="col-xs-12">Documents</h2>
-            <!-- </div> -->
+    <section id="documents">
+        <div class="container">
+            <div class="row">
+                <h2>Documents</h2>
 
-            <p class="col-xs-6">
-                <span class="glyphicon glyphicon-list-alt"></span> <a href="assets/FinalReport1.pdf" target="_blank">Initial Report</a>
-            </p>
-            <p class="col-xs-6">
-                <span class="glyphicon glyphicon-list-alt"></span> <a href="assets/3fFinalReport.pdf" target="_blank">Final Report</a>
-            </p>
+                <p class="col-xs-6">
+                    <span class="glyphicon glyphicon-list-alt"></span> <a href="assets/FinalReport1.pdf" target="_blank">Initial Report</a>
+                </p>
+                <p class="col-xs-6">
+                    <span class="glyphicon glyphicon-list-alt"></span> <a href="assets/3fFinalReport.pdf" target="_blank">Final Report</a>
+                </p>
 
-            <p class="col-xs-6">
-                <span class="glyphicon glyphicon-blackboard"></span> <a href="assets/Presentation1.pdf" target="_blank">Initial Presentation</a>
-            </p>
-            <p class="col-xs-6">
-                <span class="glyphicon glyphicon-blackboard"></span> <a href="assets/Presentation2.pdf" target="_blank">Final Presentation</a>
-            </p>
-        </section>
+                <p class="col-xs-6">
+                    <span class="glyphicon glyphicon-blackboard"></span> <a href="assets/Presentation1.pdf" target="_blank">Initial Presentation</a>
+                </p>
+                <p class="col-xs-6">
+                    <span class="glyphicon glyphicon-blackboard"></span> <a href="assets/Presentation2.pdf" target="_blank">Final Presentation</a>
+                </p>
+            </div>
+        </div>
+    </section><!-- #documents -->
 
-        <section id="team" class="row">
-            <div class="col-xs-12">
+    <section id="team">
+        <div class="container">
+            <div class="row">
                 <h2>Our Team</h2>
-            </div>
 
-            <div class="col-xs-3">
-                <img src="assets/geoff.jpg" alt="Geoffrey" width="200" height="200">
-                <h3 class="image-caption">Geoffrey Liu</h3>
-                <p class="image-caption">Project Lead</p>
+                <div class="col-xs-3">
+                    <img src="assets/geoff.jpg" alt="Geoffrey" width="200" height="200" class="img-circle" />
+                    <h3 class="image-caption">Geoffrey Liu</h3>
+                    <p class="image-caption">Project Lead</p>
 
-                <div class="member-links text-center">
-                    <a href="http://twitter.com/geo_liu" target="_BLANK"><i class="fa fa-twitter"></i></a>
-                    <a href="http://g-liu.com/" target="_BLANK"><i class="fa fa-globe"></i></a>
-                    <a href="http://linkedin.com/in/geoffliu/" target="_BLANK"><i class="fa fa-linkedin"></i></a>
+                    <div class="member-links text-center">
+                        <a href="http://twitter.com/geo_liu" target="_BLANK"><i class="fa fa-twitter"></i></a>
+                        <a href="http://g-liu.com/" target="_BLANK"><i class="fa fa-globe"></i></a>
+                        <a href="http://linkedin.com/in/geoffliu/" target="_BLANK"><i class="fa fa-linkedin"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xs-3">
-                <img src="assets/keting.png" alt="Keting" width="200" height="200">
-                <h3 class="image-caption">Keting Cen</h3>
-                <p class="image-caption">User Researcher</p>
+                <div class="col-xs-3">
+                    <img src="assets/keting.png" alt="Keting" width="200" height="200" class="img-circle" />
+                    <h3 class="image-caption">Keting Cen</h3>
+                    <p class="image-caption">User Researcher</p>
 
-                <div class="member-links text-center">
-                    <a href=""><i class="fa fa-dribbble"></i></a>
-                    <a href=""><i class="fa fa-globe"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
+                    <div class="member-links text-center">
+                        <a href=""><i class="fa fa-dribbble"></i></a>
+                        <a href=""><i class="fa fa-globe"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xs-3">
-                <img src="assets/adrian.png" alt="Adrian" width="200" height="200">
-                <h3 class="image-caption">Adrian Sham</h3>
-                <p class="image-caption">Designer</p>
+                <div class="col-xs-3">
+                    <img src="assets/adrian.png" alt="Adrian" width="200" height="200" class="img-circle" />
+                    <h3 class="image-caption">Adrian Sham</h3>
+                    <p class="image-caption">Designer</p>
 
-                <div class="member-links text-center">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-globe"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
+                    <div class="member-links text-center">
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-globe"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xs-3">
-                <img src="assets/artem.png" alt="Artem" width="200" height="200">
-                <h3 class="image-caption">Artem Minyaylov</h3>
-                <p class="image-caption">Developer</p>
+                <div class="col-xs-3">
+                    <img src="assets/artem.png" alt="Artem" width="200" height="200" class="img-circle" />
+                    <h3 class="image-caption">Artem Minyaylov</h3>
+                    <p class="image-caption">Developer</p>
 
-                <div class="member-links text-center">
-                    <a href="https://www.linkedin.com/in/artem-minyaylov-44536998"><i class="fa fa-linkedin"></i></a>
+                    <div class="member-links text-center">
+                        <a href="https://www.linkedin.com/in/artem-minyaylov-44536998"><i class="fa fa-linkedin"></i></a>
+                    </div>
                 </div>
-            </div>
-        </section>
-    </div><!-- .container -->
-
-    <footer id="site-footer">
-        <ol id="sources">
-            <li>The source</li>
-        </ol>
-    </footer>
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </section><!-- .team -->
 
     <span id="top-link-block" class="hidden">
         <a href="#" class="well well-sm">

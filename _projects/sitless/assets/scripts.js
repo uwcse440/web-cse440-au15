@@ -6,7 +6,7 @@ $(function() {
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
         if (target.length) {
           $('html,body').animate({
-            scrollTop: target.offset().top - 51
+            scrollTop: target.offset().top
           }, 500);
         }
       } else {
@@ -25,6 +25,8 @@ $(function() {
       });
   }
 
-  $("nav.navbar").headroom();
+  $("nav.navbar").headroom({
+    tolerance: 5
+  });
 });
 

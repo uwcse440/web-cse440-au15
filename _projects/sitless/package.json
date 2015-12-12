@@ -24,6 +24,7 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-html-validation": "^0.1.18",
     "grunt-postcss": "^0.7.1",
+    "grunt-w3c-html-validation": "^0.1.7",
     "pixrem": "^3.0.0"
   }
 }
