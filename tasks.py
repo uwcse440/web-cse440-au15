@@ -5,13 +5,17 @@ import sys
 @invoke.task
 def update_dependencies():
     # The npm install command sometimes outputs characters that cause Unicode
-    # errors on Windows, so we set the encoding parameter
+    # errors on Windows, so we set the encoding parameter on each of these
     print('Updating Node.js dependencies')
     invoke.run('npm install', encoding=sys.stdout.encoding)
     print('Updating Python dependencies')
     invoke.run('pip install -r requirements3.txt', encoding=sys.stdout.encoding)
     print('Updating Ruby dependencies')
-    invoke.run('gem install bundler', encoding=sys.stdout.encoding)
+    # invoke.run('gem list', encoding=sys.stdout.encoding)
+    invoke.run('gem install bundler -v 1.10.6', encoding=sys.stdout.encoding)
+    # invoke.run('gem list', encoding=sys.stdout.encoding)
+    # invoke.run('gem uninstall bundler -v "!=1.10.6"', encoding=sys.stdout.encoding)
+    # invoke.run('gem list', encoding=sys.stdout.encoding)
     invoke.run('bundle install', encoding=sys.stdout.encoding)
 
 
