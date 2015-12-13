@@ -108,13 +108,17 @@ section {
     font-size: 90%; }
 
 .headroom {
-  transition: transform 200ms linear; }
+  transition: -webkit-transform 200ms linear;
+  transition: transform 200ms linear;
+  transition: transform 200ms linear, -webkit-transform 200ms linear; }
 
 .headroom--pinned {
-  transform: translateY(0%); }
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%); }
 
 .headroom--unpinned {
-  transform: translateY(-100%); }
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%); }
 
 sup.footnote {
   font-size: 90%;
@@ -122,6 +126,9 @@ sup.footnote {
 
 video, div.video-js {
   max-width: 100%; }
+
+#features img {
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1); }
 
 #documents span.glyphicon {
   margin-right: 0.5em; }
@@ -147,5 +154,3 @@ video, div.video-js {
 @media (min-width: 992px) {
   .container {
     width: 960px; } }
-
-/*# sourceMappingURL=style.css.map */

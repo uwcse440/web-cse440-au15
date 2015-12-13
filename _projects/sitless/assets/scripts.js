@@ -1,5 +1,5 @@
 $(function() {
-  $('a[href*=#]').click(function() {
+  $('a[href*=#]:not([href*=carousel])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       if (this.hash) {
         var target = $(this.hash);
@@ -7,12 +7,12 @@ $(function() {
         if (target.length) {
           $('html,body').animate({
             scrollTop: target.offset().top
-          }, 500);
+          }, 400);
         }
       } else {
         $('html,body').animate({
           scrollTop: 0
-        }, 500);
+        }, 400);
       }
       return false;
     }

@@ -13,7 +13,7 @@ module.exports = function(grunt) {
             }
         },
         clean: {
-            main: ['vendor/**', '.sass-cache/**', 'style.css', 'style.css.map']
+            main: ['vendor/**', '.sass-cache/**', 'style.css', 'style.css.map', 'validation-*.json']
         },
         copy: {
             main: {
