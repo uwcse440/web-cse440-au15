@@ -51,7 +51,7 @@ module.exports = function(grunt) {
                     livereload: true
                 },
                 files: ["./style.scss", "./index.html"],
-                tasks: ["sass:dist", "validation"]
+                tasks: ["sass:dist", "validation", "postcss:dist"]
             }
         },
         validation: {
@@ -89,8 +89,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-postcss');
 
     // Default task(s).
-    grunt.registerTask('default', ['clean', 'uglify', 'sass:dist', 'postcss:dist', 'copy', 'validation']);
+    grunt.registerTask('default', ['clean', 'uglify', 'validation', 'sass:dist', 'postcss:dist', 'copy']);
 
-    grunt.registerTask('serve', ['clean', 'uglify', 'sass:dist', 'postcss:dist', 'copy', 'validation', 'connect']);
+    grunt.registerTask('serve', ['clean', 'uglify', 'validation', 'sass:dist', 'postcss:dist', 'copy', 'connect']);
 
 };

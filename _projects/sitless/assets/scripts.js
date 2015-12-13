@@ -28,5 +28,8 @@ $(function() {
   $("nav.navbar").headroom({
     tolerance: 5
   });
+
+  // initialize tooltips
+  $('[data-toggle="tooltip"]').tooltip();
 });
 

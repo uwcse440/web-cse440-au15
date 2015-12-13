@@ -15,10 +15,12 @@ body {
   position: relative;
   font-family: 'Noto Sans', sans-serif; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'PT Sans', sans-serif; }
 
-h1, h2 {
+h1, h2,
+.h1, .h2 {
   font-weight: bold; }
 
 #main-logo {
@@ -30,9 +32,6 @@ h1, h2 {
   font-size: 16pt;
   font-style: italic;
   color: #f2f2f2; }
-
-.image-caption {
-  text-align: center; }
 
 section {
   background-color: white;
@@ -64,6 +63,10 @@ section {
   padding: 0;
   height: calc(100% - 51px);
   min-height: calc(100% - 51px);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   margin-top: 51px; }
   .page-header .filter-overlay {
     background-image: url("assets/sitless-layer-16-by-16.png");
@@ -120,9 +123,15 @@ section {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%); }
 
-sup.footnote {
-  font-size: 90%;
-  color: #555; }
+a.citation {
+  font-size: 60%;
+  position: relative;
+  line-height: 0;
+  vertical-align: baseline;
+  top: -0.7em; }
+
+.tooltip-inner {
+  max-width: 550px; }
 
 video, div.video-js {
   max-width: 100%; }
@@ -151,3 +160,9 @@ video, div.video-js {
 @media (min-width: 992px) {
   .container {
     width: 960px; } }
+::-moz-selection {
+  background: #ff893b;
+  color: white; }
+::selection {
+  background: #ff893b;
+  color: white; }
