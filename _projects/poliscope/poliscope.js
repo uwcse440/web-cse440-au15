@@ -12,14 +12,17 @@
 		menu_navigation.onmouseout = toggleMenuOff;
 	};
 	
-	// issue with below is if you start from a smaller window size and try to resize, you keep getting the popup
-	//		and are unable to resize the window
-	// window.onresize = checkResolution;
-	
 	window.onscroll = function() {
 		var navbar = document.getElementById("navbar");
 		var menu = document.getElementById("menu_links");
-		if (document.body.scrollTop >= 300) {
+		
+		var offset;
+		if (navigator.userAgent.indexOf("Firefox") != -1) {
+			offset = document.documentElement.scrollTop;
+		} else {
+			offset = document.body.scrollTop;
+		}
+		if (offset >= 300) {
 			navbar.style.background = "rgba(0,0,0,.9)";
 			menu.style.background = "rgba(0,0,0,.9)";
 		} else {
