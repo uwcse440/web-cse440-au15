@@ -118,18 +118,26 @@ section {
   .slogan {
     font-family: 'PT Sans Caption', sans-serif;
     font-size: 175%;
+
+    @media (max-width: 768px) {
+      font-size: 125%;
+    }
   }
 
   hr {
     width: 10%;
-    min-width: 150px;
+    min-width: 100px;
 
     margin-top: 2.5%;
     margin-bottom: 2%;
   }
 
   img {
-    max-width: 45%;
+    width: 45%;
+
+    @media (max-width: 768px) {
+      width: 60%;
+    }
   }
 
   .btn {
@@ -175,6 +183,14 @@ a.citation {
   line-height: 0;
   vertical-align: baseline;
   top: -0.7em;
+}
+
+.big-stat {
+  font-size: 600%;
+
+  @media (max-width: 768px) {
+    font-size: 450%;
+  }
 }
 
 .tooltip-inner {
