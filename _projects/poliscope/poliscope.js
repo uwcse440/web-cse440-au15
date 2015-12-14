@@ -1,5 +1,6 @@
 /*
  * Janet Gao
+ * jgao26[at]cs.washington.edu
  * Last updated: December 14, 2015
  */
 
