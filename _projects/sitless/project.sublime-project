@@ -3,7 +3,8 @@
 	[
 		{
 			"path": ".",
-			"folder_exclude_patterns": ["bower_components", "node_modules", ".sass-cache", "vendor"]
+			"folder_exclude_patterns": ["bower_components", "node_modules", ".sass-cache", "vendor"],
+			"file_exclude_patterns": ["style.css", "*.map"]
 		}
 	]
 }
