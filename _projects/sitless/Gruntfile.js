@@ -21,7 +21,7 @@ module.exports = function(grunt) {
                     {
                         expand: true,
                         cwd: 'bower_components',
-                        src: ['./*/dist/**'],
+                        src: ['./*/dist/**', './jquery_lazyload/**'],
                         dest: './vendor'
                     }
                 ]
@@ -56,7 +56,8 @@ module.exports = function(grunt) {
         },
         validation: {
             options: {
-                generateReport: false
+                generateReport: false,
+                relaxerror: ['Element "img" is missing required attribute "src".']
             },
             files: {
                 src: ['index.html']
