@@ -1,6 +1,6 @@
 /*
  * Janet Gao
- * Last updated: December 5, 2015
+ * Last updated: December 14, 2015
  */
 
 "use strict";
@@ -10,6 +10,8 @@
 		var menu_navigation = document.getElementById("menu_navigation");
 		menu_navigation.onmouseover = toggleMenuOn;
 		menu_navigation.onmouseout = toggleMenuOff;
+		var menu_button = document.getElementById("menu_button");
+		menu_button.onclick = handleMobileMenu;
 	};
 	
 	window.onscroll = function() {
@@ -30,6 +32,16 @@
 			menu.style.background = "rgba(0,0,0,.7)";
 		}
 	};
+	
+	function handleMobileMenu() {
+		var menu = document.getElementById("menu_links");
+		var menu_display = menu.style.display;
+		if (menu_display == "block") {
+			toggleMenuOff;
+		} else {
+			toggleMenuOn;
+		}
+	}
 	
 	function toggleMenuOn() {
 		var menu = document.getElementById("menu_links");
