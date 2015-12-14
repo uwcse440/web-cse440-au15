@@ -31,5 +31,12 @@ $(function() {
 
   // initialize tooltips
   $('[data-toggle="tooltip"]').tooltip();
+
+  // lazyload all image
+  $('img.lazy-load').show().lazyload({
+    threshold: -100,
+    effect: 'fadeIn',
+    failure_limit: 10
+  });
 });
 

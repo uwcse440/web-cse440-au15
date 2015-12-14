@@ -37,6 +37,10 @@ h1, h2,
   font-weight: bold;
 }
 
+p {
+  font-size: 16px;
+}
+
 #main-logo {
   -webkit-filter: drop-shadow(1px 1px 3px rgba(25, 12, 0, 0.2));
   filter: drop-shadow(1px 1px 3px rgba(25, 12, 0, 0.2));
@@ -177,6 +181,11 @@ section {
     transform: translateY(-100%);
 }
 
+// initial hiding for non-JS browsers
+img.lazy-load {
+  display: none;
+}
+
 a.citation {
   font-size: 60%;
   position: relative;
@@ -199,9 +208,6 @@ a.citation {
 
 video, div.video-js {
 	max-width: 100%;
-}
-.video-js.vjs-has-ended .vjs-poster {
-  display: block;
 }
 
 #documents {
