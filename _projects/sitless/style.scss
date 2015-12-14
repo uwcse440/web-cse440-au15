@@ -200,6 +200,9 @@ a.citation {
 video, div.video-js {
 	max-width: 100%;
 }
+.video-js.vjs-has-ended .vjs-poster {
+  display: block;
+}
 
 #documents {
   span.glyphicon {
