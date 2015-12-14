@@ -84,13 +84,19 @@ section {
   .page-header .slogan {
     font-family: 'PT Sans Caption', sans-serif;
     font-size: 175%; }
+    @media (max-width: 768px) {
+      .page-header .slogan {
+        font-size: 125%; } }
   .page-header hr {
     width: 10%;
-    min-width: 150px;
+    min-width: 100px;
     margin-top: 2.5%;
     margin-bottom: 2%; }
   .page-header img {
-    max-width: 45%; }
+    width: 45%; }
+    @media (max-width: 768px) {
+      .page-header img {
+        width: 60%; } }
   .page-header .btn {
     box-shadow: 2px 2px 6px 2px rgba(20, 20, 20, 0.1);
     margin-top: 3em;
@@ -129,6 +135,12 @@ a.citation {
   line-height: 0;
   vertical-align: baseline;
   top: -0.7em; }
+
+.big-stat {
+  font-size: 600%; }
+  @media (max-width: 768px) {
+    .big-stat {
+      font-size: 450%; } }
 
 .tooltip-inner {
   max-width: 550px; }
