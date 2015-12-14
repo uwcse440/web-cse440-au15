@@ -10,6 +10,7 @@
 		var menu_navigation = document.getElementById("menu_navigation");
 		menu_navigation.onmouseover = toggleMenuOn;
 		menu_navigation.onmouseout = toggleMenuOff;
+
 		var menu_button = document.getElementById("menu_button");
 		menu_button.onclick = handleMobileMenu;
 	};
@@ -37,9 +38,9 @@
 		var menu = document.getElementById("menu_links");
 		var menu_display = menu.style.display;
 		if (menu_display == "block") {
-			toggleMenuOff;
+			toggleMenuOff();
 		} else {
-			toggleMenuOn;
+			toggleMenuOn();
 		}
 	}
 	
