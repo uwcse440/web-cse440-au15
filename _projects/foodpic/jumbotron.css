@@ -4,8 +4,19 @@ body {
   padding-bottom: 20px;
 }
 
-#Overview .jumbotron {
+#Overview {
+	padding-top: 25px;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+}
+
+.img-circle {
+	padding-right: 10px;
+}
+
+#video {
 	padding-top: 0px;
+	padding-bottom: 25px;
 }
 
 .jumbotron .picDescrip {
@@ -28,3 +39,7 @@ body {
 .jumbotron {
 	background-color: white;
 }
+
+
+
+
