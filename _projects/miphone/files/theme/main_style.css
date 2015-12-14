@@ -1674,7 +1674,7 @@ select::-ms-expand {
 	}
 
 	#wsite-com-store .sidebar-expanded #wsite-com-hierarchy {
-		max-height: 800px !important;
+		max-height: 2000px !important;
 		margin: 0 auto .25em;
 	}
 
