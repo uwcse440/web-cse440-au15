@@ -5,15 +5,26 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         uglify: {
             options: {
-                banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+                banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n',
+                preserveComments: false
             },
             build: {
-                src: 'src/<%= pkg.name %>.js',
-                dest: 'build/<%= pkg.name %>.min.js'
+                src: './scripts.js',
+                dest: './scripts.min.js'
+            }
+        },
+        cssmin: {
+            options: {
+                shorthandCompacting: false
+            },
+            target: {
+                files: {
+                    'style.min.css': ['style.css']
+                }
             }
         },
         clean: {
-            main: ['vendor/**', '.sass-cache/**', 'style.css', 'style.css.map', 'validation-*.json']
+            main: ['vendor/**', '.sass-cache/**', 'style.css', 'style.css.map']
         },
         copy: {
             main: {
@@ -78,8 +89,8 @@ module.exports = function(grunt) {
         }
     });
 
-    // Load the plugin that provides the "uglify" task.
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-clean');
@@ -90,8 +101,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-postcss');
 
     // Default task(s).
-    grunt.registerTask('default', ['clean', 'uglify', 'validation', 'sass:dist', 'postcss:dist', 'copy']);
+    grunt.registerTask('default', ['clean', 'uglify', 'validation', 'sass:dist', 'postcss:dist', 'cssmin', 'copy']);
 
-    grunt.registerTask('serve', ['clean', 'uglify', 'validation', 'sass:dist', 'postcss:dist', 'copy', 'connect']);
+    grunt.registerTask('serve', ['clean', 'uglify', 'validation', 'sass:dist', 'postcss:dist', 'cssmin', 'copy', 'connect']);
 
 };

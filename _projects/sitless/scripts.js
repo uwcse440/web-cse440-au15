@@ -34,9 +34,8 @@ $(function() {
 
   // lazyload all image
   $('img.lazy-load').show().lazyload({
-    threshold: -100,
     effect: 'fadeIn',
-    failure_limit: 10
+    failure_limit: 15
   });
 });
 

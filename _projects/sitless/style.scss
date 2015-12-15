@@ -37,8 +37,10 @@ h1, h2,
   font-weight: bold;
 }
 
-p {
-  font-size: 16px;
+@media (min-width: 768px) {
+  p {
+    font-size: 16px;
+  }
 }
 
 #main-logo {
